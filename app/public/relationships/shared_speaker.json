@@ -1,0 +1,3403 @@
+{
+  "type": "shared_speaker",
+  "label": "Shared Speaker",
+  "color": "#f59e0b",
+  "edges": [
+    {
+      "source": "CWES81440",
+      "target": "CWES81506",
+      "via": "Bogdan Vioreanu",
+      "weight": 1
+    },
+    {
+      "source": "CWES81440",
+      "target": "CWES81506",
+      "via": "Roman Yokunda Enzmann",
+      "weight": 1
+    },
+    {
+      "source": "CWES81440",
+      "target": "CWES81506",
+      "via": "Yongming Shi",
+      "weight": 1
+    },
+    {
+      "source": "CWES81440",
+      "target": "CWES81583",
+      "via": "Roman Yokunda Enzmann",
+      "weight": 1
+    },
+    {
+      "source": "CWES81440",
+      "target": "CWES81679",
+      "via": "Martin Marciniszyn Mehringer",
+      "weight": 1
+    },
+    {
+      "source": "CWES81440",
+      "target": "CWES81955",
+      "via": "Bogdan Vioreanu",
+      "weight": 1
+    },
+    {
+      "source": "CWES81440",
+      "target": "DLIT81764",
+      "via": "Peihan Huo",
+      "weight": 1
+    },
+    {
+      "source": "CWES81440",
+      "target": "DLIT81818",
+      "via": "Roman Yokunda Enzmann",
+      "weight": 1
+    },
+    {
+      "source": "CWES81440",
+      "target": "DLIT81861",
+      "via": "Lavinia Ghita",
+      "weight": 1
+    },
+    {
+      "source": "CWES81440",
+      "target": "S81522",
+      "via": "Dhruv Desai",
+      "weight": 1
+    },
+    {
+      "source": "CWES81440",
+      "target": "S81522",
+      "via": "Lavinia Ghita",
+      "weight": 1
+    },
+    {
+      "source": "CWES81440",
+      "target": "S81523",
+      "via": "Yuliana Zamora",
+      "weight": 1
+    },
+    {
+      "source": "CWES81440",
+      "target": "S81623",
+      "via": "Martin Marciniszyn Mehringer",
+      "weight": 1
+    },
+    {
+      "source": "CWES81440",
+      "target": "S81826",
+      "via": "Roman Yokunda Enzmann",
+      "weight": 1
+    },
+    {
+      "source": "CWES81440",
+      "target": "S82403",
+      "via": "Siddharth Samsi",
+      "weight": 1
+    },
+    {
+      "source": "CWES81457",
+      "target": "CWES81912",
+      "via": "Shashank Verma",
+      "weight": 1
+    },
+    {
+      "source": "CWES81457",
+      "target": "DLIT81550",
+      "via": "Shashank Verma",
+      "weight": 1
+    },
+    {
+      "source": "CWES81458",
+      "target": "CWES81473",
+      "via": "Jeff Weiss",
+      "weight": 1
+    },
+    {
+      "source": "CWES81458",
+      "target": "CWES81473",
+      "via": "Scott Ellis",
+      "weight": 1
+    },
+    {
+      "source": "CWES81458",
+      "target": "CWES81474",
+      "via": "Jeff Weiss",
+      "weight": 1
+    },
+    {
+      "source": "CWES81458",
+      "target": "CWES81474",
+      "via": "Scott Ellis",
+      "weight": 1
+    },
+    {
+      "source": "CWES81458",
+      "target": "CWES81771",
+      "via": "Hans Mortensen",
+      "weight": 1
+    },
+    {
+      "source": "CWES81458",
+      "target": "CWES82261",
+      "via": "John Fragalla",
+      "weight": 1
+    },
+    {
+      "source": "CWES81458",
+      "target": "CWES82338",
+      "via": "John Fragalla",
+      "weight": 1
+    },
+    {
+      "source": "CWES81461",
+      "target": "S81840",
+      "via": "Vikram Sharma Mailthody",
+      "weight": 1
+    },
+    {
+      "source": "CWES81461",
+      "target": "S82033",
+      "via": "Vikram Sharma Mailthody",
+      "weight": 1
+    },
+    {
+      "source": "CWES81465",
+      "target": "CWES81740",
+      "via": "Mitesh Patel",
+      "weight": 1
+    },
+    {
+      "source": "CWES81465",
+      "target": "CWES81843",
+      "via": "Mitesh Patel",
+      "weight": 1
+    },
+    {
+      "source": "CWES81465",
+      "target": "DLIT81592",
+      "via": "Andrea Pilzer",
+      "weight": 1
+    },
+    {
+      "source": "CWES81465",
+      "target": "P81066",
+      "via": "Chi-Cheng Fu",
+      "weight": 1
+    },
+    {
+      "source": "CWES81465",
+      "target": "P81070",
+      "via": "Chi-Cheng Fu",
+      "weight": 1
+    },
+    {
+      "source": "CWES81465",
+      "target": "P81208",
+      "via": "Tomasz Bednarz",
+      "weight": 1
+    },
+    {
+      "source": "CWES81465",
+      "target": "S81942",
+      "via": "Tomasz Bednarz",
+      "weight": 1
+    },
+    {
+      "source": "CWES81471",
+      "target": "CWES81692",
+      "via": "Vasileios Karakasis",
+      "weight": 1
+    },
+    {
+      "source": "CWES81471",
+      "target": "S81422",
+      "via": "Kristof De Brouwer",
+      "weight": 1
+    },
+    {
+      "source": "CWES81471",
+      "target": "S81856",
+      "via": "Arts Yang",
+      "weight": 1
+    },
+    {
+      "source": "CWES81472",
+      "target": "CWES81843",
+      "via": "Cobus Bothma",
+      "weight": 1
+    },
+    {
+      "source": "CWES81472",
+      "target": "DLIT81776",
+      "via": "Edward Chan",
+      "weight": 1
+    },
+    {
+      "source": "CWES81472",
+      "target": "S81611",
+      "via": "Brian Klobucher",
+      "weight": 1
+    },
+    {
+      "source": "CWES81473",
+      "target": "CWES81474",
+      "via": "Chad Chapman",
+      "weight": 1
+    },
+    {
+      "source": "CWES81473",
+      "target": "CWES81474",
+      "via": "Jeff Weiss",
+      "weight": 1
+    },
+    {
+      "source": "CWES81473",
+      "target": "CWES81474",
+      "via": "Scott Ellis",
+      "weight": 1
+    },
+    {
+      "source": "CWES81474",
+      "target": "CWES81955",
+      "via": "Vallard Benincosa",
+      "weight": 1
+    },
+    {
+      "source": "CWES81481",
+      "target": "CWES82212",
+      "via": "Greg Kimball",
+      "weight": 1
+    },
+    {
+      "source": "CWES81481",
+      "target": "S81563",
+      "via": "Greg Kimball",
+      "weight": 1
+    },
+    {
+      "source": "CWES81481",
+      "target": "S81840",
+      "via": "Corey Nolet",
+      "weight": 1
+    },
+    {
+      "source": "CWES81481",
+      "target": "S81873",
+      "via": "Felipe Aramburu",
+      "weight": 1
+    },
+    {
+      "source": "CWES81481",
+      "target": "S82390",
+      "via": "Corey Nolet",
+      "weight": 1
+    },
+    {
+      "source": "CWES81506",
+      "target": "CWES81583",
+      "via": "Alex Stephens",
+      "weight": 1
+    },
+    {
+      "source": "CWES81506",
+      "target": "CWES81583",
+      "via": "Anass Majji",
+      "weight": 1
+    },
+    {
+      "source": "CWES81506",
+      "target": "CWES81583",
+      "via": "Benjamin Wu",
+      "weight": 1
+    },
+    {
+      "source": "CWES81506",
+      "target": "CWES81583",
+      "via": "David Williams",
+      "weight": 1
+    },
+    {
+      "source": "CWES81506",
+      "target": "CWES81583",
+      "via": "Flora Huang",
+      "weight": 1
+    },
+    {
+      "source": "CWES81506",
+      "target": "CWES81583",
+      "via": "Jessica Clark",
+      "weight": 1
+    },
+    {
+      "source": "CWES81506",
+      "target": "CWES81583",
+      "via": "Marcus Manos",
+      "weight": 1
+    },
+    {
+      "source": "CWES81506",
+      "target": "CWES81583",
+      "via": "Roman Yokunda Enzmann",
+      "weight": 1
+    },
+    {
+      "source": "CWES81506",
+      "target": "CWES81955",
+      "via": "Bogdan Vioreanu",
+      "weight": 1
+    },
+    {
+      "source": "CWES81506",
+      "target": "DLIT81814",
+      "via": "Benjamin Wu",
+      "weight": 1
+    },
+    {
+      "source": "CWES81506",
+      "target": "DLIT81814",
+      "via": "David Williams",
+      "weight": 1
+    },
+    {
+      "source": "CWES81506",
+      "target": "DLIT81814",
+      "via": "Flora Huang",
+      "weight": 1
+    },
+    {
+      "source": "CWES81506",
+      "target": "DLIT81818",
+      "via": "Benjamin Wu",
+      "weight": 1
+    },
+    {
+      "source": "CWES81506",
+      "target": "DLIT81818",
+      "via": "Flora Huang",
+      "weight": 1
+    },
+    {
+      "source": "CWES81506",
+      "target": "DLIT81818",
+      "via": "Roman Yokunda Enzmann",
+      "weight": 1
+    },
+    {
+      "source": "CWES81506",
+      "target": "S81826",
+      "via": "Roman Yokunda Enzmann",
+      "weight": 1
+    },
+    {
+      "source": "CWES81506",
+      "target": "S82403",
+      "via": "Emanuel Scoullos",
+      "weight": 1
+    },
+    {
+      "source": "CWES81524",
+      "target": "CWES81626",
+      "via": "Hsin Chen",
+      "weight": 1
+    },
+    {
+      "source": "CWES81524",
+      "target": "CWES81626",
+      "via": "Rich Harang",
+      "weight": 1
+    },
+    {
+      "source": "CWES81524",
+      "target": "S81489",
+      "via": "Ofir Arkin",
+      "weight": 1
+    },
+    {
+      "source": "CWES81524",
+      "target": "S81493",
+      "via": "Becca Lynch",
+      "weight": 1
+    },
+    {
+      "source": "CWES81524",
+      "target": "S81493",
+      "via": "Rich Harang",
+      "weight": 1
+    },
+    {
+      "source": "CWES81524",
+      "target": "S81494",
+      "via": "Daniel Rohrer",
+      "weight": 1
+    },
+    {
+      "source": "CWES81524",
+      "target": "S81625",
+      "via": "Ofir Arkin",
+      "weight": 1
+    },
+    {
+      "source": "CWES81524",
+      "target": "S81638",
+      "via": "Emily Sakata",
+      "weight": 1
+    },
+    {
+      "source": "CWES81524",
+      "target": "S81691",
+      "via": "Ofir Arkin",
+      "weight": 1
+    },
+    {
+      "source": "CWES81535",
+      "target": "CWES81549",
+      "via": "Rafael Campana",
+      "weight": 1
+    },
+    {
+      "source": "CWES81535",
+      "target": "CWES81591",
+      "via": "Bryce Lelbach",
+      "weight": 1
+    },
+    {
+      "source": "CWES81535",
+      "target": "CWES81591",
+      "via": "Jaydeep Marathe",
+      "weight": 1
+    },
+    {
+      "source": "CWES81535",
+      "target": "CWES81955",
+      "via": "Jonathan Bentz",
+      "weight": 1
+    },
+    {
+      "source": "CWES81535",
+      "target": "CWES82212",
+      "via": "Vyas Ramasubramani",
+      "weight": 1
+    },
+    {
+      "source": "CWES81535",
+      "target": "DLIW82265",
+      "via": "Bryce Lelbach",
+      "weight": 1
+    },
+    {
+      "source": "CWES81535",
+      "target": "QA82372",
+      "via": "Rafael Campana",
+      "weight": 1
+    },
+    {
+      "source": "CWES81535",
+      "target": "S81433",
+      "via": "Bryce Lelbach",
+      "weight": 1
+    },
+    {
+      "source": "CWES81535",
+      "target": "S81531",
+      "via": "Ashwin Srinath",
+      "weight": 1
+    },
+    {
+      "source": "CWES81535",
+      "target": "S82113",
+      "via": "Leo Fang",
+      "weight": 1
+    },
+    {
+      "source": "CWES81535",
+      "target": "S82370",
+      "via": "Jonathan Dekhtiar",
+      "weight": 1
+    },
+    {
+      "source": "CWES81535",
+      "target": "S82370",
+      "via": "Vyas Ramasubramani",
+      "weight": 1
+    },
+    {
+      "source": "CWES81535",
+      "target": "WP81433",
+      "via": "Bryce Lelbach",
+      "weight": 1
+    },
+    {
+      "source": "CWES81538",
+      "target": "CWES81626",
+      "via": "Michael Demoret",
+      "weight": 1
+    },
+    {
+      "source": "CWES81538",
+      "target": "CWES82261",
+      "via": "Ruchika Kharwar",
+      "weight": 1
+    },
+    {
+      "source": "CWES81538",
+      "target": "DLIT82006",
+      "via": "Ruchika Kharwar",
+      "weight": 1
+    },
+    {
+      "source": "CWES81538",
+      "target": "DLIT82062",
+      "via": "Edward Li",
+      "weight": 1
+    },
+    {
+      "source": "CWES81538",
+      "target": "S82237",
+      "via": "Michael Demoret",
+      "weight": 1
+    },
+    {
+      "source": "CWES81540",
+      "target": "S81829",
+      "via": "Yan Bai",
+      "weight": 1
+    },
+    {
+      "source": "CWES81540",
+      "target": "S82214",
+      "via": "Hongbin Liu",
+      "weight": 1
+    },
+    {
+      "source": "CWES81540",
+      "target": "S82347",
+      "via": "Kunlun Li",
+      "weight": 1
+    },
+    {
+      "source": "CWES81549",
+      "target": "CWES81771",
+      "via": "Holly Wilper",
+      "weight": 1
+    },
+    {
+      "source": "CWES81549",
+      "target": "QA82372",
+      "via": "Holly Wilper",
+      "weight": 1
+    },
+    {
+      "source": "CWES81549",
+      "target": "QA82372",
+      "via": "Rafael Campana",
+      "weight": 1
+    },
+    {
+      "source": "CWES81549",
+      "target": "S81590",
+      "via": "Jackson Marusarz",
+      "weight": 1
+    },
+    {
+      "source": "CWES81549",
+      "target": "S81772",
+      "via": "Magnus Strengert",
+      "weight": 1
+    },
+    {
+      "source": "CWES81554",
+      "target": "CWES81646",
+      "via": "Zhijin Li",
+      "weight": 1
+    },
+    {
+      "source": "CWES81554",
+      "target": "DLIW82273",
+      "via": "Zhijin Li",
+      "weight": 1
+    },
+    {
+      "source": "CWES81555",
+      "target": "CWES81649",
+      "via": "Xin Yu",
+      "weight": 1
+    },
+    {
+      "source": "CWES81555",
+      "target": "DLIT81587",
+      "via": "Severin Dicks",
+      "weight": 1
+    },
+    {
+      "source": "CWES81555",
+      "target": "DLIT81587",
+      "via": "T.J. Chen",
+      "weight": 1
+    },
+    {
+      "source": "CWES81562",
+      "target": "CWES81649",
+      "via": "Huiwen Ju",
+      "weight": 1
+    },
+    {
+      "source": "CWES81568",
+      "target": "CWES81669",
+      "via": "Akul Santhosh",
+      "weight": 1
+    },
+    {
+      "source": "CWES81568",
+      "target": "CWES81669",
+      "via": "Asawaree Bhide",
+      "weight": 1
+    },
+    {
+      "source": "CWES81568",
+      "target": "DLIT81698",
+      "via": "Alex Millane",
+      "weight": 1
+    },
+    {
+      "source": "CWES81568",
+      "target": "DLIT81698",
+      "via": "Asawaree Bhide",
+      "weight": 1
+    },
+    {
+      "source": "CWES81568",
+      "target": "DLIT81698",
+      "via": "Edith Llontop",
+      "weight": 1
+    },
+    {
+      "source": "CWES81568",
+      "target": "DLIT81698",
+      "via": "Sangeeta Subramanian",
+      "weight": 1
+    },
+    {
+      "source": "CWES81568",
+      "target": "DLIT81699",
+      "via": "Rishabh Chadha",
+      "weight": 1
+    },
+    {
+      "source": "CWES81568",
+      "target": "DLIT81700",
+      "via": "Akul Santhosh",
+      "weight": 1
+    },
+    {
+      "source": "CWES81568",
+      "target": "DLIW82273",
+      "via": "Kartik Sachdev",
+      "weight": 1
+    },
+    {
+      "source": "CWES81568",
+      "target": "S81478",
+      "via": "Akul Santhosh",
+      "weight": 1
+    },
+    {
+      "source": "CWES81568",
+      "target": "S81478",
+      "via": "Edith Llontop",
+      "weight": 1
+    },
+    {
+      "source": "CWES81568",
+      "target": "S81488",
+      "via": "Asawaree Bhide",
+      "weight": 1
+    },
+    {
+      "source": "CWES81568",
+      "target": "S81488",
+      "via": "Rishabh Chadha",
+      "weight": 1
+    },
+    {
+      "source": "CWES81583",
+      "target": "DLIT81814",
+      "via": "Benjamin Wu",
+      "weight": 1
+    },
+    {
+      "source": "CWES81583",
+      "target": "DLIT81814",
+      "via": "David Williams",
+      "weight": 1
+    },
+    {
+      "source": "CWES81583",
+      "target": "DLIT81814",
+      "via": "Flora Huang",
+      "weight": 1
+    },
+    {
+      "source": "CWES81583",
+      "target": "DLIT81818",
+      "via": "Benjamin Wu",
+      "weight": 1
+    },
+    {
+      "source": "CWES81583",
+      "target": "DLIT81818",
+      "via": "Flora Huang",
+      "weight": 1
+    },
+    {
+      "source": "CWES81583",
+      "target": "DLIT81818",
+      "via": "Roman Yokunda Enzmann",
+      "weight": 1
+    },
+    {
+      "source": "CWES81583",
+      "target": "S81826",
+      "via": "Roman Yokunda Enzmann",
+      "weight": 1
+    },
+    {
+      "source": "CWES81591",
+      "target": "CWES82516",
+      "via": "Nikhil Gupta",
+      "weight": 1
+    },
+    {
+      "source": "CWES81591",
+      "target": "DLIW82265",
+      "via": "Bryce Lelbach",
+      "weight": 1
+    },
+    {
+      "source": "CWES81591",
+      "target": "QA81741",
+      "via": "Andy Terrel",
+      "weight": 1
+    },
+    {
+      "source": "CWES81591",
+      "target": "S81433",
+      "via": "Bryce Lelbach",
+      "weight": 1
+    },
+    {
+      "source": "CWES81591",
+      "target": "S81705",
+      "via": "Rob Armstrong",
+      "weight": 1
+    },
+    {
+      "source": "CWES81591",
+      "target": "S81859",
+      "via": "Stephen Jones",
+      "weight": 1
+    },
+    {
+      "source": "CWES81591",
+      "target": "S82416",
+      "via": "Stephen Jones",
+      "weight": 1
+    },
+    {
+      "source": "CWES81591",
+      "target": "WP81433",
+      "via": "Bryce Lelbach",
+      "weight": 1
+    },
+    {
+      "source": "CWES81591",
+      "target": "WP81859",
+      "via": "Stephen Jones",
+      "weight": 1
+    },
+    {
+      "source": "CWES81600",
+      "target": "CWES82223",
+      "via": "Harel Omer",
+      "weight": 1
+    },
+    {
+      "source": "CWES81600",
+      "target": "CWES82298",
+      "via": "Itai Zadok",
+      "weight": 1
+    },
+    {
+      "source": "CWES81600",
+      "target": "CWES82298",
+      "via": "Matt Cragun",
+      "weight": 1
+    },
+    {
+      "source": "CWES81600",
+      "target": "DLIT81757",
+      "via": "Zoe LaLena",
+      "weight": 1
+    },
+    {
+      "source": "CWES81600",
+      "target": "DLIT82311",
+      "via": "Itai Zadok",
+      "weight": 1
+    },
+    {
+      "source": "CWES81615",
+      "target": "S81533",
+      "via": "Oded Green",
+      "weight": 1
+    },
+    {
+      "source": "CWES81626",
+      "target": "CWES81817",
+      "via": "Nic Borensztein",
+      "weight": 1
+    },
+    {
+      "source": "CWES81626",
+      "target": "DLIT81725",
+      "via": "Dhruv Nandakumar",
+      "weight": 1
+    },
+    {
+      "source": "CWES81626",
+      "target": "P81532",
+      "via": "Nic Borensztein",
+      "weight": 1
+    },
+    {
+      "source": "CWES81626",
+      "target": "S81493",
+      "via": "Rich Harang",
+      "weight": 1
+    },
+    {
+      "source": "CWES81626",
+      "target": "S81570",
+      "via": "Rachel Allen",
+      "weight": 1
+    },
+    {
+      "source": "CWES81626",
+      "target": "S81852",
+      "via": "Meghana Puvvadi",
+      "weight": 1
+    },
+    {
+      "source": "CWES81626",
+      "target": "S82078",
+      "via": "Meghana Puvvadi",
+      "weight": 1
+    },
+    {
+      "source": "CWES81626",
+      "target": "S82237",
+      "via": "Michael Demoret",
+      "weight": 1
+    },
+    {
+      "source": "CWES81626",
+      "target": "S82452",
+      "via": "Nic Borensztein",
+      "weight": 1
+    },
+    {
+      "source": "CWES81635",
+      "target": "CWES81649",
+      "via": "Justin Smith",
+      "weight": 1
+    },
+    {
+      "source": "CWES81635",
+      "target": "P81536",
+      "via": "Evan Weinberg",
+      "weight": 1
+    },
+    {
+      "source": "CWES81635",
+      "target": "S81542",
+      "via": "Alan Gray",
+      "weight": 1
+    },
+    {
+      "source": "CWES81635",
+      "target": "S81770",
+      "via": "Robert Parrish",
+      "weight": 1
+    },
+    {
+      "source": "CWES81635",
+      "target": "S81790",
+      "via": "Justin Smith",
+      "weight": 1
+    },
+    {
+      "source": "CWES81646",
+      "target": "CWES81655",
+      "via": "Daguang Xu",
+      "weight": 1
+    },
+    {
+      "source": "CWES81646",
+      "target": "CWES81795",
+      "via": "Mahdi Azizian",
+      "weight": 1
+    },
+    {
+      "source": "CWES81646",
+      "target": "DLIW82273",
+      "via": "Zhijin Li",
+      "weight": 1
+    },
+    {
+      "source": "CWES81646",
+      "target": "S81742",
+      "via": "Mahdi Azizian",
+      "weight": 1
+    },
+    {
+      "source": "CWES81646",
+      "target": "S81821",
+      "via": "Mostafa Toloui",
+      "weight": 1
+    },
+    {
+      "source": "CWES81646",
+      "target": "S81822",
+      "via": "Jay Carlson",
+      "weight": 1
+    },
+    {
+      "source": "CWES81649",
+      "target": "P81507",
+      "via": "Savitha Pareek",
+      "weight": 1
+    },
+    {
+      "source": "CWES81649",
+      "target": "P81511",
+      "via": "Savitha Pareek",
+      "weight": 1
+    },
+    {
+      "source": "CWES81649",
+      "target": "S81652",
+      "via": "Daniel Burkhardt",
+      "weight": 1
+    },
+    {
+      "source": "CWES81649",
+      "target": "S81790",
+      "via": "Justin Smith",
+      "weight": 1
+    },
+    {
+      "source": "CWES81655",
+      "target": "DLIT81541",
+      "via": "Maximilian Ofir",
+      "weight": 1
+    },
+    {
+      "source": "CWES81655",
+      "target": "DLIT81609",
+      "via": "Ahmed Harouni",
+      "weight": 1
+    },
+    {
+      "source": "CWES81669",
+      "target": "CWES81843",
+      "via": "Chhavi Nijhawan",
+      "weight": 1
+    },
+    {
+      "source": "CWES81669",
+      "target": "DLIT81644",
+      "via": "Alexander Schwarz",
+      "weight": 1
+    },
+    {
+      "source": "CWES81669",
+      "target": "DLIT81644",
+      "via": "Stefanie Manzinger",
+      "weight": 1
+    },
+    {
+      "source": "CWES81669",
+      "target": "DLIT81698",
+      "via": "Asawaree Bhide",
+      "weight": 1
+    },
+    {
+      "source": "CWES81669",
+      "target": "DLIT81700",
+      "via": "Akul Santhosh",
+      "weight": 1
+    },
+    {
+      "source": "CWES81669",
+      "target": "DLIT82311",
+      "via": "Stefanie Manzinger",
+      "weight": 1
+    },
+    {
+      "source": "CWES81669",
+      "target": "S81478",
+      "via": "Akul Santhosh",
+      "weight": 1
+    },
+    {
+      "source": "CWES81669",
+      "target": "S81488",
+      "via": "Asawaree Bhide",
+      "weight": 1
+    },
+    {
+      "source": "CWES81670",
+      "target": "S81636",
+      "via": "Andrew Briand",
+      "weight": 1
+    },
+    {
+      "source": "CWES81670",
+      "target": "S81666",
+      "via": "Benedikt Dorschner",
+      "weight": 1
+    },
+    {
+      "source": "CWES81670",
+      "target": "S81666",
+      "via": "Matthew Martineau",
+      "weight": 1
+    },
+    {
+      "source": "CWES81670",
+      "target": "S81666",
+      "via": "Sam Mish",
+      "weight": 1
+    },
+    {
+      "source": "CWES81670",
+      "target": "S82416",
+      "via": "Kate Clark",
+      "weight": 1
+    },
+    {
+      "source": "CWES81679",
+      "target": "S81623",
+      "via": "Martin Marciniszyn Mehringer",
+      "weight": 1
+    },
+    {
+      "source": "CWES81692",
+      "target": "DLIT82259",
+      "via": "Mohak Chadha",
+      "weight": 1
+    },
+    {
+      "source": "CWES81692",
+      "target": "DLIT82259",
+      "via": "Pramod Kumbhar",
+      "weight": 1
+    },
+    {
+      "source": "CWES81692",
+      "target": "DLIW82274",
+      "via": "Anshul Jindal",
+      "weight": 1
+    },
+    {
+      "source": "CWES81692",
+      "target": "DLIW82274",
+      "via": "Mohak Chadha",
+      "weight": 1
+    },
+    {
+      "source": "CWES81733",
+      "target": "CWES81819",
+      "via": "Khoa Ho",
+      "weight": 1
+    },
+    {
+      "source": "CWES81733",
+      "target": "DLIT81774",
+      "via": "Sammy Ochoa",
+      "weight": 1
+    },
+    {
+      "source": "CWES81733",
+      "target": "DLIT81776",
+      "via": "Sammy Ochoa",
+      "weight": 1
+    },
+    {
+      "source": "CWES81733",
+      "target": "DLIT81879",
+      "via": "Carlos Garcia-Sierra",
+      "weight": 1
+    },
+    {
+      "source": "CWES81733",
+      "target": "S81833",
+      "via": "Louise Huang",
+      "weight": 1
+    },
+    {
+      "source": "CWES81733",
+      "target": "S81836",
+      "via": "Adam Ryason",
+      "weight": 1
+    },
+    {
+      "source": "CWES81733",
+      "target": "S81862",
+      "via": "Carlos Garcia-Sierra",
+      "weight": 1
+    },
+    {
+      "source": "CWES81733",
+      "target": "WP81836",
+      "via": "Adam Ryason",
+      "weight": 1
+    },
+    {
+      "source": "CWES81733",
+      "target": "WP81836a",
+      "via": "Adam Ryason",
+      "weight": 1
+    },
+    {
+      "source": "CWES81733",
+      "target": "WP81862",
+      "via": "Carlos Garcia-Sierra",
+      "weight": 1
+    },
+    {
+      "source": "CWES81740",
+      "target": "CWES81843",
+      "via": "Ashley Goldstein",
+      "weight": 1
+    },
+    {
+      "source": "CWES81740",
+      "target": "CWES81843",
+      "via": "Brian Harrison",
+      "weight": 1
+    },
+    {
+      "source": "CWES81740",
+      "target": "CWES81843",
+      "via": "Mitesh Patel",
+      "weight": 1
+    },
+    {
+      "source": "CWES81740",
+      "target": "CWES81843",
+      "via": "Oliver Seifert",
+      "weight": 1
+    },
+    {
+      "source": "CWES81740",
+      "target": "CWES81843",
+      "via": "Stephanie Rubenstein",
+      "weight": 1
+    },
+    {
+      "source": "CWES81740",
+      "target": "CWES82142",
+      "via": "Jay Axe",
+      "weight": 1
+    },
+    {
+      "source": "CWES81740",
+      "target": "DLIT81650",
+      "via": "Ashley Goldstein",
+      "weight": 1
+    },
+    {
+      "source": "CWES81740",
+      "target": "DLIT81650",
+      "via": "Justine Lin",
+      "weight": 1
+    },
+    {
+      "source": "CWES81740",
+      "target": "DLIT81800",
+      "via": "Ernesto Pacheco",
+      "weight": 1
+    },
+    {
+      "source": "CWES81740",
+      "target": "DLIT81800",
+      "via": "Jay Axe",
+      "weight": 1
+    },
+    {
+      "source": "CWES81756",
+      "target": "CWES81955",
+      "via": "Chelsea Sumner",
+      "weight": 1
+    },
+    {
+      "source": "CWES81756",
+      "target": "DLIT81668",
+      "via": "Abood Quraini",
+      "weight": 1
+    },
+    {
+      "source": "CWES81756",
+      "target": "DLIT81668",
+      "via": "Ben Randoing",
+      "weight": 1
+    },
+    {
+      "source": "CWES81756",
+      "target": "DLIT81668",
+      "via": "Jin Li",
+      "weight": 1
+    },
+    {
+      "source": "CWES81756",
+      "target": "S81464",
+      "via": "Cedric Steenbeke",
+      "weight": 1
+    },
+    {
+      "source": "CWES81756",
+      "target": "S81610",
+      "via": "Brad Genereaux",
+      "weight": 1
+    },
+    {
+      "source": "CWES81756",
+      "target": "S81659",
+      "via": "Arun Venkatesan",
+      "weight": 1
+    },
+    {
+      "source": "CWES81756",
+      "target": "S81659",
+      "via": "Brad Genereaux",
+      "weight": 1
+    },
+    {
+      "source": "CWES81756",
+      "target": "S81664",
+      "via": "Brad Genereaux",
+      "weight": 1
+    },
+    {
+      "source": "CWES81756",
+      "target": "S81664",
+      "via": "Chelsea Sumner",
+      "weight": 1
+    },
+    {
+      "source": "CWES81759",
+      "target": "S81553",
+      "via": "Mark Wolf",
+      "weight": 1
+    },
+    {
+      "source": "CWES81759",
+      "target": "S81553",
+      "via": "Monica Van-Dieren",
+      "weight": 1
+    },
+    {
+      "source": "CWES81759",
+      "target": "S81868",
+      "via": "Justin Lietz",
+      "weight": 1
+    },
+    {
+      "source": "CWES81759",
+      "target": "S81868",
+      "via": "Mark Wolf",
+      "weight": 1
+    },
+    {
+      "source": "CWES81759",
+      "target": "S81868",
+      "via": "Monica Van-Dieren",
+      "weight": 1
+    },
+    {
+      "source": "CWES81771",
+      "target": "QA82372",
+      "via": "Holly Wilper",
+      "weight": 1
+    },
+    {
+      "source": "CWES81771",
+      "target": "S81658",
+      "via": "Matthias Langer",
+      "weight": 1
+    },
+    {
+      "source": "CWES81771",
+      "target": "S81658",
+      "via": "Yuzhong Wen",
+      "weight": 1
+    },
+    {
+      "source": "CWES81771",
+      "target": "S81680",
+      "via": "Lukas Alt",
+      "weight": 1
+    },
+    {
+      "source": "CWES81771",
+      "target": "S81680",
+      "via": "Matthias Langer",
+      "weight": 1
+    },
+    {
+      "source": "CWES81771",
+      "target": "S81853",
+      "via": "Mathias Wagner",
+      "weight": 1
+    },
+    {
+      "source": "CWES81784",
+      "target": "S81621",
+      "via": "Greg Barbone",
+      "weight": 1
+    },
+    {
+      "source": "CWES81784",
+      "target": "S81999",
+      "via": "Tiffany Chen",
+      "weight": 1
+    },
+    {
+      "source": "CWES81795",
+      "target": "CWES81819",
+      "via": "Suhas Hariharapura Sheshadri",
+      "weight": 1
+    },
+    {
+      "source": "CWES81795",
+      "target": "DLIT81682",
+      "via": "Neel Patel",
+      "weight": 1
+    },
+    {
+      "source": "CWES81795",
+      "target": "DLIT81738",
+      "via": "Chitoku Yato",
+      "weight": 1
+    },
+    {
+      "source": "CWES81795",
+      "target": "S81742",
+      "via": "Mahdi Azizian",
+      "weight": 1
+    },
+    {
+      "source": "CWES81817",
+      "target": "P81532",
+      "via": "Nic Borensztein",
+      "weight": 1
+    },
+    {
+      "source": "CWES81817",
+      "target": "S81628",
+      "via": "Michael Balint",
+      "weight": 1
+    },
+    {
+      "source": "CWES81817",
+      "target": "S81628",
+      "via": "William Benton",
+      "weight": 1
+    },
+    {
+      "source": "CWES81817",
+      "target": "S81657",
+      "via": "Nik Spirin",
+      "weight": 1
+    },
+    {
+      "source": "CWES81817",
+      "target": "S81662",
+      "via": "Erik Bohnhorst",
+      "weight": 1
+    },
+    {
+      "source": "CWES81817",
+      "target": "S81662",
+      "via": "Michael Balint",
+      "weight": 1
+    },
+    {
+      "source": "CWES81817",
+      "target": "S81662",
+      "via": "Nik Spirin",
+      "weight": 1
+    },
+    {
+      "source": "CWES81817",
+      "target": "S82081",
+      "via": "Erik Bohnhorst",
+      "weight": 1
+    },
+    {
+      "source": "CWES81817",
+      "target": "S82452",
+      "via": "Nic Borensztein",
+      "weight": 1
+    },
+    {
+      "source": "CWES81819",
+      "target": "CWES82298",
+      "via": "Riccardo Mariani",
+      "weight": 1
+    },
+    {
+      "source": "CWES81819",
+      "target": "S82462",
+      "via": "Akshay Sharan",
+      "weight": 1
+    },
+    {
+      "source": "CWES81819",
+      "target": "S82462",
+      "via": "Riccardo Mariani",
+      "weight": 1
+    },
+    {
+      "source": "CWES81843",
+      "target": "DLIT81650",
+      "via": "Ashley Goldstein",
+      "weight": 1
+    },
+    {
+      "source": "CWES81905",
+      "target": "CWES81910",
+      "via": "Makan Taghavi Dilamani",
+      "weight": 1
+    },
+    {
+      "source": "CWES81906",
+      "target": "S82010",
+      "via": "Sree Sankar",
+      "weight": 1
+    },
+    {
+      "source": "CWES81906",
+      "target": "S82011",
+      "via": "Sree Sankar",
+      "weight": 1
+    },
+    {
+      "source": "CWES81906",
+      "target": "S82012",
+      "via": "Chris Penrose",
+      "weight": 1
+    },
+    {
+      "source": "CWES81906",
+      "target": "S82019",
+      "via": "Joao Kluck Gomes",
+      "weight": 1
+    },
+    {
+      "source": "CWES81912",
+      "target": "CWES82381",
+      "via": "Chris Alexiuk",
+      "weight": 1
+    },
+    {
+      "source": "CWES81912",
+      "target": "DLIT81550",
+      "via": "Shashank Verma",
+      "weight": 1
+    },
+    {
+      "source": "CWES81912",
+      "target": "S81702",
+      "via": "Chris Alexiuk",
+      "weight": 1
+    },
+    {
+      "source": "CWES81955",
+      "target": "S81664",
+      "via": "Chelsea Sumner",
+      "weight": 1
+    },
+    {
+      "source": "CWES81955",
+      "target": "S81708",
+      "via": "Rambo Jacoby",
+      "weight": 1
+    },
+    {
+      "source": "CWES81955",
+      "target": "WP81708",
+      "via": "Rambo Jacoby",
+      "weight": 1
+    },
+    {
+      "source": "CWES81960",
+      "target": "CWES82338",
+      "via": "Manvender Rawat",
+      "weight": 1
+    },
+    {
+      "source": "CWES81997",
+      "target": "CWES82024",
+      "via": "Negar Habibi",
+      "weight": 1
+    },
+    {
+      "source": "CWES81997",
+      "target": "S81704",
+      "via": "Oluwatobi Olabiyi",
+      "weight": 1
+    },
+    {
+      "source": "CWES81997",
+      "target": "S81737",
+      "via": "Ameya Sunil Mahabaleshwarkar",
+      "weight": 1
+    },
+    {
+      "source": "CWES81997",
+      "target": "S81737",
+      "via": "Jani Joki",
+      "weight": 1
+    },
+    {
+      "source": "CWES81997",
+      "target": "S81737",
+      "via": "Vinay Raman",
+      "weight": 1
+    },
+    {
+      "source": "CWES82024",
+      "target": "CWES82169",
+      "via": "Adi Margolin",
+      "weight": 1
+    },
+    {
+      "source": "CWES82024",
+      "target": "CWES82169",
+      "via": "Tripti Singhal",
+      "weight": 1
+    },
+    {
+      "source": "CWES82024",
+      "target": "S81659",
+      "via": "Adi Margolin",
+      "weight": 1
+    },
+    {
+      "source": "CWES82063",
+      "target": "DLIT81567",
+      "via": "Leo Du",
+      "weight": 1
+    },
+    {
+      "source": "CWES82063",
+      "target": "DLIT81567",
+      "via": "Sergio Perez",
+      "weight": 1
+    },
+    {
+      "source": "CWES82063",
+      "target": "DLIT81592",
+      "via": "Karin Sevegnani",
+      "weight": 1
+    },
+    {
+      "source": "CWES82063",
+      "target": "DLIT81861",
+      "via": "Liana Mikaelyan",
+      "weight": 1
+    },
+    {
+      "source": "CWES82063",
+      "target": "DLIT81861",
+      "via": "Sergio Perez",
+      "weight": 1
+    },
+    {
+      "source": "CWES82063",
+      "target": "DLIT82000",
+      "via": "Utkarsh Uppal",
+      "weight": 1
+    },
+    {
+      "source": "CWES82063",
+      "target": "S81547",
+      "via": "Leo Du",
+      "weight": 1
+    },
+    {
+      "source": "CWES82142",
+      "target": "DLIT81800",
+      "via": "Jay Axe",
+      "weight": 1
+    },
+    {
+      "source": "CWES82142",
+      "target": "DLIT81801",
+      "via": "Robert Cervellione",
+      "weight": 1
+    },
+    {
+      "source": "CWES82169",
+      "target": "S81659",
+      "via": "Adi Margolin",
+      "weight": 1
+    },
+    {
+      "source": "CWES82212",
+      "target": "S81563",
+      "via": "Greg Kimball",
+      "weight": 1
+    },
+    {
+      "source": "CWES82212",
+      "target": "S82370",
+      "via": "Vyas Ramasubramani",
+      "weight": 1
+    },
+    {
+      "source": "CWES82261",
+      "target": "CWES82338",
+      "via": "John Fragalla",
+      "weight": 1
+    },
+    {
+      "source": "CWES82261",
+      "target": "DLIT82006",
+      "via": "Ruchika Kharwar",
+      "weight": 1
+    },
+    {
+      "source": "CWES82261",
+      "target": "S82241",
+      "via": "Jacob Liberman",
+      "weight": 1
+    },
+    {
+      "source": "CWES82261",
+      "target": "S82264",
+      "via": "Jacob Liberman",
+      "weight": 1
+    },
+    {
+      "source": "CWES82298",
+      "target": "DLIT82311",
+      "via": "Itai Zadok",
+      "weight": 1
+    },
+    {
+      "source": "CWES82298",
+      "target": "S82462",
+      "via": "Riccardo Mariani",
+      "weight": 1
+    },
+    {
+      "source": "CWES82338",
+      "target": "S81851",
+      "via": "Peter Lillian",
+      "weight": 1
+    },
+    {
+      "source": "CWES82381",
+      "target": "S81702",
+      "via": "Chris Alexiuk",
+      "weight": 1
+    },
+    {
+      "source": "CWES82408",
+      "target": "S82228",
+      "via": "Steve Stein",
+      "weight": 1
+    },
+    {
+      "source": "CWES82483",
+      "target": "P81176",
+      "via": "Alex Yang",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81484",
+      "target": "DLIT81485",
+      "via": "Ira Shokar",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81485",
+      "target": "S82302",
+      "via": "Georg Ertl",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81546",
+      "target": "DLIT81565",
+      "via": "Chris Deotte",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81567",
+      "target": "DLIT81861",
+      "via": "Sergio Perez",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81567",
+      "target": "S81547",
+      "via": "Leo Du",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81592",
+      "target": "DLIT81945",
+      "via": "Mireille Fares",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81639",
+      "target": "S81630",
+      "via": "Aaron Luk",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81644",
+      "target": "DLIT82311",
+      "via": "Stefanie Manzinger",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81698",
+      "target": "S81478",
+      "via": "Edith Llontop",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81698",
+      "target": "S81488",
+      "via": "Asawaree Bhide",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81699",
+      "target": "S81488",
+      "via": "Rishabh Chadha",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81700",
+      "target": "DLIT81837",
+      "via": "Mohammad Mohajerani",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81700",
+      "target": "S81478",
+      "via": "Akul Santhosh",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81764",
+      "target": "S82153",
+      "via": "Ioana Boier",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81774",
+      "target": "DLIT81776",
+      "via": "Sammy Ochoa",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81814",
+      "target": "DLIT81818",
+      "via": "Benjamin Wu",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81814",
+      "target": "DLIT81818",
+      "via": "Flora Huang",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81816",
+      "target": "S81823",
+      "via": "Frank Chen",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81818",
+      "target": "S81826",
+      "via": "Roman Yokunda Enzmann",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81861",
+      "target": "S81522",
+      "via": "Lavinia Ghita",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81879",
+      "target": "S81862",
+      "via": "Carlos Garcia-Sierra",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81879",
+      "target": "WP81862",
+      "via": "Carlos Garcia-Sierra",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81948",
+      "target": "S82144",
+      "via": "Ashlee Martino-Tarr",
+      "weight": 1
+    },
+    {
+      "source": "DLIT82002",
+      "target": "DLIT82008",
+      "via": "Max Steele",
+      "weight": 1
+    },
+    {
+      "source": "DLIT82002",
+      "target": "DLIT82008",
+      "via": "Terrell Bennett",
+      "weight": 1
+    },
+    {
+      "source": "DLIT82181",
+      "target": "DLIT82184",
+      "via": "David Whitehouse",
+      "weight": 1
+    },
+    {
+      "source": "DLIT82259",
+      "target": "DLIW82274",
+      "via": "Mohak Chadha",
+      "weight": 1
+    },
+    {
+      "source": "DLIT82259",
+      "target": "S81747",
+      "via": "Shreya Gupta",
+      "weight": 1
+    },
+    {
+      "source": "DLIT82259",
+      "target": "S82306",
+      "via": "Oleg Sudakov",
+      "weight": 1
+    },
+    {
+      "source": "DLIT82292",
+      "target": "S81994",
+      "via": "Meriem Bendris",
+      "weight": 1
+    },
+    {
+      "source": "DLIT82292",
+      "target": "S82306",
+      "via": "Meriem Bendris",
+      "weight": 1
+    },
+    {
+      "source": "DLIT82292",
+      "target": "S82306",
+      "via": "Miguel Martinez",
+      "weight": 1
+    },
+    {
+      "source": "DLIW82265",
+      "target": "S81433",
+      "via": "Bryce Lelbach",
+      "weight": 1
+    },
+    {
+      "source": "DLIW82265",
+      "target": "S82113",
+      "via": "Katrina Riehl",
+      "weight": 1
+    },
+    {
+      "source": "DLIW82265",
+      "target": "WP81433",
+      "via": "Bryce Lelbach",
+      "weight": 1
+    },
+    {
+      "source": "DLIW82268",
+      "target": "P81324",
+      "via": "Vineeth Kalluru Srinivas",
+      "weight": 1
+    },
+    {
+      "source": "DLIW82273",
+      "target": "S81509",
+      "via": "Steven Palma",
+      "weight": 1
+    },
+    {
+      "source": "EX82094",
+      "target": "S81640",
+      "via": "Alex Saroyan",
+      "weight": 1
+    },
+    {
+      "source": "EX82247",
+      "target": "EX82249",
+      "via": "Chris Brown",
+      "weight": 1
+    },
+    {
+      "source": "EX82247",
+      "target": "EX82250",
+      "via": "Chris Brown",
+      "weight": 1
+    },
+    {
+      "source": "EX82247",
+      "target": "EX82363",
+      "via": "Chris Brown",
+      "weight": 1
+    },
+    {
+      "source": "EX82248",
+      "target": "EX82251",
+      "via": "James Lim",
+      "weight": 1
+    },
+    {
+      "source": "EX82249",
+      "target": "EX82250",
+      "via": "Chris Brown",
+      "weight": 1
+    },
+    {
+      "source": "EX82249",
+      "target": "EX82363",
+      "via": "Chris Brown",
+      "weight": 1
+    },
+    {
+      "source": "EX82250",
+      "target": "EX82363",
+      "via": "Chris Brown",
+      "weight": 1
+    },
+    {
+      "source": "EX82250",
+      "target": "P81259",
+      "via": "Phill Kao",
+      "weight": 1
+    },
+    {
+      "source": "EX82366",
+      "target": "S81573",
+      "via": "Roslyn Stuart",
+      "weight": 1
+    },
+    {
+      "source": "EX82366",
+      "target": "WP81573a",
+      "via": "Roslyn Stuart",
+      "weight": 1
+    },
+    {
+      "source": "EX82382",
+      "target": "S81610",
+      "via": "Ricardo Rei",
+      "weight": 1
+    },
+    {
+      "source": "P81043",
+      "target": "P81231",
+      "via": "Shuang Yu",
+      "weight": 1
+    },
+    {
+      "source": "P81066",
+      "target": "P81070",
+      "via": "Chi-Cheng Fu",
+      "weight": 1
+    },
+    {
+      "source": "P81075",
+      "target": "P81105",
+      "via": "Yiching Chen",
+      "weight": 1
+    },
+    {
+      "source": "P81098",
+      "target": "S81689",
+      "via": "Yongxiong Ren",
+      "weight": 1
+    },
+    {
+      "source": "P81103",
+      "target": "S81490",
+      "via": "Steve Xie",
+      "weight": 1
+    },
+    {
+      "source": "P81103",
+      "target": "S82233",
+      "via": "Steve Xie",
+      "weight": 1
+    },
+    {
+      "source": "P81109",
+      "target": "S81884",
+      "via": "Kota Tsuyuzaki",
+      "weight": 1
+    },
+    {
+      "source": "P81131",
+      "target": "P81195",
+      "via": "Hsiang Wei Hu",
+      "weight": 1
+    },
+    {
+      "source": "P81131",
+      "target": "P81195",
+      "via": "Hsing-hsien Wu",
+      "weight": 1
+    },
+    {
+      "source": "P81131",
+      "target": "P81195",
+      "via": "Joyce Chen",
+      "weight": 1
+    },
+    {
+      "source": "P81131",
+      "target": "P81321",
+      "via": "Hsiang Wei Hu",
+      "weight": 1
+    },
+    {
+      "source": "P81131",
+      "target": "P81321",
+      "via": "Joyce Chen",
+      "weight": 1
+    },
+    {
+      "source": "P81131",
+      "target": "P81328",
+      "via": "Hsiang Wei Hu",
+      "weight": 1
+    },
+    {
+      "source": "P81131",
+      "target": "P81328",
+      "via": "Joyce Chen",
+      "weight": 1
+    },
+    {
+      "source": "P81161",
+      "target": "P81169",
+      "via": "Hyeonsu Oh",
+      "weight": 1
+    },
+    {
+      "source": "P81161",
+      "target": "P81169",
+      "via": "Junbyoung Park",
+      "weight": 1
+    },
+    {
+      "source": "P81161",
+      "target": "P81169",
+      "via": "Nick Hong",
+      "weight": 1
+    },
+    {
+      "source": "P81161",
+      "target": "P81169",
+      "via": "Yusung Kim",
+      "weight": 1
+    },
+    {
+      "source": "P81161",
+      "target": "S82271",
+      "via": "Banseok Kim",
+      "weight": 1
+    },
+    {
+      "source": "P81187",
+      "target": "S82034",
+      "via": "Ted Pang",
+      "weight": 1
+    },
+    {
+      "source": "P81195",
+      "target": "P81321",
+      "via": "Hsiang Wei Hu",
+      "weight": 1
+    },
+    {
+      "source": "P81195",
+      "target": "P81321",
+      "via": "Joyce Chen",
+      "weight": 1
+    },
+    {
+      "source": "P81195",
+      "target": "P81328",
+      "via": "Hsiang Wei Hu",
+      "weight": 1
+    },
+    {
+      "source": "P81195",
+      "target": "P81328",
+      "via": "Joyce Chen",
+      "weight": 1
+    },
+    {
+      "source": "P81200",
+      "target": "P81254",
+      "via": "Dhabaleswar Panda",
+      "weight": 1
+    },
+    {
+      "source": "P81200",
+      "target": "P81294",
+      "via": "Dhabaleswar Panda",
+      "weight": 1
+    },
+    {
+      "source": "P81208",
+      "target": "S81942",
+      "via": "Tomasz Bednarz",
+      "weight": 1
+    },
+    {
+      "source": "P81254",
+      "target": "P81294",
+      "via": "Dhabaleswar Panda",
+      "weight": 1
+    },
+    {
+      "source": "P81254",
+      "target": "P81294",
+      "via": "Nawras Alnaasan",
+      "weight": 1
+    },
+    {
+      "source": "P81268",
+      "target": "P81285",
+      "via": "Eunseob Choi",
+      "weight": 1
+    },
+    {
+      "source": "P81268",
+      "target": "P81285",
+      "via": "Junsu Lim",
+      "weight": 1
+    },
+    {
+      "source": "P81321",
+      "target": "P81328",
+      "via": "Chisheng Chen",
+      "weight": 1
+    },
+    {
+      "source": "P81321",
+      "target": "P81328",
+      "via": "Hsiang Wei Hu",
+      "weight": 1
+    },
+    {
+      "source": "P81321",
+      "target": "P81328",
+      "via": "Joyce Chen",
+      "weight": 1
+    },
+    {
+      "source": "P81334",
+      "target": "P81337",
+      "via": "Dayang Wang",
+      "weight": 1
+    },
+    {
+      "source": "P81353",
+      "target": "P81357",
+      "via": "Jiaxiang Ren",
+      "weight": 1
+    },
+    {
+      "source": "P81507",
+      "target": "P81511",
+      "via": "Savitha Pareek",
+      "weight": 1
+    },
+    {
+      "source": "P81532",
+      "target": "S82452",
+      "via": "Nic Borensztein",
+      "weight": 1
+    },
+    {
+      "source": "P81947",
+      "target": "S81467",
+      "via": "Sreyan Ghosh",
+      "weight": 1
+    },
+    {
+      "source": "QA81637",
+      "target": "S82416",
+      "via": "Wen-Mei Hwu",
+      "weight": 1
+    },
+    {
+      "source": "QA81741",
+      "target": "S81766",
+      "via": "Quynh Nguyen",
+      "weight": 1
+    },
+    {
+      "source": "QA82372",
+      "target": "S81831",
+      "via": "Matt Frazier",
+      "weight": 1
+    },
+    {
+      "source": "S81433",
+      "target": "WP81433",
+      "via": "Bryce Lelbach",
+      "weight": 1
+    },
+    {
+      "source": "S81467",
+      "target": "S82167",
+      "via": "Bill Dally",
+      "weight": 1
+    },
+    {
+      "source": "S81467",
+      "target": "S82168",
+      "via": "Bill Dally",
+      "weight": 1
+    },
+    {
+      "source": "S81475",
+      "target": "S81561",
+      "via": "Gilad Shainer",
+      "weight": 1
+    },
+    {
+      "source": "S81475",
+      "target": "WP81561",
+      "via": "Gilad Shainer",
+      "weight": 1
+    },
+    {
+      "source": "S81479",
+      "target": "S81810",
+      "via": "Yashraj Narang",
+      "weight": 1
+    },
+    {
+      "source": "S81489",
+      "target": "S81625",
+      "via": "Ofir Arkin",
+      "weight": 1
+    },
+    {
+      "source": "S81489",
+      "target": "S81627",
+      "via": "Jonathan Dotan",
+      "weight": 1
+    },
+    {
+      "source": "S81489",
+      "target": "S81691",
+      "via": "Ofir Arkin",
+      "weight": 1
+    },
+    {
+      "source": "S81490",
+      "target": "S82233",
+      "via": "Steve Xie",
+      "weight": 1
+    },
+    {
+      "source": "S81492",
+      "target": "S81613",
+      "via": "Moritz Baecher",
+      "weight": 1
+    },
+    {
+      "source": "S81509",
+      "target": "S82233",
+      "via": "Evan Helda",
+      "weight": 1
+    },
+    {
+      "source": "S81512",
+      "target": "S81822",
+      "via": "Tao Li",
+      "weight": 1
+    },
+    {
+      "source": "S81523",
+      "target": "S81525",
+      "via": "Adam Thompson",
+      "weight": 1
+    },
+    {
+      "source": "S81531",
+      "target": "S82113",
+      "via": "Ianna Osborne",
+      "weight": 1
+    },
+    {
+      "source": "S81537",
+      "target": "S81627",
+      "via": "Nikki Pope",
+      "weight": 1
+    },
+    {
+      "source": "S81547",
+      "target": "S81894",
+      "via": "Pradeep Ramachandran",
+      "weight": 1
+    },
+    {
+      "source": "S81553",
+      "target": "S81868",
+      "via": "Mark Wolf",
+      "weight": 1
+    },
+    {
+      "source": "S81553",
+      "target": "S81868",
+      "via": "Monica Van-Dieren",
+      "weight": 1
+    },
+    {
+      "source": "S81556",
+      "target": "S81671",
+      "via": "Natasha Nelson",
+      "weight": 1
+    },
+    {
+      "source": "S81561",
+      "target": "WP81561",
+      "via": "Gilad Shainer",
+      "weight": 1
+    },
+    {
+      "source": "S81569",
+      "target": "S81765",
+      "via": "Bartley Richardson",
+      "weight": 1
+    },
+    {
+      "source": "S81569",
+      "target": "S82553",
+      "via": "Ali Golshan",
+      "weight": 1
+    },
+    {
+      "source": "S81570",
+      "target": "S81836",
+      "via": "Roopa Prabhu",
+      "weight": 1
+    },
+    {
+      "source": "S81570",
+      "target": "WP81836",
+      "via": "Roopa Prabhu",
+      "weight": 1
+    },
+    {
+      "source": "S81570",
+      "target": "WP81836a",
+      "via": "Roopa Prabhu",
+      "weight": 1
+    },
+    {
+      "source": "S81573",
+      "target": "S81598",
+      "via": "Rev Lebaredian",
+      "weight": 1
+    },
+    {
+      "source": "S81573",
+      "target": "S81899",
+      "via": "Zhaopeng Chen",
+      "weight": 1
+    },
+    {
+      "source": "S81573",
+      "target": "WP81573",
+      "via": "Marc Segura",
+      "weight": 1
+    },
+    {
+      "source": "S81573",
+      "target": "WP81573",
+      "via": "Rainer Brehm",
+      "weight": 1
+    },
+    {
+      "source": "S81573",
+      "target": "WP81573",
+      "via": "Rev Lebaredian",
+      "weight": 1
+    },
+    {
+      "source": "S81573",
+      "target": "WP81573",
+      "via": "Seungyong Doh",
+      "weight": 1
+    },
+    {
+      "source": "S81573",
+      "target": "WP81573",
+      "via": "Zhaopeng Chen",
+      "weight": 1
+    },
+    {
+      "source": "S81573",
+      "target": "WP81573a",
+      "via": "Marc Segura",
+      "weight": 1
+    },
+    {
+      "source": "S81573",
+      "target": "WP81573a",
+      "via": "Rainer Brehm",
+      "weight": 1
+    },
+    {
+      "source": "S81573",
+      "target": "WP81573a",
+      "via": "Rev Lebaredian",
+      "weight": 1
+    },
+    {
+      "source": "S81573",
+      "target": "WP81573a",
+      "via": "Roslyn Stuart",
+      "weight": 1
+    },
+    {
+      "source": "S81573",
+      "target": "WP81573a",
+      "via": "Zhaopeng Chen",
+      "weight": 1
+    },
+    {
+      "source": "S81573",
+      "target": "WP81598",
+      "via": "Rev Lebaredian",
+      "weight": 1
+    },
+    {
+      "source": "S81595",
+      "target": "S82480",
+      "via": "Jensen Huang",
+      "weight": 1
+    },
+    {
+      "source": "S81598",
+      "target": "WP81573",
+      "via": "Rev Lebaredian",
+      "weight": 1
+    },
+    {
+      "source": "S81598",
+      "target": "WP81573a",
+      "via": "Rev Lebaredian",
+      "weight": 1
+    },
+    {
+      "source": "S81598",
+      "target": "WP81598",
+      "via": "Rev Lebaredian",
+      "weight": 1
+    },
+    {
+      "source": "S81610",
+      "target": "S81659",
+      "via": "Brad Genereaux",
+      "weight": 1
+    },
+    {
+      "source": "S81610",
+      "target": "S81664",
+      "via": "Brad Genereaux",
+      "weight": 1
+    },
+    {
+      "source": "S81612",
+      "target": "S81702",
+      "via": "David Loker",
+      "weight": 1
+    },
+    {
+      "source": "S81613",
+      "target": "S81645",
+      "via": "Deepak Pathak",
+      "weight": 1
+    },
+    {
+      "source": "S81613",
+      "target": "WP81645",
+      "via": "Deepak Pathak",
+      "weight": 1
+    },
+    {
+      "source": "S81625",
+      "target": "S81691",
+      "via": "Ofir Arkin",
+      "weight": 1
+    },
+    {
+      "source": "S81625",
+      "target": "S81750",
+      "via": "Ariel Kit",
+      "weight": 1
+    },
+    {
+      "source": "S81625",
+      "target": "S81773",
+      "via": "Ariel Kit",
+      "weight": 1
+    },
+    {
+      "source": "S81628",
+      "target": "S81662",
+      "via": "Michael Balint",
+      "weight": 1
+    },
+    {
+      "source": "S81645",
+      "target": "S81786",
+      "via": "Ashok Elluswamy",
+      "weight": 1
+    },
+    {
+      "source": "S81645",
+      "target": "WP81645",
+      "via": "Amit Goel",
+      "weight": 1
+    },
+    {
+      "source": "S81645",
+      "target": "WP81645",
+      "via": "Arnaud Robert",
+      "weight": 1
+    },
+    {
+      "source": "S81645",
+      "target": "WP81645",
+      "via": "Ashok Elluswamy",
+      "weight": 1
+    },
+    {
+      "source": "S81645",
+      "target": "WP81645",
+      "via": "Chelsea Finn",
+      "weight": 1
+    },
+    {
+      "source": "S81645",
+      "target": "WP81645",
+      "via": "Deepak Pathak",
+      "weight": 1
+    },
+    {
+      "source": "S81645",
+      "target": "WP81645",
+      "via": "Pras Velagapudi",
+      "weight": 1
+    },
+    {
+      "source": "S81651",
+      "target": "S81752",
+      "via": "Neil Ashton",
+      "weight": 1
+    },
+    {
+      "source": "S81651",
+      "target": "S81767",
+      "via": "Neil Ashton",
+      "weight": 1
+    },
+    {
+      "source": "S81657",
+      "target": "S81662",
+      "via": "Nik Spirin",
+      "weight": 1
+    },
+    {
+      "source": "S81658",
+      "target": "S81680",
+      "via": "Matthias Langer",
+      "weight": 1
+    },
+    {
+      "source": "S81659",
+      "target": "S81664",
+      "via": "Brad Genereaux",
+      "weight": 1
+    },
+    {
+      "source": "S81659",
+      "target": "S81805",
+      "via": "Raghav Mani",
+      "weight": 1
+    },
+    {
+      "source": "S81662",
+      "target": "S82081",
+      "via": "Erik Bohnhorst",
+      "weight": 1
+    },
+    {
+      "source": "S81667",
+      "target": "S81684",
+      "via": "Ming-Yu Liu",
+      "weight": 1
+    },
+    {
+      "source": "S81667",
+      "target": "WP81479",
+      "via": "Ming-Yu Liu",
+      "weight": 1
+    },
+    {
+      "source": "S81667",
+      "target": "WP81667",
+      "via": "Ming-Yu Liu",
+      "weight": 1
+    },
+    {
+      "source": "S81667",
+      "target": "WP81667a",
+      "via": "Ming-Yu Liu",
+      "weight": 1
+    },
+    {
+      "source": "S81667",
+      "target": "WP81667b",
+      "via": "Ming-Yu Liu",
+      "weight": 1
+    },
+    {
+      "source": "S81667",
+      "target": "WP81667d",
+      "via": "Ming-Yu Liu",
+      "weight": 1
+    },
+    {
+      "source": "S81684",
+      "target": "S82147",
+      "via": "Anastasis Germanidis",
+      "weight": 1
+    },
+    {
+      "source": "S81684",
+      "target": "S82480",
+      "via": "Robin Rombach",
+      "weight": 1
+    },
+    {
+      "source": "S81684",
+      "target": "WP81479",
+      "via": "Ming-Yu Liu",
+      "weight": 1
+    },
+    {
+      "source": "S81684",
+      "target": "WP81667",
+      "via": "Ming-Yu Liu",
+      "weight": 1
+    },
+    {
+      "source": "S81684",
+      "target": "WP81667a",
+      "via": "Ming-Yu Liu",
+      "weight": 1
+    },
+    {
+      "source": "S81684",
+      "target": "WP81667b",
+      "via": "Ming-Yu Liu",
+      "weight": 1
+    },
+    {
+      "source": "S81684",
+      "target": "WP81667d",
+      "via": "Ming-Yu Liu",
+      "weight": 1
+    },
+    {
+      "source": "S81690",
+      "target": "S81794",
+      "via": "Kevin Deierling",
+      "weight": 1
+    },
+    {
+      "source": "S81704",
+      "target": "S81707",
+      "via": "Rockford Yost",
+      "weight": 1
+    },
+    {
+      "source": "S81706",
+      "target": "S81789",
+      "via": "Adel El Hallak",
+      "weight": 1
+    },
+    {
+      "source": "S81706",
+      "target": "WP81706",
+      "via": "Adel El Hallak",
+      "weight": 1
+    },
+    {
+      "source": "S81706",
+      "target": "WP81706",
+      "via": "David Austin",
+      "weight": 1
+    },
+    {
+      "source": "S81707",
+      "target": "S81830",
+      "via": "Arijit Sengupta",
+      "weight": 1
+    },
+    {
+      "source": "S81708",
+      "target": "WP81708",
+      "via": "Rambo Jacoby",
+      "weight": 1
+    },
+    {
+      "source": "S81719",
+      "target": "WP81719",
+      "via": "Bryan Catanzaro",
+      "weight": 1
+    },
+    {
+      "source": "S81719",
+      "target": "WP81719a",
+      "via": "Bryan Catanzaro",
+      "weight": 1
+    },
+    {
+      "source": "S81719",
+      "target": "WP81719b",
+      "via": "Bryan Catanzaro",
+      "weight": 1
+    },
+    {
+      "source": "S81724",
+      "target": "S82406",
+      "via": "Sri Subramanian",
+      "weight": 1
+    },
+    {
+      "source": "S81726",
+      "target": "S81755",
+      "via": "Andrew Sun",
+      "weight": 1
+    },
+    {
+      "source": "S81744",
+      "target": "S82356",
+      "via": "James Maki",
+      "weight": 1
+    },
+    {
+      "source": "S81745",
+      "target": "S81751",
+      "via": "Marinka Zitnik",
+      "weight": 1
+    },
+    {
+      "source": "S81750",
+      "target": "S81773",
+      "via": "Ariel Kit",
+      "weight": 1
+    },
+    {
+      "source": "S81752",
+      "target": "S81767",
+      "via": "Neil Ashton",
+      "weight": 1
+    },
+    {
+      "source": "S81762",
+      "target": "S82237",
+      "via": "Kyle Kranen",
+      "weight": 1
+    },
+    {
+      "source": "S81765",
+      "target": "S82266",
+      "via": "Mike Petronaci",
+      "weight": 1
+    },
+    {
+      "source": "S81777",
+      "target": "S82480",
+      "via": "Anjney Midha",
+      "weight": 1
+    },
+    {
+      "source": "S81777",
+      "target": "S82480",
+      "via": "Mira Murati",
+      "weight": 1
+    },
+    {
+      "source": "S81779",
+      "target": "S81810",
+      "via": "Marco Pavone",
+      "weight": 1
+    },
+    {
+      "source": "S81786",
+      "target": "S82409",
+      "via": "Ali Kani",
+      "weight": 1
+    },
+    {
+      "source": "S81786",
+      "target": "WP81645",
+      "via": "Ashok Elluswamy",
+      "weight": 1
+    },
+    {
+      "source": "S81789",
+      "target": "WP81706",
+      "via": "Adel El Hallak",
+      "weight": 1
+    },
+    {
+      "source": "S81789",
+      "target": "WP81789",
+      "via": "Kari Briski",
+      "weight": 1
+    },
+    {
+      "source": "S81791",
+      "target": "S81902",
+      "via": "Jeff Boudier",
+      "weight": 1
+    },
+    {
+      "source": "S81791",
+      "target": "S82074",
+      "via": "Jonathan Cohen",
+      "weight": 1
+    },
+    {
+      "source": "S81791",
+      "target": "S82182",
+      "via": "Vartika Singh",
+      "weight": 1
+    },
+    {
+      "source": "S81793",
+      "target": "S81797",
+      "via": "Charlie Boyle",
+      "weight": 1
+    },
+    {
+      "source": "S81794",
+      "target": "S81841",
+      "via": "Kunal Anand",
+      "weight": 1
+    },
+    {
+      "source": "S81797",
+      "target": "S82130",
+      "via": "Anders Ynnerman",
+      "weight": 1
+    },
+    {
+      "source": "S81806",
+      "target": "WP81806",
+      "via": "Kimberly Powell",
+      "weight": 1
+    },
+    {
+      "source": "S81810",
+      "target": "S82446",
+      "via": "Sanja Fidler",
+      "weight": 1
+    },
+    {
+      "source": "S81813",
+      "target": "S82480",
+      "via": "Daniel Nadler",
+      "weight": 1
+    },
+    {
+      "source": "S81821",
+      "target": "WP81433",
+      "via": "Axel Krieger",
+      "weight": 1
+    },
+    {
+      "source": "S81821",
+      "target": "WP81433",
+      "via": "David Noonan",
+      "weight": 1
+    },
+    {
+      "source": "S81821",
+      "target": "WP81433",
+      "via": "Filippo Filicori",
+      "weight": 1
+    },
+    {
+      "source": "S81821",
+      "target": "WP81433",
+      "via": "Yossi Bar",
+      "weight": 1
+    },
+    {
+      "source": "S81835",
+      "target": "S82480",
+      "via": "Hanna Hajishirzi",
+      "weight": 1
+    },
+    {
+      "source": "S81836",
+      "target": "WP81836",
+      "via": "Adam Ryason",
+      "weight": 1
+    },
+    {
+      "source": "S81836",
+      "target": "WP81836",
+      "via": "Roopa Prabhu",
+      "weight": 1
+    },
+    {
+      "source": "S81836",
+      "target": "WP81836a",
+      "via": "Adam Ryason",
+      "weight": 1
+    },
+    {
+      "source": "S81836",
+      "target": "WP81836a",
+      "via": "Roopa Prabhu",
+      "weight": 1
+    },
+    {
+      "source": "S81840",
+      "target": "S82033",
+      "via": "Vikram Sharma Mailthody",
+      "weight": 1
+    },
+    {
+      "source": "S81840",
+      "target": "S82390",
+      "via": "Corey Nolet",
+      "weight": 1
+    },
+    {
+      "source": "S81849",
+      "target": "S82391",
+      "via": "Rama Akkiraju",
+      "weight": 1
+    },
+    {
+      "source": "S81849",
+      "target": "S82452",
+      "via": "Rama Akkiraju",
+      "weight": 1
+    },
+    {
+      "source": "S81852",
+      "target": "S82078",
+      "via": "Meghana Puvvadi",
+      "weight": 1
+    },
+    {
+      "source": "S81856",
+      "target": "S81857",
+      "via": "Alexander Petrovskiy",
+      "weight": 1
+    },
+    {
+      "source": "S81859",
+      "target": "S82416",
+      "via": "Stephen Jones",
+      "weight": 1
+    },
+    {
+      "source": "S81859",
+      "target": "WP81859",
+      "via": "Stephen Jones",
+      "weight": 1
+    },
+    {
+      "source": "S81862",
+      "target": "WP81862",
+      "via": "Carlos Garcia-Sierra",
+      "weight": 1
+    },
+    {
+      "source": "S81862",
+      "target": "WP81862",
+      "via": "Ray (Yi-Ting) Wang",
+      "weight": 1
+    },
+    {
+      "source": "S81899",
+      "target": "S82020",
+      "via": "Peter Lorenz",
+      "weight": 1
+    },
+    {
+      "source": "S81899",
+      "target": "WP81573",
+      "via": "Zhaopeng Chen",
+      "weight": 1
+    },
+    {
+      "source": "S81899",
+      "target": "WP81573a",
+      "via": "Zhaopeng Chen",
+      "weight": 1
+    },
+    {
+      "source": "S81911",
+      "target": "S82438",
+      "via": "Ian Buck",
+      "weight": 1
+    },
+    {
+      "source": "S81911",
+      "target": "WP81911",
+      "via": "Ian Buck",
+      "weight": 1
+    },
+    {
+      "source": "S81911",
+      "target": "WP81911a",
+      "via": "Ian Buck",
+      "weight": 1
+    },
+    {
+      "source": "S81970",
+      "target": "S82281",
+      "via": "\u5eb7 \u4f55",
+      "weight": 1
+    },
+    {
+      "source": "S81994",
+      "target": "S82306",
+      "via": "Meriem Bendris",
+      "weight": 1
+    },
+    {
+      "source": "S82010",
+      "target": "S82011",
+      "via": "Sree Sankar",
+      "weight": 1
+    },
+    {
+      "source": "S82017",
+      "target": "WP82017",
+      "via": "Timothy Costa",
+      "weight": 1
+    },
+    {
+      "source": "S82017",
+      "target": "WP82017a",
+      "via": "Timothy Costa",
+      "weight": 1
+    },
+    {
+      "source": "S82023",
+      "target": "S82233",
+      "via": "Bill Vass",
+      "weight": 1
+    },
+    {
+      "source": "S82121",
+      "target": "S82148",
+      "via": "Jason Harvey",
+      "weight": 1
+    },
+    {
+      "source": "S82130",
+      "target": "S82232",
+      "via": "Martin Olsen",
+      "weight": 1
+    },
+    {
+      "source": "S82144",
+      "target": "S82172",
+      "via": "Rick Champagne",
+      "weight": 1
+    },
+    {
+      "source": "S82146",
+      "target": "S82449",
+      "via": "Richard Kerris",
+      "weight": 1
+    },
+    {
+      "source": "S82146",
+      "target": "S82491",
+      "via": "Richard Kerris",
+      "weight": 1
+    },
+    {
+      "source": "S82146",
+      "target": "WP82146",
+      "via": "Richard Kerris",
+      "weight": 1
+    },
+    {
+      "source": "S82167",
+      "target": "S82168",
+      "via": "Bill Dally",
+      "weight": 1
+    },
+    {
+      "source": "S82217",
+      "target": "S82218",
+      "via": "Pei-Wen Wang",
+      "weight": 1
+    },
+    {
+      "source": "S82241",
+      "target": "S82264",
+      "via": "Jacob Liberman",
+      "weight": 1
+    },
+    {
+      "source": "S82329",
+      "target": "S82335",
+      "via": "Azita Martin",
+      "weight": 1
+    },
+    {
+      "source": "S82329",
+      "target": "WP82329",
+      "via": "Azita Martin",
+      "weight": 1
+    },
+    {
+      "source": "S82335",
+      "target": "WP82329",
+      "via": "Azita Martin",
+      "weight": 1
+    },
+    {
+      "source": "S82391",
+      "target": "S82452",
+      "via": "Rama Akkiraju",
+      "weight": 1
+    },
+    {
+      "source": "S82416",
+      "target": "WP81859",
+      "via": "Stephen Jones",
+      "weight": 1
+    },
+    {
+      "source": "S82437",
+      "target": "S82477",
+      "via": "Ian Finder",
+      "weight": 1
+    },
+    {
+      "source": "S82438",
+      "target": "WP81911",
+      "via": "Ian Buck",
+      "weight": 1
+    },
+    {
+      "source": "S82438",
+      "target": "WP81911a",
+      "via": "Ian Buck",
+      "weight": 1
+    },
+    {
+      "source": "S82448",
+      "target": "S82480",
+      "via": "Harrison Chase",
+      "weight": 1
+    },
+    {
+      "source": "S82449",
+      "target": "S82491",
+      "via": "Richard Kerris",
+      "weight": 1
+    },
+    {
+      "source": "S82449",
+      "target": "WP82146",
+      "via": "Richard Kerris",
+      "weight": 1
+    },
+    {
+      "source": "S82491",
+      "target": "WP82146",
+      "via": "Richard Kerris",
+      "weight": 1
+    },
+    {
+      "source": "WP81479",
+      "target": "WP81667",
+      "via": "Ming-Yu Liu",
+      "weight": 1
+    },
+    {
+      "source": "WP81479",
+      "target": "WP81667a",
+      "via": "Ming-Yu Liu",
+      "weight": 1
+    },
+    {
+      "source": "WP81479",
+      "target": "WP81667b",
+      "via": "Ming-Yu Liu",
+      "weight": 1
+    },
+    {
+      "source": "WP81479",
+      "target": "WP81667d",
+      "via": "Ming-Yu Liu",
+      "weight": 1
+    },
+    {
+      "source": "WP81573",
+      "target": "WP81573a",
+      "via": "Marc Segura",
+      "weight": 1
+    },
+    {
+      "source": "WP81573",
+      "target": "WP81573a",
+      "via": "Rainer Brehm",
+      "weight": 1
+    },
+    {
+      "source": "WP81573",
+      "target": "WP81573a",
+      "via": "Rev Lebaredian",
+      "weight": 1
+    },
+    {
+      "source": "WP81573",
+      "target": "WP81573a",
+      "via": "Zhaopeng Chen",
+      "weight": 1
+    },
+    {
+      "source": "WP81573",
+      "target": "WP81598",
+      "via": "Rev Lebaredian",
+      "weight": 1
+    },
+    {
+      "source": "WP81573a",
+      "target": "WP81598",
+      "via": "Rev Lebaredian",
+      "weight": 1
+    },
+    {
+      "source": "WP81667",
+      "target": "WP81667a",
+      "via": "Ming-Yu Liu",
+      "weight": 1
+    },
+    {
+      "source": "WP81667",
+      "target": "WP81667b",
+      "via": "Ming-Yu Liu",
+      "weight": 1
+    },
+    {
+      "source": "WP81667",
+      "target": "WP81667d",
+      "via": "Ming-Yu Liu",
+      "weight": 1
+    },
+    {
+      "source": "WP81667a",
+      "target": "WP81667b",
+      "via": "Ming-Yu Liu",
+      "weight": 1
+    },
+    {
+      "source": "WP81667a",
+      "target": "WP81667d",
+      "via": "Ming-Yu Liu",
+      "weight": 1
+    },
+    {
+      "source": "WP81667b",
+      "target": "WP81667d",
+      "via": "Ming-Yu Liu",
+      "weight": 1
+    },
+    {
+      "source": "WP81719",
+      "target": "WP81719a",
+      "via": "Bryan Catanzaro",
+      "weight": 1
+    },
+    {
+      "source": "WP81719",
+      "target": "WP81719b",
+      "via": "Bryan Catanzaro",
+      "weight": 1
+    },
+    {
+      "source": "WP81719a",
+      "target": "WP81719b",
+      "via": "Bryan Catanzaro",
+      "weight": 1
+    },
+    {
+      "source": "WP81836",
+      "target": "WP81836a",
+      "via": "Adam Ryason",
+      "weight": 1
+    },
+    {
+      "source": "WP81836",
+      "target": "WP81836a",
+      "via": "Roopa Prabhu",
+      "weight": 1
+    },
+    {
+      "source": "WP81911",
+      "target": "WP81911a",
+      "via": "Ian Buck",
+      "weight": 1
+    },
+    {
+      "source": "WP82017",
+      "target": "WP82017a",
+      "via": "Timothy Costa",
+      "weight": 1
+    }
+  ]
+}

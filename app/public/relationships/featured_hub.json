@@ -1,0 +1,331 @@
+{
+  "type": "featured_hub",
+  "label": "Featured → Deep Dive",
+  "color": "#eab308",
+  "edges": [
+    {
+      "source": "C81544",
+      "target": "S81595",
+      "via": "Keynote → topic: Developer Tools & Techniques (score: 1)",
+      "weight": 3
+    },
+    {
+      "source": "CWES81440",
+      "target": "S81595",
+      "via": "Keynote → topic: Developer Tools & Techniques (score: 1)",
+      "weight": 3
+    },
+    {
+      "source": "CWES81440",
+      "target": "S81911",
+      "via": "Featured → tech: Blackwell, CUDA, CUDA-X, Grace CPU, Hopper, Infiniband Networking, NCCL, NVLink / NVSwitch, RAPIDS, cuBLAS, cuDF, cuDNN, cuML, cuOPT (score: 28)",
+      "weight": 3
+    },
+    {
+      "source": "CWES81457",
+      "target": "S81595",
+      "via": "Keynote → topic: Developer Tools & Techniques (score: 1)",
+      "weight": 3
+    },
+    {
+      "source": "CWES81461",
+      "target": "S81595",
+      "via": "Keynote → topic: Developer Tools & Techniques (score: 1)",
+      "weight": 3
+    },
+    {
+      "source": "CWES81465",
+      "target": "S81806",
+      "via": "Featured → theme: AI for Science + tech: BioNeMo, CUDA, Clara Holoscan, MONAI, NVIDIA NIM (score: 13)",
+      "weight": 3
+    },
+    {
+      "source": "CWES81555",
+      "target": "S81806",
+      "via": "Featured → tech: BioNeMo, CUDA, MONAI, NVIDIA NIM, Parabricks (score: 10)",
+      "weight": 3
+    },
+    {
+      "source": "CWES81626",
+      "target": "S82448",
+      "via": "Featured → theme: Claws & Long Running Agents + tech: NVIDIA AI Enterprise + topic: Agentic AI / Generative AI (score: 6)",
+      "weight": 3
+    },
+    {
+      "source": "CWES81649",
+      "target": "S81806",
+      "via": "Featured → theme: AI for Science + tech: BioNeMo, CUDA-Q, Clara Holoscan, NVIDIA NIM + topic: Agentic AI / Generative AI (score: 12)",
+      "weight": 3
+    },
+    {
+      "source": "CWES81795",
+      "target": "S81844",
+      "via": "Featured → theme: Physical AI and Robotics + tech: AGX, IGX, Isaac, JetPack, Jetson, Metropolis + topic: Edge Computing (score: 16)",
+      "weight": 3
+    },
+    {
+      "source": "CWES81819",
+      "target": "S81492",
+      "via": "Featured → theme: Physical AI and Robotics + tech: CUDA, Isaac (score: 7)",
+      "weight": 3
+    },
+    {
+      "source": "CWES81819",
+      "target": "S81713",
+      "via": "Featured → theme: Physical AI and Robotics + tech: DRIVE, DRIVE AV, DRIVE SDK, Omniverse (score: 11)",
+      "weight": 3
+    },
+    {
+      "source": "CWES82298",
+      "target": "S81713",
+      "via": "Featured → theme: Physical AI and Robotics + tech: DRIVE, DRIVE AV, DRIVE SDK (score: 9)",
+      "weight": 3
+    },
+    {
+      "source": "CWES82499",
+      "target": "S82480",
+      "via": "Keynote → theme: Claws & Long Running Agents + tech: Nemotron + topic: Agentic AI / Generative AI (score: 6)",
+      "weight": 3
+    },
+    {
+      "source": "DLIT81725",
+      "target": "S82448",
+      "via": "Featured → theme: Claws & Long Running Agents + tech: NVIDIA AI Enterprise + topic: Agentic AI / Generative AI (score: 6)",
+      "weight": 3
+    },
+    {
+      "source": "DLIT81738",
+      "target": "S81844",
+      "via": "Featured → theme: Physical AI and Robotics + tech: AGX, Blackwell, JetPack, Jetson, TensorRT + topic: Edge Computing (score: 14)",
+      "weight": 3
+    },
+    {
+      "source": "DLIT82021",
+      "target": "S81684",
+      "via": "Featured → theme: High Performance Inference and Training + tech: CUDA, Cloud / Data Center GPU, DGX Platform, Infiniband Networking, Interconnect Networking, NVLink / NVSwitch, Triton, cuDNN (score: 19)",
+      "weight": 3
+    },
+    {
+      "source": "DLIT82021",
+      "target": "S81911",
+      "via": "Featured → tech: Blackwell, CUDA, CUDA-X, Grace CPU, Hopper, Infiniband Networking, Interconnect Networking, NCCL, NVLink / NVSwitch, cuBLAS, cuDNN, cuFFT (score: 24)",
+      "weight": 3
+    },
+    {
+      "source": "DLIT82062",
+      "target": "S82480",
+      "via": "Keynote → theme: Claws & Long Running Agents + tech: Nemotron + topic: Agentic AI / Generative AI (score: 6)",
+      "weight": 3
+    },
+    {
+      "source": "DLIT82488",
+      "target": "S82480",
+      "via": "Keynote → theme: Claws & Long Running Agents + tech: Nemotron + topic: Agentic AI / Generative AI (score: 6)",
+      "weight": 3
+    },
+    {
+      "source": "EX82069",
+      "target": "S81911",
+      "via": "Featured → tech: CUDA, CUDA-X, Grace CPU, HGX, NCCL, NVLink / NVSwitch, cuBLAS, cuDNN, cuFFT, cuGraph, cuML + topic: Simulation / Modeling / Design (score: 23)",
+      "weight": 3
+    },
+    {
+      "source": "S81464",
+      "target": "S81789",
+      "via": "Featured → theme: Agentic AI and Reasoning AI, Open Models + tech: NVIDIA NIM, NeMo + topic: Agentic AI / Generative AI (score: 11)",
+      "weight": 3
+    },
+    {
+      "source": "S81467",
+      "target": "S82167",
+      "via": "Featured → speaker: Bill Dally (score: 5)",
+      "weight": 3
+    },
+    {
+      "source": "S81488",
+      "target": "S81492",
+      "via": "Featured → theme: Physical AI and Robotics + tech: CUDA, Isaac + topic: Robotics (score: 8)",
+      "weight": 3
+    },
+    {
+      "source": "S81490",
+      "target": "S81492",
+      "via": "Featured → theme: Physical AI and Robotics + tech: CUDA, Isaac + topic: Robotics (score: 8)",
+      "weight": 3
+    },
+    {
+      "source": "S81492",
+      "target": "S81613",
+      "via": "Featured → speaker: Moritz Baecher + theme: Physical AI and Robotics + tech: Isaac + topic: Robotics (score: 11)",
+      "weight": 3
+    },
+    {
+      "source": "S81492",
+      "target": "S81708",
+      "via": "Featured → theme: Physical AI and Robotics + tech: CUDA, Isaac (score: 7)",
+      "weight": 3
+    },
+    {
+      "source": "S81569",
+      "target": "S81789",
+      "via": "Featured → theme: Agentic AI and Reasoning AI, Claws & Long Running Agents + tech: NVIDIA NIM, NeMo + topic: Agentic AI / Generative AI (score: 11)",
+      "weight": 3
+    },
+    {
+      "source": "S81569",
+      "target": "S82448",
+      "via": "Featured → theme: Claws & Long Running Agents + tech: NVIDIA AI Enterprise + topic: Agentic AI / Generative AI (score: 6)",
+      "weight": 3
+    },
+    {
+      "source": "S81573",
+      "target": "S81844",
+      "via": "Featured → theme: Physical AI and Robotics + tech: Blackwell, IGX, Isaac, Jetson, Metropolis (score: 13)",
+      "weight": 3
+    },
+    {
+      "source": "S81595",
+      "target": "S82480",
+      "via": "Keynote → speaker: Jensen Huang (score: 5)",
+      "weight": 3
+    },
+    {
+      "source": "S81598",
+      "target": "S81713",
+      "via": "Featured → theme: Claws & Long Running Agents, Physical AI and Robotics + tech: Omniverse (score: 8)",
+      "weight": 3
+    },
+    {
+      "source": "S81652",
+      "target": "S81806",
+      "via": "Featured → theme: AI for Science, Agentic AI and Reasoning AI + tech: BioNeMo, CUDA, Parabricks + topic: Agentic AI / Generative AI (score: 13)",
+      "weight": 3
+    },
+    {
+      "source": "S81653",
+      "target": "S82167",
+      "via": "Featured → theme: Agentic AI and Reasoning AI + topic: Developer Tools & Techniques (score: 4)",
+      "weight": 3
+    },
+    {
+      "source": "S81657",
+      "target": "S81684",
+      "via": "Featured → theme: Agentic AI and Reasoning AI, High Performance Inference and Training + tech: CUDA, Cloud / Data Center GPU, DGX Platform, NVLink / NVSwitch, TensorRT, Triton (score: 18)",
+      "weight": 3
+    },
+    {
+      "source": "S81662",
+      "target": "S81684",
+      "via": "Featured → tech: CUDA, Cloud / Data Center GPU, DGX Platform, Infiniband Networking, Interconnect Networking, NVLink / NVSwitch, TensorRT, Triton (score: 16)",
+      "weight": 3
+    },
+    {
+      "source": "S81684",
+      "target": "S81708",
+      "via": "Featured → theme: Agentic AI and Reasoning AI + tech: CUDA, Infiniband Networking, Interconnect Networking, NVLink / NVSwitch, RTX GPU, TensorRT + topic: Agentic AI / Generative AI (score: 16)",
+      "weight": 3
+    },
+    {
+      "source": "S81684",
+      "target": "S81825",
+      "via": "Featured → theme: Agentic AI and Reasoning AI, Startup Spotlight + tech: CUDA, Cloud / Data Center GPU, DGX Platform, Infiniband Networking, TensorRT, Triton, cuDNN + topic: Agentic AI / Generative AI (score: 21)",
+      "weight": 3
+    },
+    {
+      "source": "S81695",
+      "target": "S82167",
+      "via": "Featured → theme: Agentic AI and Reasoning AI + topic: Developer Tools & Techniques (score: 4)",
+      "weight": 3
+    },
+    {
+      "source": "S81702",
+      "target": "S81789",
+      "via": "Featured → theme: Agentic AI and Reasoning AI, Claws & Long Running Agents, Open Models + tech: NVIDIA NIM, NeMo + topic: Agentic AI / Generative AI (score: 14)",
+      "weight": 3
+    },
+    {
+      "source": "S81706",
+      "target": "S81789",
+      "via": "Featured → speaker: Adel El Hallak + theme: Agentic AI and Reasoning AI, Claws & Long Running Agents + tech: NVIDIA NIM, NeMo + topic: Agentic AI / Generative AI (score: 16)",
+      "weight": 3
+    },
+    {
+      "source": "S81713",
+      "target": "S81786",
+      "via": "Featured → theme: Physical AI and Robotics + tech: DRIVE, DRIVE AV, DRIVE SDK, Omniverse (score: 11)",
+      "weight": 3
+    },
+    {
+      "source": "S81713",
+      "target": "S82462",
+      "via": "Featured → theme: Physical AI and Robotics + tech: DRIVE, DRIVE AV, DRIVE SDK, Omniverse (score: 11)",
+      "weight": 3
+    },
+    {
+      "source": "S81737",
+      "target": "S82167",
+      "via": "Featured → theme: Agentic AI and Reasoning AI + topic: Developer Tools & Techniques (score: 4)",
+      "weight": 3
+    },
+    {
+      "source": "S81742",
+      "target": "S81844",
+      "via": "Featured → tech: Blackwell, IGX, Isaac, JetPack, Jetson, TensorRT + topic: Edge Computing (score: 13)",
+      "weight": 3
+    },
+    {
+      "source": "S81777",
+      "target": "S82480",
+      "via": "Keynote → speaker: Anjney Midha, Mira Murati + topic: Agentic AI / Generative AI (score: 11)",
+      "weight": 3
+    },
+    {
+      "source": "S81789",
+      "target": "S81791",
+      "via": "Featured → theme: Agentic AI and Reasoning AI, Claws & Long Running Agents, Open Models + tech: NeMo (score: 11)",
+      "weight": 3
+    },
+    {
+      "source": "S81806",
+      "target": "S81992",
+      "via": "Featured → theme: AI for Science, Agentic AI and Reasoning AI + tech: BioNeMo, NVIDIA NIM, Parabricks + topic: Agentic AI / Generative AI (score: 13)",
+      "weight": 3
+    },
+    {
+      "source": "S81842",
+      "target": "S81844",
+      "via": "Featured → theme: Physical AI and Robotics + tech: AGX, IGX, Isaac, JetPack, Jetson, Metropolis, TensorRT + topic: Edge Computing (score: 18)",
+      "weight": 3
+    },
+    {
+      "source": "S81848",
+      "target": "S81911",
+      "via": "Featured → tech: Blackwell, CUDA, Infiniband Networking, Interconnect Networking, NVLink / NVSwitch, cuBLAS, cuDF, cuDNN, cuFFT, cuGraph, cuML, cuOPT (score: 24)",
+      "weight": 3
+    },
+    {
+      "source": "S81911",
+      "target": "WP81911",
+      "via": "Featured → speaker: Ian Buck + tech: Blackwell, CUDA, CUDA Quantum, CUDA-Q, CUDA-X, HGX, RAPIDS, cuDF, cuDNN, cuFFT, cuGraph, cuLitho, cuML, cuOPT, cuQuantum, cuVS, nvCOMP + topic: Simulation / Modeling / Design (score: 40)",
+      "weight": 3
+    },
+    {
+      "source": "S82167",
+      "target": "S82168",
+      "via": "Featured → speaker: Bill Dally + theme: Agentic AI and Reasoning AI (score: 8)",
+      "weight": 3
+    },
+    {
+      "source": "S82237",
+      "target": "S82448",
+      "via": "Featured → theme: Claws & Long Running Agents + tech: NVIDIA AI Enterprise + topic: Agentic AI / Generative AI (score: 6)",
+      "weight": 3
+    },
+    {
+      "source": "S82448",
+      "target": "S82480",
+      "via": "Featured → speaker: Harrison Chase + theme: Claws & Long Running Agents + topic: Agentic AI / Generative AI (score: 9)",
+      "weight": 3
+    }
+  ]
+}

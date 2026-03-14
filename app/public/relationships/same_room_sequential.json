@@ -1,0 +1,3667 @@
+{
+  "type": "same_room_sequential",
+  "label": "Same Room (Next Up)",
+  "color": "#06b6d4",
+  "edges": [
+    {
+      "source": "S81521",
+      "target": "S81867",
+      "via": "EMEA Simulive Room 1",
+      "weight": 1
+    },
+    {
+      "source": "S81521",
+      "target": "S82028",
+      "via": "EMEA Simulive Room 1",
+      "weight": 1
+    },
+    {
+      "source": "S81992",
+      "target": "S82028",
+      "via": "EMEA Simulive Room 1",
+      "weight": 1
+    },
+    {
+      "source": "C81544",
+      "target": "S81992",
+      "via": "EMEA Simulive Room 1",
+      "weight": 1
+    },
+    {
+      "source": "C82415",
+      "target": "C82417",
+      "via": "Signia - Valley (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81440",
+      "target": "CWES81583",
+      "via": "Connect With the Experts Pod D (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81447",
+      "target": "CWES81568",
+      "via": "Connect With the Experts Pod E (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81568",
+      "target": "CWES81795",
+      "via": "Connect With the Experts Pod E (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81447",
+      "target": "CWES81733",
+      "via": "Connect With the Experts Pod C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81447",
+      "target": "CWES82516",
+      "via": "Connect With the Experts Pod C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES82063",
+      "target": "CWES82516",
+      "via": "Connect With the Experts Pod C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES82063",
+      "target": "CWES82483",
+      "via": "Connect With the Experts Pod C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES82381",
+      "target": "CWES82483",
+      "via": "Connect With the Experts Pod C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81591",
+      "target": "CWES82357",
+      "via": "Connect With the Experts Pod C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81535",
+      "target": "CWES82357",
+      "via": "Connect With the Experts Pod C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81535",
+      "target": "CWES81679",
+      "via": "Connect With the Experts Pod C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81457",
+      "target": "CWES81679",
+      "via": "Connect With the Experts Pod C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81457",
+      "target": "CWES81733",
+      "via": "Connect With the Experts Pod C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81669",
+      "target": "CWES81733",
+      "via": "Connect With the Experts Pod C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81458",
+      "target": "CWES81586",
+      "via": "Connect With the Experts Pod D (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81458",
+      "target": "CWES81473",
+      "via": "Connect With the Experts Pod D (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81473",
+      "target": "CWES81506",
+      "via": "Connect With the Experts Pod D (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81506",
+      "target": "CWES82499",
+      "via": "Connect With the Experts Pod D (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES82381",
+      "target": "CWES82499",
+      "via": "Connect With the Experts Pod D (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81458",
+      "target": "CWES81474",
+      "via": "Connect With the Experts Pod D (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81461",
+      "target": "CWES81524",
+      "via": "Connect With the Experts Pod A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81524",
+      "target": "CWES81562",
+      "via": "Connect With the Experts Pod A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81562",
+      "target": "CWES81795",
+      "via": "Connect With the Experts Pod A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81795",
+      "target": "CWES81906",
+      "via": "Connect With the Experts Pod A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81615",
+      "target": "CWES81997",
+      "via": "Connect With the Experts Pod B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81600",
+      "target": "CWES81997",
+      "via": "Connect With the Experts Pod B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81465",
+      "target": "CWES81600",
+      "via": "Connect With the Experts Pod B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81471",
+      "target": "CWES81506",
+      "via": "Connect With the Experts Pod E (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81472",
+      "target": "CWES81649",
+      "via": "Connect With the Experts Pod D (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81472",
+      "target": "CWES81784",
+      "via": "Connect With the Experts Pod D (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81784",
+      "target": "CWES81906",
+      "via": "Connect With the Experts Pod D (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81535",
+      "target": "CWES81771",
+      "via": "Connect With the Experts Pod C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81472",
+      "target": "CWES81535",
+      "via": "Connect With the Experts Pod C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81472",
+      "target": "CWES81549",
+      "via": "Connect With the Experts Pod C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81549",
+      "target": "CWES81591",
+      "via": "Connect With the Experts Pod C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81591",
+      "target": "CWES81759",
+      "via": "Connect With the Experts Pod C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81473",
+      "target": "CWES82408",
+      "via": "Connect With the Experts Pod F (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81670",
+      "target": "CWES82408",
+      "via": "Connect With the Experts Pod F (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81670",
+      "target": "CWES81819",
+      "via": "Connect With the Experts Pod F (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81615",
+      "target": "CWES81912",
+      "via": "Connect With the Experts Pod F (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81912",
+      "target": "CWES81997",
+      "via": "Connect With the Experts Pod F (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81997",
+      "target": "CWES82223",
+      "via": "Connect With the Experts Pod F (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81740",
+      "target": "CWES82223",
+      "via": "Connect With the Experts Pod F (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81481",
+      "target": "CWES81740",
+      "via": "Connect With the Experts Pod F (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81481",
+      "target": "CWES82007",
+      "via": "Connect With the Experts Pod F (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81635",
+      "target": "CWES81759",
+      "via": "Connect With the Experts Pod A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81635",
+      "target": "CWES82408",
+      "via": "Connect With the Experts Pod A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81538",
+      "target": "CWES82408",
+      "via": "Connect With the Experts Pod A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81538",
+      "target": "CWES81646",
+      "via": "Connect With the Experts Pod A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81524",
+      "target": "CWES81646",
+      "via": "Connect With the Experts Pod A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81524",
+      "target": "CWES82169",
+      "via": "Connect With the Experts Pod A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81538",
+      "target": "CWES81886",
+      "via": "Connect With the Experts Pod B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81538",
+      "target": "CWES82261",
+      "via": "Connect With the Experts Pod B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81655",
+      "target": "CWES82261",
+      "via": "Connect With the Experts Pod B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81555",
+      "target": "CWES81655",
+      "via": "Connect With the Experts Pod B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81555",
+      "target": "CWES81600",
+      "via": "Connect With the Experts Pod B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81905",
+      "target": "CWES82298",
+      "via": "Connect With the Experts Pod F (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81540",
+      "target": "CWES81905",
+      "via": "Connect With the Experts Pod F (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81540",
+      "target": "CWES82142",
+      "via": "Connect With the Experts Pod F (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81819",
+      "target": "CWES82142",
+      "via": "Connect With the Experts Pod F (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81819",
+      "target": "CWES82007",
+      "via": "Connect With the Experts Pod F (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81740",
+      "target": "CWES82142",
+      "via": "Connect With the Experts Pod B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81555",
+      "target": "CWES81740",
+      "via": "Connect With the Experts Pod B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81555",
+      "target": "CWES81934",
+      "via": "Connect With the Experts Pod B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81756",
+      "target": "CWES81934",
+      "via": "Connect With the Experts Pod B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81756",
+      "target": "CWES81960",
+      "via": "Connect With the Experts Pod B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81934",
+      "target": "CWES81960",
+      "via": "Connect With the Experts Pod B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81568",
+      "target": "CWES82499",
+      "via": "Connect With the Experts Pod F (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81692",
+      "target": "CWES82338",
+      "via": "Connect With the Experts Pod A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81692",
+      "target": "CWES81910",
+      "via": "Connect With the Experts Pod A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81626",
+      "target": "CWES81910",
+      "via": "Connect With the Experts Pod A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81626",
+      "target": "CWES82212",
+      "via": "Connect With the Experts Pod A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81817",
+      "target": "CWES82212",
+      "via": "Connect With the Experts Pod A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81655",
+      "target": "CWES81843",
+      "via": "Connect With the Experts Pod A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "CWES81655",
+      "target": "CWES81955",
+      "via": "Connect With the Experts Pod A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81484",
+      "target": "DLIT82259",
+      "via": "Signia - Gold Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT82021",
+      "target": "DLIT82405",
+      "via": "Signia - Crystal Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81485",
+      "target": "DLIT82405",
+      "via": "Signia - Crystal Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81541",
+      "target": "DLIT81609",
+      "via": "Signia - Club Regent (L1)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81609",
+      "target": "DLIT82181",
+      "via": "Signia - Club Regent (L1)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81881",
+      "target": "DLIT82181",
+      "via": "Signia - Club Regent (L1)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81545",
+      "target": "DLIT81642",
+      "via": "Signia - Club Regent (L1)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81545",
+      "target": "DLIT82311",
+      "via": "Signia - Club Regent (L1)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81861",
+      "target": "DLIT81958",
+      "via": "Signia - Club Regent (L1)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81546",
+      "target": "DLIT81958",
+      "via": "Signia - Club Regent (L1)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81546",
+      "target": "DLIT81754",
+      "via": "Signia - Club Regent (L1)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81660",
+      "target": "DLIT81764",
+      "via": "Signia - Regency I Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81550",
+      "target": "DLIT81764",
+      "via": "Signia - Regency I Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81550",
+      "target": "DLIT82062",
+      "via": "Signia - Regency I Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81565",
+      "target": "DLIT82184",
+      "via": "Signia - Crystal Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81565",
+      "target": "DLIT82342",
+      "via": "Signia - Crystal Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81948",
+      "target": "DLIT82342",
+      "via": "Signia - Crystal Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81567",
+      "target": "DLIT82488",
+      "via": "Signia - Imperial Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81567",
+      "target": "DLIT82150",
+      "via": "Signia - Imperial Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81572",
+      "target": "DLIT82183",
+      "via": "Signia - Gold Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81572",
+      "target": "DLIT81757",
+      "via": "Signia - Gold Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81641",
+      "target": "DLIT82008",
+      "via": "Signia - Gold Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81641",
+      "target": "DLIT81644",
+      "via": "Signia - Gold Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81579",
+      "target": "DLIT81644",
+      "via": "Signia - Gold Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81587",
+      "target": "DLIT81945",
+      "via": "Signia - Imperial Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81587",
+      "target": "DLIT81592",
+      "via": "Signia - Imperial Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81592",
+      "target": "DLIT81668",
+      "via": "Signia - Imperial Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81639",
+      "target": "DLIT81800",
+      "via": "Signia - Regency II Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81798",
+      "target": "DLIT82000",
+      "via": "Signia - Crystal Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81650",
+      "target": "DLIT82000",
+      "via": "Signia - Crystal Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81650",
+      "target": "DLIT82002",
+      "via": "Signia - Crystal Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81814",
+      "target": "DLIT82006",
+      "via": "Signia - Gold Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81818",
+      "target": "DLIT82006",
+      "via": "Signia - Gold Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81682",
+      "target": "DLIT81818",
+      "via": "Signia - Gold Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81803",
+      "target": "DLIT81816",
+      "via": "Signia - Regency II Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81697",
+      "target": "DLIT81803",
+      "via": "Signia - Regency II Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81697",
+      "target": "DLIT81801",
+      "via": "Signia - Regency II Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81698",
+      "target": "DLIT81738",
+      "via": "Signia - Regency II Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81738",
+      "target": "DLIT82308",
+      "via": "Signia - Regency II Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81699",
+      "target": "DLIT82308",
+      "via": "Signia - Regency II Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81700",
+      "target": "DLIT81776",
+      "via": "Signia - Regency II Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81776",
+      "target": "DLIT81808",
+      "via": "Signia - Regency II Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81725",
+      "target": "DLIT81936",
+      "via": "Signia - Crystal Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81774",
+      "target": "DLIT81879",
+      "via": "Signia - Regency I Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT82143",
+      "target": "DLIT82292",
+      "via": "Signia - Regency I Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "DLIT81837",
+      "target": "DLIT82292",
+      "via": "Signia - Regency I Ballroom (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX81989",
+      "target": "EX82133",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX81989",
+      "target": "EX82315",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82048",
+      "target": "EX82315",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82048",
+      "target": "EX82083",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82083",
+      "target": "EX82240",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82093",
+      "target": "EX82240",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82047",
+      "target": "EX82093",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82047",
+      "target": "EX82049",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82049",
+      "target": "EX82450",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX81895",
+      "target": "EX82450",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX81895",
+      "target": "EX82178",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82178",
+      "target": "EX82260",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82247",
+      "target": "EX82248",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82075",
+      "target": "EX82248",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82075",
+      "target": "EX82291",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82291",
+      "target": "EX82327",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82327",
+      "target": "EX82388",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82275",
+      "target": "EX82388",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82194",
+      "target": "EX82275",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82194",
+      "target": "EX82242",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82094",
+      "target": "EX82242",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX81904",
+      "target": "EX82094",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX81904",
+      "target": "EX82363",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82205",
+      "target": "EX82286",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82085",
+      "target": "EX82286",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82046",
+      "target": "EX82085",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82046",
+      "target": "EX82340",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82279",
+      "target": "EX82340",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82058",
+      "target": "EX82279",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82058",
+      "target": "EX82195",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82009",
+      "target": "EX82195",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82009",
+      "target": "EX82089",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82084",
+      "target": "EX82089",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82084",
+      "target": "EX82366",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82215",
+      "target": "EX82366",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82039",
+      "target": "EX82045",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82039",
+      "target": "EX82253",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82054",
+      "target": "EX82253",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82054",
+      "target": "EX82160",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82160",
+      "target": "EX82287",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82108",
+      "target": "EX82287",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82108",
+      "target": "EX82179",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82032",
+      "target": "EX82179",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82032",
+      "target": "EX82362",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82219",
+      "target": "EX82362",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82170",
+      "target": "EX82219",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82087",
+      "target": "EX82257",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82257",
+      "target": "EX82307",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82180",
+      "target": "EX82307",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82040",
+      "target": "EX82180",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82040",
+      "target": "EX82207",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82041",
+      "target": "EX82207",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82041",
+      "target": "EX82068",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82068",
+      "target": "EX82309",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82210",
+      "target": "EX82309",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82210",
+      "target": "EX82433",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82401",
+      "target": "EX82433",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82371",
+      "target": "EX82401",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82371",
+      "target": "EX82382",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82361",
+      "target": "EX82382",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82361",
+      "target": "EX82386",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82386",
+      "target": "EX82436",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82249",
+      "target": "EX82250",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82250",
+      "target": "EX82251",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82138",
+      "target": "EX82251",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82138",
+      "target": "EX82226",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82069",
+      "target": "EX82226",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82069",
+      "target": "EX82305",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82364",
+      "target": "EX82385",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82328",
+      "target": "EX82385",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82326",
+      "target": "EX82328",
+      "via": "SJCC Grand Ballroom Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82365",
+      "target": "EX82378",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82343",
+      "target": "EX82365",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "EX82343",
+      "target": "EX82377",
+      "via": "SJCC Hall 1 Theater (L2)",
+      "weight": 1
+    },
+    {
+      "source": "QA81637",
+      "target": "S82148",
+      "via": "SJCC LL21F (LL)",
+      "weight": 1
+    },
+    {
+      "source": "QA81637",
+      "target": "QA81741",
+      "via": "SJCC LL21F (LL)",
+      "weight": 1
+    },
+    {
+      "source": "QA81741",
+      "target": "QA82372",
+      "via": "SJCC LL21F (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81421",
+      "target": "S81519",
+      "via": "SJCC 212BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81519",
+      "target": "S82225",
+      "via": "SJCC 212BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81863",
+      "target": "S82225",
+      "via": "SJCC 212BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81863",
+      "target": "S82224",
+      "via": "SJCC 212BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81422",
+      "target": "S81658",
+      "via": "SJCC 212BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81422",
+      "target": "S81996",
+      "via": "SJCC 212BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81634",
+      "target": "S81996",
+      "via": "SJCC 212BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81424",
+      "target": "S82113",
+      "via": "Hyatt Place Salon II & III (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81862",
+      "target": "S82113",
+      "via": "Hyatt Place Salon II & III (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81750",
+      "target": "S81862",
+      "via": "Hyatt Place Salon II & III (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81750",
+      "target": "S81857",
+      "via": "Hyatt Place Salon II & III (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81773",
+      "target": "S81857",
+      "via": "Hyatt Place Salon II & III (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81625",
+      "target": "S81773",
+      "via": "Hyatt Place Salon II & III (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81433",
+      "target": "S81717",
+      "via": "SJCC 211BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81433",
+      "target": "S81894",
+      "via": "SJCC 211BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81624",
+      "target": "S82335",
+      "via": "SJCC 230B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81452",
+      "target": "S81624",
+      "via": "SJCC 230B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81452",
+      "target": "S81828",
+      "via": "SJCC 230B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81730",
+      "target": "S81828",
+      "via": "SJCC 230B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81553",
+      "target": "S81868",
+      "via": "SJCC 211AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81462",
+      "target": "S81868",
+      "via": "SJCC 211AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81462",
+      "target": "S81640",
+      "via": "SJCC 211AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81811",
+      "target": "S81824",
+      "via": "SJCC 212AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81463",
+      "target": "S81824",
+      "via": "SJCC 212AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81463",
+      "target": "S81762",
+      "via": "SJCC 212AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81762",
+      "target": "S81792",
+      "via": "SJCC 212AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81942",
+      "target": "S81982",
+      "via": "EMEA Simulive Room 1",
+      "weight": 1
+    },
+    {
+      "source": "S81509",
+      "target": "S81982",
+      "via": "EMEA Simulive Room 1",
+      "weight": 1
+    },
+    {
+      "source": "S81509",
+      "target": "S81941",
+      "via": "EMEA Simulive Room 1",
+      "weight": 1
+    },
+    {
+      "source": "S81464",
+      "target": "S81941",
+      "via": "EMEA Simulive Room 1",
+      "weight": 1
+    },
+    {
+      "source": "S81610",
+      "target": "S81674",
+      "via": "SJCC LL21F (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81523",
+      "target": "S81674",
+      "via": "SJCC LL21F (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81467",
+      "target": "S81523",
+      "via": "SJCC LL21F (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81467",
+      "target": "S82011",
+      "via": "SJCC LL21F (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S82010",
+      "target": "S82012",
+      "via": "Marriott - Ballroom Salon I-II (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81470",
+      "target": "S82012",
+      "via": "Marriott - Ballroom Salon I-II (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81470",
+      "target": "S81705",
+      "via": "Marriott - Ballroom Salon I-II (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81475",
+      "target": "S81844",
+      "via": "Center for the Performing Arts",
+      "weight": 1
+    },
+    {
+      "source": "S81475",
+      "target": "S82391",
+      "via": "Center for the Performing Arts",
+      "weight": 1
+    },
+    {
+      "source": "S81797",
+      "target": "S82391",
+      "via": "Center for the Performing Arts",
+      "weight": 1
+    },
+    {
+      "source": "S81488",
+      "target": "S81613",
+      "via": "SJCC LL21CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81478",
+      "target": "S81613",
+      "via": "SJCC LL21CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81584",
+      "target": "S81836",
+      "via": "SJCC LL21CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81836",
+      "target": "S82461",
+      "via": "SJCC LL21CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81479",
+      "target": "S82461",
+      "via": "SJCC LL21CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81479",
+      "target": "S81714",
+      "via": "SJCC LL21CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81714",
+      "target": "S81724",
+      "via": "SJCC LL21CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81489",
+      "target": "S81765",
+      "via": "Hyatt Place Salon II & III (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81493",
+      "target": "S81765",
+      "via": "Hyatt Place Salon II & III (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81493",
+      "target": "S81841",
+      "via": "Hyatt Place Salon II & III (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81691",
+      "target": "S81841",
+      "via": "Hyatt Place Salon II & III (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81494",
+      "target": "S81691",
+      "via": "Hyatt Place Salon II & III (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81491",
+      "target": "S81695",
+      "via": "San Jose Civic",
+      "weight": 1
+    },
+    {
+      "source": "S81695",
+      "target": "S81810",
+      "via": "San Jose Civic",
+      "weight": 1
+    },
+    {
+      "source": "S81667",
+      "target": "S81810",
+      "via": "San Jose Civic",
+      "weight": 1
+    },
+    {
+      "source": "S81490",
+      "target": "S81667",
+      "via": "San Jose Civic",
+      "weight": 1
+    },
+    {
+      "source": "S81492",
+      "target": "S81598",
+      "via": "Center for the Performing Arts",
+      "weight": 1
+    },
+    {
+      "source": "S81573",
+      "target": "S81598",
+      "via": "Center for the Performing Arts",
+      "weight": 1
+    },
+    {
+      "source": "S81573",
+      "target": "S81830",
+      "via": "Center for the Performing Arts",
+      "weight": 1
+    },
+    {
+      "source": "S81777",
+      "target": "S81830",
+      "via": "Center for the Performing Arts",
+      "weight": 1
+    },
+    {
+      "source": "S81777",
+      "target": "S81832",
+      "via": "Center for the Performing Arts",
+      "weight": 1
+    },
+    {
+      "source": "S81503",
+      "target": "S81632",
+      "via": "SJCC LL21E (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81632",
+      "target": "S81870",
+      "via": "SJCC LL21E (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81870",
+      "target": "S82164",
+      "via": "SJCC LL21E (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81501",
+      "target": "S82164",
+      "via": "SJCC LL21E (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81501",
+      "target": "S81767",
+      "via": "SJCC LL21E (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81767",
+      "target": "S81770",
+      "via": "SJCC LL21E (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81508",
+      "target": "S81779",
+      "via": "Hyatt Place Salon II & III (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81508",
+      "target": "S82491",
+      "via": "Hyatt Place Salon II & III (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81676",
+      "target": "S81677",
+      "via": "SJCC LL21AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81676",
+      "target": "S81743",
+      "via": "SJCC LL21AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81647",
+      "target": "S81743",
+      "via": "SJCC LL21AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81647",
+      "target": "S81694",
+      "via": "SJCC LL21AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81694",
+      "target": "S81805",
+      "via": "SJCC LL21AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81512",
+      "target": "S81805",
+      "via": "SJCC LL21AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81972",
+      "target": "S82285",
+      "via": "Japan Simulive Room 1",
+      "weight": 1
+    },
+    {
+      "source": "S81896",
+      "target": "S81972",
+      "via": "Japan Simulive Room 1",
+      "weight": 1
+    },
+    {
+      "source": "S81893",
+      "target": "S81896",
+      "via": "Japan Simulive Room 1",
+      "weight": 1
+    },
+    {
+      "source": "S81893",
+      "target": "S81897",
+      "via": "Japan Simulive Room 1",
+      "weight": 1
+    },
+    {
+      "source": "S81513",
+      "target": "S81897",
+      "via": "Japan Simulive Room 1",
+      "weight": 1
+    },
+    {
+      "source": "S81515",
+      "target": "S81871",
+      "via": "SJCC LL21E (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81871",
+      "target": "S81885",
+      "via": "SJCC LL21E (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81556",
+      "target": "S81885",
+      "via": "SJCC LL21E (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81556",
+      "target": "S81866",
+      "via": "SJCC LL21E (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81683",
+      "target": "S81866",
+      "via": "SJCC LL21E (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81518",
+      "target": "S81666",
+      "via": "SJCC 211BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81518",
+      "target": "S82407",
+      "via": "SJCC 211BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81623",
+      "target": "S82132",
+      "via": "Marriott - Ballroom Salon IV (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82132",
+      "target": "S82252",
+      "via": "Marriott - Ballroom Salon IV (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81522",
+      "target": "S82252",
+      "via": "Marriott - Ballroom Salon IV (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81522",
+      "target": "S81849",
+      "via": "Marriott - Ballroom Salon IV (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81849",
+      "target": "S82065",
+      "via": "Marriott - Ballroom Salon IV (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81530",
+      "target": "S82065",
+      "via": "Marriott - Ballroom Salon IV (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81685",
+      "target": "S82214",
+      "via": "SJCC LL21F (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81611",
+      "target": "S82214",
+      "via": "SJCC LL21F (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81611",
+      "target": "S82172",
+      "via": "SJCC LL21F (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81525",
+      "target": "S82172",
+      "via": "SJCC LL21F (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81525",
+      "target": "S81621",
+      "via": "SJCC LL21F (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81528",
+      "target": "S81570",
+      "via": "SJCC LL20CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81570",
+      "target": "S82359",
+      "via": "SJCC LL20CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81704",
+      "target": "S82359",
+      "via": "SJCC LL20CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81704",
+      "target": "S82237",
+      "via": "SJCC LL20CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81531",
+      "target": "S82370",
+      "via": "SJCC LL21E (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81581",
+      "target": "S82370",
+      "via": "SJCC LL21E (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81581",
+      "target": "S81840",
+      "via": "SJCC LL21E (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81533",
+      "target": "S82411",
+      "via": "SJCC 211AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81533",
+      "target": "S81953",
+      "via": "SJCC 211AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81835",
+      "target": "S81953",
+      "via": "SJCC 211AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81745",
+      "target": "S81835",
+      "via": "SJCC 211AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81745",
+      "target": "S81763",
+      "via": "SJCC 211AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81684",
+      "target": "S82168",
+      "via": "Montgomery Theater",
+      "weight": 1
+    },
+    {
+      "source": "S82168",
+      "target": "S82238",
+      "via": "Montgomery Theater",
+      "weight": 1
+    },
+    {
+      "source": "S81701",
+      "target": "S82238",
+      "via": "Montgomery Theater",
+      "weight": 1
+    },
+    {
+      "source": "S81537",
+      "target": "S81701",
+      "via": "Montgomery Theater",
+      "weight": 1
+    },
+    {
+      "source": "S81766",
+      "target": "S81847",
+      "via": "SJCC LL21E (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81542",
+      "target": "S81766",
+      "via": "SJCC LL21E (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81543",
+      "target": "S82403",
+      "via": "SJCC 230B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81734",
+      "target": "S82403",
+      "via": "SJCC 230B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81734",
+      "target": "S82153",
+      "via": "SJCC 230B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81618",
+      "target": "S82153",
+      "via": "SJCC 230B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81618",
+      "target": "S81826",
+      "via": "SJCC 230B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81833",
+      "target": "S81834",
+      "via": "SJCC 211AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81547",
+      "target": "S81834",
+      "via": "SJCC 211AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81547",
+      "target": "S82059",
+      "via": "SJCC 211AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82026",
+      "target": "S82059",
+      "via": "SJCC 211AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82026",
+      "target": "S82185",
+      "via": "SJCC 211AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82161",
+      "target": "S82185",
+      "via": "SJCC 211AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81548",
+      "target": "S81551",
+      "via": "SJCC LL20AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81548",
+      "target": "S81853",
+      "via": "SJCC LL20AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81853",
+      "target": "S81875",
+      "via": "SJCC LL20AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81693",
+      "target": "S81875",
+      "via": "SJCC LL20AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81552",
+      "target": "S81560",
+      "via": "EMEA Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S81578",
+      "target": "S81633",
+      "via": "Marriott - Ballroom Salon IV (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81557",
+      "target": "S81578",
+      "via": "Marriott - Ballroom Salon IV (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81719",
+      "target": "S81825",
+      "via": "SJCC LL20CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81612",
+      "target": "S81825",
+      "via": "SJCC LL20CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81612",
+      "target": "S81702",
+      "via": "SJCC LL20CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81558",
+      "target": "S81702",
+      "via": "SJCC LL20CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81558",
+      "target": "S81791",
+      "via": "SJCC LL20CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81599",
+      "target": "S81742",
+      "via": "SJCC LL21AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81559",
+      "target": "S81599",
+      "via": "SJCC LL21AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81559",
+      "target": "S81831",
+      "via": "SJCC LL21AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81561",
+      "target": "S81673",
+      "via": "SJCC 230A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81673",
+      "target": "S81856",
+      "via": "SJCC 230A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81563",
+      "target": "S81769",
+      "via": "SJCC 212AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81564",
+      "target": "S81656",
+      "via": "SJCC 211AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81656",
+      "target": "S81845",
+      "via": "SJCC 211AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82156",
+      "target": "S82166",
+      "via": "SJCC 230A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81566",
+      "target": "S82166",
+      "via": "SJCC 230A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81566",
+      "target": "S82452",
+      "via": "SJCC 230A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81709",
+      "target": "S82452",
+      "via": "SJCC 230A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81614",
+      "target": "S81709",
+      "via": "SJCC 230A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81789",
+      "target": "S82448",
+      "via": "SJCC LL20CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81569",
+      "target": "S82448",
+      "via": "SJCC LL20CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81577",
+      "target": "S81858",
+      "via": "China Simulive Room 3",
+      "weight": 1
+    },
+    {
+      "source": "S81619",
+      "target": "S81858",
+      "via": "China Simulive Room 3",
+      "weight": 1
+    },
+    {
+      "source": "S81619",
+      "target": "S81860",
+      "via": "China Simulive Room 3",
+      "weight": 1
+    },
+    {
+      "source": "S81860",
+      "target": "S82278",
+      "via": "China Simulive Room 3",
+      "weight": 1
+    },
+    {
+      "source": "S81846",
+      "target": "S81938",
+      "via": "China Simulive Room 1",
+      "weight": 1
+    },
+    {
+      "source": "S81938",
+      "target": "S81970",
+      "via": "China Simulive Room 1",
+      "weight": 1
+    },
+    {
+      "source": "S81580",
+      "target": "S81970",
+      "via": "China Simulive Room 1",
+      "weight": 1
+    },
+    {
+      "source": "S81590",
+      "target": "S81653",
+      "via": "SJCC 211BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81653",
+      "target": "S81686",
+      "via": "SJCC 211BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81657",
+      "target": "S81686",
+      "via": "SJCC 211BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81657",
+      "target": "S82078",
+      "via": "SJCC 211BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81593",
+      "target": "S81715",
+      "via": "SJCC 212BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81617",
+      "target": "S81782",
+      "via": "Marriott - Ballroom Salon IV (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81594",
+      "target": "S81617",
+      "via": "Marriott - Ballroom Salon IV (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81737",
+      "target": "S81744",
+      "via": "Marriott - Ballroom Salon I-II (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81596",
+      "target": "S81744",
+      "via": "Marriott - Ballroom Salon I-II (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81596",
+      "target": "S81739",
+      "via": "Marriott - Ballroom Salon I-II (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81622",
+      "target": "S81739",
+      "via": "Marriott - Ballroom Salon I-II (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81622",
+      "target": "S81710",
+      "via": "Marriott - Ballroom Salon I-II (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81883",
+      "target": "S81984",
+      "via": "China Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S81883",
+      "target": "S81986",
+      "via": "China Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S81986",
+      "target": "S82486",
+      "via": "China Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S81620",
+      "target": "S82486",
+      "via": "China Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S81627",
+      "target": "S81899",
+      "via": "EMEA Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S81627",
+      "target": "S82400",
+      "via": "EMEA Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S82044",
+      "target": "S82400",
+      "via": "EMEA Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S82044",
+      "target": "S82175",
+      "via": "EMEA Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S81793",
+      "target": "S81809",
+      "via": "SJCC LL20AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81809",
+      "target": "S81848",
+      "via": "SJCC LL20AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81628",
+      "target": "S81848",
+      "via": "SJCC LL20AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81628",
+      "target": "S81761",
+      "via": "SJCC LL20AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81761",
+      "target": "S81790",
+      "via": "SJCC LL20AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81628",
+      "target": "S81708",
+      "via": "SJCC LL20CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81708",
+      "target": "S82420",
+      "via": "SJCC LL20CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81802",
+      "target": "S82176",
+      "via": "SJCC 230A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81629",
+      "target": "S82176",
+      "via": "SJCC 230A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81629",
+      "target": "S82019",
+      "via": "SJCC 230A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82019",
+      "target": "S82020",
+      "via": "SJCC 230A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82016",
+      "target": "S82020",
+      "via": "SJCC 230A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81630",
+      "target": "S82271",
+      "via": "Marriott - Ballroom Salon V-VI (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82271",
+      "target": "S82462",
+      "via": "Marriott - Ballroom Salon V-VI (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82418",
+      "target": "S82462",
+      "via": "Marriott - Ballroom Salon V-VI (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81864",
+      "target": "S82418",
+      "via": "Marriott - Ballroom Salon V-VI (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81636",
+      "target": "S82329",
+      "via": "SJCC 230B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81636",
+      "target": "S82455",
+      "via": "SJCC 230B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81638",
+      "target": "S82299",
+      "via": "Marriott - Ballroom Salon V-VI (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82276",
+      "target": "S82299",
+      "via": "Marriott - Ballroom Salon V-VI (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81652",
+      "target": "S81663",
+      "via": "SJCC LL21AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81643",
+      "target": "S81652",
+      "via": "SJCC LL21AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81643",
+      "target": "S81780",
+      "via": "SJCC LL21AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81780",
+      "target": "S81820",
+      "via": "SJCC LL21AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81749",
+      "target": "S81820",
+      "via": "SJCC LL21AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81645",
+      "target": "S81911",
+      "via": "San Jose Civic",
+      "weight": 1
+    },
+    {
+      "source": "S81681",
+      "target": "S82484",
+      "via": "Marriott - Ballroom Salon V-VI (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81681",
+      "target": "S81785",
+      "via": "Marriott - Ballroom Salon V-VI (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81651",
+      "target": "S81785",
+      "via": "Marriott - Ballroom Salon V-VI (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81651",
+      "target": "S81752",
+      "via": "Marriott - Ballroom Salon V-VI (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81736",
+      "target": "S81752",
+      "via": "Marriott - Ballroom Salon V-VI (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81659",
+      "target": "S81664",
+      "via": "Hyatt Place Salon II & III (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81664",
+      "target": "S81821",
+      "via": "Hyatt Place Salon II & III (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81821",
+      "target": "S81822",
+      "via": "Hyatt Place Salon II & III (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82197",
+      "target": "S82431",
+      "via": "Marriott - Ballroom Salon IV (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81778",
+      "target": "S82197",
+      "via": "Marriott - Ballroom Salon IV (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81778",
+      "target": "S82144",
+      "via": "Marriott - Ballroom Salon IV (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81661",
+      "target": "S82144",
+      "via": "Marriott - Ballroom Salon IV (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81706",
+      "target": "S81707",
+      "via": "SJCC 211BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81707",
+      "target": "S82428",
+      "via": "SJCC 211BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81662",
+      "target": "S82428",
+      "via": "SJCC 211BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81662",
+      "target": "S82081",
+      "via": "SJCC 211BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82081",
+      "target": "S82264",
+      "via": "SJCC 211BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81690",
+      "target": "S81788",
+      "via": "SJCC 230A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81788",
+      "target": "S81794",
+      "via": "SJCC 230A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81794",
+      "target": "S81796",
+      "via": "SJCC 230A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81796",
+      "target": "S82014",
+      "via": "SJCC 230A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81851",
+      "target": "S82014",
+      "via": "SJCC 230A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81671",
+      "target": "S81851",
+      "via": "SJCC 230A (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81675",
+      "target": "S81726",
+      "via": "Marriott - Ballroom Salon III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81726",
+      "target": "S82453",
+      "via": "Marriott - Ballroom Salon III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81838",
+      "target": "S82453",
+      "via": "Marriott - Ballroom Salon III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81838",
+      "target": "S82005",
+      "via": "Marriott - Ballroom Salon III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81781",
+      "target": "S82005",
+      "via": "Marriott - Ballroom Salon III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81999",
+      "target": "S82001",
+      "via": "SJCC 212AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81678",
+      "target": "S82001",
+      "via": "SJCC 212AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81678",
+      "target": "S81873",
+      "via": "SJCC 212AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81689",
+      "target": "S81873",
+      "via": "SJCC 212AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82437",
+      "target": "S82474",
+      "via": "Hyatt Place Salon I (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81680",
+      "target": "S82474",
+      "via": "Hyatt Place Salon I (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81680",
+      "target": "S82477",
+      "via": "Hyatt Place Salon I (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82035",
+      "target": "S82114",
+      "via": "Hyatt Place Salon I (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81722",
+      "target": "S82035",
+      "via": "Hyatt Place Salon I (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81722",
+      "target": "S82295",
+      "via": "Hyatt Place Salon I (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81696",
+      "target": "S82295",
+      "via": "Hyatt Place Salon I (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81827",
+      "target": "S81884",
+      "via": "Japan Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S81827",
+      "target": "S81964",
+      "via": "Japan Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S81891",
+      "target": "S81964",
+      "via": "Japan Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S81891",
+      "target": "S81963",
+      "via": "Japan Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S81703",
+      "target": "S81963",
+      "via": "Japan Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S81708",
+      "target": "S82017",
+      "via": "Marriott - Ballroom Salon I-II (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81708",
+      "target": "S82404",
+      "via": "Marriott - Ballroom Salon I-II (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82149",
+      "target": "S82409",
+      "via": "Marriott - Ballroom Salon III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81711",
+      "target": "S82409",
+      "via": "Marriott - Ballroom Salon III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81711",
+      "target": "S82397",
+      "via": "Marriott - Ballroom Salon III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82395",
+      "target": "S82397",
+      "via": "Marriott - Ballroom Salon III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81732",
+      "target": "S82395",
+      "via": "Marriott - Ballroom Salon III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81732",
+      "target": "S81874",
+      "via": "Marriott - Ballroom Salon III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81713",
+      "target": "S81786",
+      "via": "Center for the Performing Arts",
+      "weight": 1
+    },
+    {
+      "source": "S81718",
+      "target": "S81994",
+      "via": "EMEA Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S81718",
+      "target": "S82115",
+      "via": "EMEA Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S81898",
+      "target": "S82115",
+      "via": "EMEA Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S81720",
+      "target": "S82258",
+      "via": "EMEA Simulive Room 1",
+      "weight": 1
+    },
+    {
+      "source": "S81729",
+      "target": "S82302",
+      "via": "SJCC 230B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82141",
+      "target": "S82302",
+      "via": "SJCC 230B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81772",
+      "target": "S82141",
+      "via": "SJCC 230B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81772",
+      "target": "S82128",
+      "via": "SJCC 230B (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81731",
+      "target": "S82435",
+      "via": "SJCC LL21F (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81731",
+      "target": "S81957",
+      "via": "SJCC LL21F (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81735",
+      "target": "S81859",
+      "via": "Montgomery Theater",
+      "weight": 1
+    },
+    {
+      "source": "S81852",
+      "target": "S82177",
+      "via": "SJCC LL20AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81852",
+      "target": "S82416",
+      "via": "SJCC LL20AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81747",
+      "target": "S82416",
+      "via": "SJCC LL20AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81748",
+      "target": "S82033",
+      "via": "SJCC LL21CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81748",
+      "target": "S82430",
+      "via": "SJCC LL21CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81806",
+      "target": "S81813",
+      "via": "SJCC LL20AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81751",
+      "target": "S81813",
+      "via": "SJCC LL20AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S82003",
+      "target": "S82438",
+      "via": "Montgomery Theater",
+      "weight": 1
+    },
+    {
+      "source": "S82003",
+      "target": "S82146",
+      "via": "Montgomery Theater",
+      "weight": 1
+    },
+    {
+      "source": "S82146",
+      "target": "S82449",
+      "via": "Montgomery Theater",
+      "weight": 1
+    },
+    {
+      "source": "S82147",
+      "target": "S82449",
+      "via": "Montgomery Theater",
+      "weight": 1
+    },
+    {
+      "source": "S81755",
+      "target": "S82147",
+      "via": "Montgomery Theater",
+      "weight": 1
+    },
+    {
+      "source": "S81804",
+      "target": "S81842",
+      "via": "SJCC LL21CD (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S81823",
+      "target": "S82354",
+      "via": "China Simulive Room 4",
+      "weight": 1
+    },
+    {
+      "source": "S81961",
+      "target": "S82354",
+      "via": "China Simulive Room 4",
+      "weight": 1
+    },
+    {
+      "source": "S81829",
+      "target": "S82284",
+      "via": "China Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S82283",
+      "target": "S82284",
+      "via": "China Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S81900",
+      "target": "S82281",
+      "via": "China Simulive Room 4",
+      "weight": 1
+    },
+    {
+      "source": "S82027",
+      "target": "S82281",
+      "via": "China Simulive Room 4",
+      "weight": 1
+    },
+    {
+      "source": "S81940",
+      "target": "S82027",
+      "via": "China Simulive Room 4",
+      "weight": 1
+    },
+    {
+      "source": "S81940",
+      "target": "S81978",
+      "via": "China Simulive Room 4",
+      "weight": 1
+    },
+    {
+      "source": "S81902",
+      "target": "S81985",
+      "via": "EMEA Simulive Room 3",
+      "weight": 1
+    },
+    {
+      "source": "S81985",
+      "target": "S81988",
+      "via": "EMEA Simulive Room 3",
+      "weight": 1
+    },
+    {
+      "source": "S81944",
+      "target": "S82188",
+      "via": "China Simulive Room 3",
+      "weight": 1
+    },
+    {
+      "source": "S81935",
+      "target": "S81944",
+      "via": "China Simulive Room 3",
+      "weight": 1
+    },
+    {
+      "source": "S81935",
+      "target": "S81962",
+      "via": "China Simulive Room 3",
+      "weight": 1
+    },
+    {
+      "source": "S81962",
+      "target": "S81971",
+      "via": "China Simulive Room 3",
+      "weight": 1
+    },
+    {
+      "source": "S81939",
+      "target": "S81969",
+      "via": "China Simulive Room 3",
+      "weight": 1
+    },
+    {
+      "source": "S81939",
+      "target": "S82127",
+      "via": "China Simulive Room 3",
+      "weight": 1
+    },
+    {
+      "source": "S82321",
+      "target": "S82322",
+      "via": "China Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S81943",
+      "target": "S82322",
+      "via": "China Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S81943",
+      "target": "S82347",
+      "via": "China Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S82347",
+      "target": "S82360",
+      "via": "China Simulive Room 2",
+      "weight": 1
+    },
+    {
+      "source": "S82236",
+      "target": "S82492",
+      "via": "SJCC 212BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81951",
+      "target": "S82236",
+      "via": "SJCC 212BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81951",
+      "target": "S82154",
+      "via": "SJCC 212BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82154",
+      "target": "S82191",
+      "via": "SJCC 212BD (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81974",
+      "target": "S81981",
+      "via": "China Simulive Room 1",
+      "weight": 1
+    },
+    {
+      "source": "S81975",
+      "target": "S82221",
+      "via": "China Simulive Room 4",
+      "weight": 1
+    },
+    {
+      "source": "S81977",
+      "target": "S82052",
+      "via": "Hilton Almaden 1&2 (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81977",
+      "target": "S82255",
+      "via": "Hilton Almaden 1&2 (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S81979",
+      "target": "S82282",
+      "via": "China Simulive Room 3",
+      "weight": 1
+    },
+    {
+      "source": "S82203",
+      "target": "S82306",
+      "via": "EMEA Simulive Room 3",
+      "weight": 1
+    },
+    {
+      "source": "S82116",
+      "target": "S82306",
+      "via": "EMEA Simulive Room 3",
+      "weight": 1
+    },
+    {
+      "source": "S81987",
+      "target": "S82116",
+      "via": "EMEA Simulive Room 3",
+      "weight": 1
+    },
+    {
+      "source": "S81987",
+      "target": "S81991",
+      "via": "EMEA Simulive Room 3",
+      "weight": 1
+    },
+    {
+      "source": "S81995",
+      "target": "S82109",
+      "via": "China Simulive Room 4",
+      "weight": 1
+    },
+    {
+      "source": "S81995",
+      "target": "S82358",
+      "via": "China Simulive Room 4",
+      "weight": 1
+    },
+    {
+      "source": "S81990",
+      "target": "S82358",
+      "via": "China Simulive Room 4",
+      "weight": 1
+    },
+    {
+      "source": "S81990",
+      "target": "S82202",
+      "via": "China Simulive Room 4",
+      "weight": 1
+    },
+    {
+      "source": "S82131",
+      "target": "S82202",
+      "via": "China Simulive Room 4",
+      "weight": 1
+    },
+    {
+      "source": "S81993",
+      "target": "S82204",
+      "via": "EMEA Simulive Room 3",
+      "weight": 1
+    },
+    {
+      "source": "S81993",
+      "target": "S82230",
+      "via": "EMEA Simulive Room 3",
+      "weight": 1
+    },
+    {
+      "source": "S82097",
+      "target": "S82262",
+      "via": "SJCC 230C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82262",
+      "target": "S82399",
+      "via": "SJCC 230C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82074",
+      "target": "S82399",
+      "via": "SJCC 230C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81998",
+      "target": "S82074",
+      "via": "SJCC 230C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S81998",
+      "target": "S82300",
+      "via": "SJCC 230C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82231",
+      "target": "S82423",
+      "via": "Hilton Winchester (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82117",
+      "target": "S82231",
+      "via": "Hilton Winchester (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82117",
+      "target": "S82129",
+      "via": "Hilton Winchester (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82080",
+      "target": "S82129",
+      "via": "Hilton Winchester (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82004",
+      "target": "S82080",
+      "via": "Hilton Winchester (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82004",
+      "target": "S82345",
+      "via": "Hilton Winchester (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82018",
+      "target": "S82412",
+      "via": "Hilton Winchester (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82277",
+      "target": "S82412",
+      "via": "Hilton Winchester (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82061",
+      "target": "S82277",
+      "via": "Hilton Winchester (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82061",
+      "target": "S82071",
+      "via": "Hilton Winchester (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82071",
+      "target": "S82317",
+      "via": "Hilton Winchester (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82022",
+      "target": "S82023",
+      "via": "SJCC 212AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82022",
+      "target": "S82158",
+      "via": "SJCC 212AC (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82025",
+      "target": "S82368",
+      "via": "Marriott - Ballroom Salon V-VI (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82025",
+      "target": "S82356",
+      "via": "Marriott - Ballroom Salon V-VI (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82034",
+      "target": "S82232",
+      "via": "Marriott - Willow Glen I-III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82034",
+      "target": "S82220",
+      "via": "Marriott - Willow Glen I-III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82100",
+      "target": "S82228",
+      "via": "Hilton Almaden 1&2 (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82100",
+      "target": "S82229",
+      "via": "Hilton Almaden 1&2 (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82187",
+      "target": "S82229",
+      "via": "Hilton Almaden 1&2 (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82038",
+      "target": "S82187",
+      "via": "Hilton Almaden 1&2 (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82038",
+      "target": "S82095",
+      "via": "Hilton Almaden 1&2 (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82042",
+      "target": "S82091",
+      "via": "Marriott - Willow Glen I-III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82042",
+      "target": "S82186",
+      "via": "Marriott - Willow Glen I-III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82088",
+      "target": "S82241",
+      "via": "Marriott - Willow Glen I-III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82088",
+      "target": "S82389",
+      "via": "Marriott - Willow Glen I-III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82216",
+      "target": "S82389",
+      "via": "Marriott - Willow Glen I-III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82043",
+      "target": "S82216",
+      "via": "Marriott - Willow Glen I-III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82043",
+      "target": "S82341",
+      "via": "Marriott - Willow Glen I-III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82174",
+      "target": "S82341",
+      "via": "Marriott - Willow Glen I-III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82139",
+      "target": "S82243",
+      "via": "Hilton Almaden 1&2 (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82201",
+      "target": "S82243",
+      "via": "Hilton Almaden 1&2 (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82201",
+      "target": "S82234",
+      "via": "Hilton Almaden 1&2 (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82234",
+      "target": "S82355",
+      "via": "Hilton Almaden 1&2 (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82050",
+      "target": "S82355",
+      "via": "Hilton Almaden 1&2 (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82050",
+      "target": "S82266",
+      "via": "Hilton Almaden 1&2 (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82057",
+      "target": "S82217",
+      "via": "Hilton Winchester (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82137",
+      "target": "S82217",
+      "via": "Hilton Winchester (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82076",
+      "target": "S82103",
+      "via": "SJCC 230C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82076",
+      "target": "S82367",
+      "via": "SJCC 230C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82079",
+      "target": "S82151",
+      "via": "Hilton Winchester (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82130",
+      "target": "S82218",
+      "via": "Marriott - Willow Glen I-III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82090",
+      "target": "S82218",
+      "via": "Marriott - Willow Glen I-III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82090",
+      "target": "S82227",
+      "via": "Marriott - Willow Glen I-III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82102",
+      "target": "S82227",
+      "via": "Marriott - Willow Glen I-III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82102",
+      "target": "S82344",
+      "via": "Marriott - Willow Glen I-III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82173",
+      "target": "S82334",
+      "via": "SJCC 230C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82171",
+      "target": "S82334",
+      "via": "SJCC 230C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82171",
+      "target": "S82288",
+      "via": "SJCC 230C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82288",
+      "target": "S82390",
+      "via": "SJCC 230C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82096",
+      "target": "S82390",
+      "via": "SJCC 230C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82406",
+      "target": "S82446",
+      "via": "Montgomery Theater",
+      "weight": 1
+    },
+    {
+      "source": "S82121",
+      "target": "S82446",
+      "via": "Montgomery Theater",
+      "weight": 1
+    },
+    {
+      "source": "S82121",
+      "target": "S82451",
+      "via": "Montgomery Theater",
+      "weight": 1
+    },
+    {
+      "source": "S82200",
+      "target": "S82244",
+      "via": "SJCC 230C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82136",
+      "target": "S82244",
+      "via": "SJCC 230C (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82167",
+      "target": "S82480",
+      "via": "San Jose Civic",
+      "weight": 1
+    },
+    {
+      "source": "S82182",
+      "target": "S82553",
+      "via": "SJCC LL21AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S82182",
+      "target": "S82419",
+      "via": "SJCC LL21AB (LL)",
+      "weight": 1
+    },
+    {
+      "source": "S82233",
+      "target": "S82293",
+      "via": "Marriott - Ballroom Salon III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82289",
+      "target": "S82398",
+      "via": "Hilton Almaden 1&2 (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82316",
+      "target": "S82398",
+      "via": "Hilton Almaden 1&2 (L1)",
+      "weight": 1
+    },
+    {
+      "source": "S82294",
+      "target": "S82445",
+      "via": "Marriott - Ballroom Salon III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82429",
+      "target": "S82445",
+      "via": "Marriott - Ballroom Salon III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "S82413",
+      "target": "S82429",
+      "via": "Marriott - Ballroom Salon III (L2)",
+      "weight": 1
+    },
+    {
+      "source": "WP81433",
+      "target": "WP81859",
+      "via": "Virtual WP 3",
+      "weight": 1
+    },
+    {
+      "source": "WP81433",
+      "target": "WP81806",
+      "via": "Virtual WP 3",
+      "weight": 1
+    },
+    {
+      "source": "WP81667",
+      "target": "WP81806",
+      "via": "Virtual WP 3",
+      "weight": 1
+    },
+    {
+      "source": "WP81561",
+      "target": "WP81667d",
+      "via": "Virtual WP 2",
+      "weight": 1
+    },
+    {
+      "source": "WP81667d",
+      "target": "WP81789",
+      "via": "Virtual WP 2",
+      "weight": 1
+    },
+    {
+      "source": "WP81708",
+      "target": "WP81836",
+      "via": "Virtual WP",
+      "weight": 1
+    },
+    {
+      "source": "WP81573",
+      "target": "WP81836",
+      "via": "Virtual WP",
+      "weight": 1
+    },
+    {
+      "source": "WP81645",
+      "target": "WP81719",
+      "via": "Virtual WP",
+      "weight": 1
+    },
+    {
+      "source": "WP81667b",
+      "target": "WP81836a",
+      "via": "Virtual WP 4",
+      "weight": 1
+    },
+    {
+      "source": "WP81719a",
+      "target": "WP82146",
+      "via": "Virtual WP 2",
+      "weight": 1
+    },
+    {
+      "source": "WP81719a",
+      "target": "WP82017",
+      "via": "Virtual WP 2",
+      "weight": 1
+    },
+    {
+      "source": "WP81719b",
+      "target": "WP82017a",
+      "via": "Virtual WP 4",
+      "weight": 1
+    },
+    {
+      "source": "WP81862",
+      "target": "WP82329",
+      "via": "Virtual WP 5",
+      "weight": 1
+    }
+  ]
+}

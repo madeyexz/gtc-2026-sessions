@@ -46,6 +46,15 @@ const views = [
     gradient: "from-pink-500 to-rose-600",
     icon: "\u{1F498}",
   },
+  {
+    id: "v6-graph",
+    title: "Knowledge Graph",
+    builder: "Claude (10 agents)",
+    description:
+      "Obsidian-style force-directed graph. 895 nodes, 25K+ edges across 10 relationship types: shared speakers, topics, time conflicts, learning paths, and more. Pan, zoom, search, filter.",
+    gradient: "from-indigo-500 to-violet-700",
+    icon: "\u{1F578}\uFE0F",
+  },
 ];
 
 export default function Home() {
@@ -60,7 +69,7 @@ export default function Home() {
             Session Explorer
           </h1>
           <p className="text-lg text-zinc-400 max-w-2xl mx-auto">
-            895 sessions. 5 ways to explore. Each visualization built by a
+            895 sessions. 6 ways to explore. Each visualization built by a
             different AI &mdash; Claude, Codex, and Gemini &mdash; to help you decide what
             to attend.
           </p>

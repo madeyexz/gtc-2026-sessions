@@ -1,0 +1,1351 @@
+{
+  "type": "cross_topic_speaker",
+  "label": "Cross-Topic Speaker",
+  "color": "#f97316",
+  "edges": [
+    {
+      "source": "CWES81440",
+      "target": "CWES81506",
+      "via": "Bogdan Vioreanu (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81440",
+      "target": "CWES81506",
+      "via": "Roman Yokunda Enzmann (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81440",
+      "target": "CWES81506",
+      "via": "Yongming Shi (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81440",
+      "target": "CWES81583",
+      "via": "Roman Yokunda Enzmann (Data Science ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81440",
+      "target": "CWES81679",
+      "via": "Martin Marciniszyn Mehringer (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81440",
+      "target": "CWES81955",
+      "via": "Bogdan Vioreanu (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81440",
+      "target": "DLIT81818",
+      "via": "Roman Yokunda Enzmann (Data Science ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81440",
+      "target": "S81523",
+      "via": "Yuliana Zamora (Developer Tools & Techniques ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81440",
+      "target": "S82403",
+      "via": "Siddharth Samsi (Data Science ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81457",
+      "target": "CWES81912",
+      "via": "Shashank Verma (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81458",
+      "target": "CWES81473",
+      "via": "Jeff Weiss (Data Center / Cloud ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81458",
+      "target": "CWES81473",
+      "via": "Scott Ellis (Data Center / Cloud ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81458",
+      "target": "CWES81474",
+      "via": "Jeff Weiss (Data Center / Cloud ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81458",
+      "target": "CWES81474",
+      "via": "Scott Ellis (Data Center / Cloud ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81458",
+      "target": "CWES81771",
+      "via": "Hans Mortensen (Developer Tools & Techniques ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81458",
+      "target": "CWES82261",
+      "via": "John Fragalla (Agentic AI / Generative AI ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81458",
+      "target": "CWES82338",
+      "via": "John Fragalla (Data Center / Cloud ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81465",
+      "target": "CWES81740",
+      "via": "Mitesh Patel (Developer Tools & Techniques ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81465",
+      "target": "CWES81843",
+      "via": "Mitesh Patel (Computer Vision / Video Analytics ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81465",
+      "target": "DLIT81592",
+      "via": "Andrea Pilzer (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81465",
+      "target": "P81066",
+      "via": "Chi-Cheng Fu (Computer Vision / Video Analytics ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81465",
+      "target": "P81208",
+      "via": "Tomasz Bednarz (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81471",
+      "target": "CWES81692",
+      "via": "Vasileios Karakasis (Data Center / Cloud ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81471",
+      "target": "S81856",
+      "via": "Arts Yang (Data Center / Cloud ↔ Networking / Communications)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81472",
+      "target": "CWES81843",
+      "via": "Cobus Bothma (Computer Vision / Video Analytics ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81472",
+      "target": "DLIT81776",
+      "via": "Edward Chan (Robotics ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81472",
+      "target": "S81611",
+      "via": "Brian Klobucher (Robotics ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81474",
+      "target": "CWES81955",
+      "via": "Vallard Benincosa (Agentic AI / Generative AI ↔ Data Center / Cloud)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81481",
+      "target": "S81840",
+      "via": "Corey Nolet (Data Science ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81481",
+      "target": "S82390",
+      "via": "Corey Nolet (Data Center / Cloud ↔ Data Science)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81506",
+      "target": "CWES81583",
+      "via": "Alex Stephens (Agentic AI / Generative AI ↔ Data Science)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81506",
+      "target": "CWES81583",
+      "via": "Anass Majji (Agentic AI / Generative AI ↔ Data Science)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81506",
+      "target": "CWES81583",
+      "via": "Benjamin Wu (Agentic AI / Generative AI ↔ Data Science)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81506",
+      "target": "CWES81583",
+      "via": "David Williams (Agentic AI / Generative AI ↔ Data Science)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81506",
+      "target": "CWES81583",
+      "via": "Flora Huang (Agentic AI / Generative AI ↔ Data Science)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81506",
+      "target": "CWES81583",
+      "via": "Jessica Clark (Agentic AI / Generative AI ↔ Data Science)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81506",
+      "target": "CWES81583",
+      "via": "Marcus Manos (Agentic AI / Generative AI ↔ Data Science)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81506",
+      "target": "CWES81583",
+      "via": "Roman Yokunda Enzmann (Agentic AI / Generative AI ↔ Data Science)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81506",
+      "target": "DLIT81818",
+      "via": "Benjamin Wu (Agentic AI / Generative AI ↔ Data Science)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81506",
+      "target": "DLIT81818",
+      "via": "Flora Huang (Agentic AI / Generative AI ↔ Data Science)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81506",
+      "target": "DLIT81818",
+      "via": "Roman Yokunda Enzmann (Agentic AI / Generative AI ↔ Data Science)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81506",
+      "target": "S81826",
+      "via": "Roman Yokunda Enzmann (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81506",
+      "target": "S82403",
+      "via": "Emanuel Scoullos (Agentic AI / Generative AI ↔ Data Science)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81524",
+      "target": "CWES81626",
+      "via": "Hsin Chen (Agentic AI / Generative AI ↔ Trustworthy AI / Cybersecurity)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81524",
+      "target": "CWES81626",
+      "via": "Rich Harang (Agentic AI / Generative AI ↔ Trustworthy AI / Cybersecurity)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81524",
+      "target": "S81625",
+      "via": "Ofir Arkin (Networking / Communications ↔ Trustworthy AI / Cybersecurity)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81524",
+      "target": "S81638",
+      "via": "Emily Sakata (Data Center / Cloud ↔ Trustworthy AI / Cybersecurity)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81535",
+      "target": "CWES81955",
+      "via": "Jonathan Bentz (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81535",
+      "target": "CWES82212",
+      "via": "Vyas Ramasubramani (Data Science ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81540",
+      "target": "S81829",
+      "via": "Yan Bai (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81540",
+      "target": "S82347",
+      "via": "Kunlun Li (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81554",
+      "target": "CWES81646",
+      "via": "Zhijin Li (Data Science ↔ Edge Computing)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81554",
+      "target": "DLIW82273",
+      "via": "Zhijin Li (Data Science ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81555",
+      "target": "CWES81649",
+      "via": "Xin Yu (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81555",
+      "target": "DLIT81587",
+      "via": "Severin Dicks (Data Science ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81555",
+      "target": "DLIT81587",
+      "via": "T.J. Chen (Data Science ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81568",
+      "target": "CWES81669",
+      "via": "Akul Santhosh (Agentic AI / Generative AI ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81568",
+      "target": "CWES81669",
+      "via": "Asawaree Bhide (Agentic AI / Generative AI ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81583",
+      "target": "DLIT81814",
+      "via": "Benjamin Wu (Agentic AI / Generative AI ↔ Data Science)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81583",
+      "target": "DLIT81814",
+      "via": "David Williams (Agentic AI / Generative AI ↔ Data Science)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81583",
+      "target": "DLIT81814",
+      "via": "Flora Huang (Agentic AI / Generative AI ↔ Data Science)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81583",
+      "target": "S81826",
+      "via": "Roman Yokunda Enzmann (Data Science ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81600",
+      "target": "CWES82223",
+      "via": "Harel Omer (AR / VR ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81600",
+      "target": "CWES82298",
+      "via": "Itai Zadok (Robotics ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81600",
+      "target": "CWES82298",
+      "via": "Matt Cragun (Robotics ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81600",
+      "target": "DLIT82311",
+      "via": "Itai Zadok (Edge Computing ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81615",
+      "target": "S81533",
+      "via": "Oded Green (Networking / Communications ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81626",
+      "target": "CWES81817",
+      "via": "Nic Borensztein (Agentic AI / Generative AI ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81626",
+      "target": "S81493",
+      "via": "Rich Harang (Agentic AI / Generative AI ↔ Trustworthy AI / Cybersecurity)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81626",
+      "target": "S81852",
+      "via": "Meghana Puvvadi (Agentic AI / Generative AI ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81626",
+      "target": "S82078",
+      "via": "Meghana Puvvadi (Agentic AI / Generative AI ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81626",
+      "target": "S82452",
+      "via": "Nic Borensztein (Agentic AI / Generative AI ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81635",
+      "target": "CWES81649",
+      "via": "Justin Smith (Agentic AI / Generative AI ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81635",
+      "target": "S81770",
+      "via": "Robert Parrish (Developer Tools & Techniques ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81646",
+      "target": "CWES81655",
+      "via": "Daguang Xu (Developer Tools & Techniques ↔ Edge Computing)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81646",
+      "target": "DLIW82273",
+      "via": "Zhijin Li (Edge Computing ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81646",
+      "target": "S81821",
+      "via": "Mostafa Toloui (Edge Computing ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81646",
+      "target": "S81822",
+      "via": "Jay Carlson (Edge Computing ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81649",
+      "target": "P81507",
+      "via": "Savitha Pareek (Agentic AI / Generative AI ↔ Data Center / Cloud)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81649",
+      "target": "P81511",
+      "via": "Savitha Pareek (Agentic AI / Generative AI ↔ Data Center / Cloud)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81649",
+      "target": "S81790",
+      "via": "Justin Smith (Agentic AI / Generative AI ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81655",
+      "target": "DLIT81541",
+      "via": "Maximilian Ofir (Developer Tools & Techniques ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81669",
+      "target": "CWES81843",
+      "via": "Chhavi Nijhawan (Agentic AI / Generative AI ↔ Computer Vision / Video Analytics)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81669",
+      "target": "DLIT81644",
+      "via": "Alexander Schwarz (Agentic AI / Generative AI ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81669",
+      "target": "DLIT81644",
+      "via": "Stefanie Manzinger (Agentic AI / Generative AI ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81669",
+      "target": "DLIT81698",
+      "via": "Asawaree Bhide (Agentic AI / Generative AI ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81669",
+      "target": "DLIT81700",
+      "via": "Akul Santhosh (Agentic AI / Generative AI ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81669",
+      "target": "DLIT82311",
+      "via": "Stefanie Manzinger (Agentic AI / Generative AI ↔ Edge Computing)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81669",
+      "target": "S81478",
+      "via": "Akul Santhosh (Agentic AI / Generative AI ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81669",
+      "target": "S81488",
+      "via": "Asawaree Bhide (Agentic AI / Generative AI ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81670",
+      "target": "S81636",
+      "via": "Andrew Briand (Data Science ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81679",
+      "target": "S81623",
+      "via": "Martin Marciniszyn Mehringer (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81692",
+      "target": "DLIT82259",
+      "via": "Mohak Chadha (Developer Tools & Techniques ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81692",
+      "target": "DLIT82259",
+      "via": "Pramod Kumbhar (Developer Tools & Techniques ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81733",
+      "target": "CWES81819",
+      "via": "Khoa Ho (Computer Vision / Video Analytics ↔ Edge Computing)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81733",
+      "target": "DLIT81776",
+      "via": "Sammy Ochoa (Computer Vision / Video Analytics ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81740",
+      "target": "CWES81843",
+      "via": "Ashley Goldstein (Computer Vision / Video Analytics ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81740",
+      "target": "CWES81843",
+      "via": "Brian Harrison (Computer Vision / Video Analytics ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81740",
+      "target": "CWES81843",
+      "via": "Mitesh Patel (Computer Vision / Video Analytics ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81740",
+      "target": "CWES81843",
+      "via": "Oliver Seifert (Computer Vision / Video Analytics ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81740",
+      "target": "CWES81843",
+      "via": "Stephanie Rubenstein (Computer Vision / Video Analytics ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81740",
+      "target": "CWES82142",
+      "via": "Jay Axe (Data Center / Cloud ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81756",
+      "target": "DLIT81668",
+      "via": "Abood Quraini (Agentic AI / Generative AI ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81756",
+      "target": "DLIT81668",
+      "via": "Ben Randoing (Agentic AI / Generative AI ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81756",
+      "target": "DLIT81668",
+      "via": "Jin Li (Agentic AI / Generative AI ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81771",
+      "target": "S81658",
+      "via": "Matthias Langer (Data Center / Cloud ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81771",
+      "target": "S81658",
+      "via": "Yuzhong Wen (Data Center / Cloud ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81771",
+      "target": "S81680",
+      "via": "Lukas Alt (Data Center / Cloud ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81771",
+      "target": "S81680",
+      "via": "Matthias Langer (Data Center / Cloud ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81771",
+      "target": "S81853",
+      "via": "Mathias Wagner (Data Center / Cloud ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81784",
+      "target": "S81999",
+      "via": "Tiffany Chen (AR / VR ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81795",
+      "target": "DLIT81682",
+      "via": "Neel Patel (Agentic AI / Generative AI ↔ Edge Computing)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81817",
+      "target": "P81532",
+      "via": "Nic Borensztein (Agentic AI / Generative AI ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81819",
+      "target": "CWES82298",
+      "via": "Riccardo Mariani (Edge Computing ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81843",
+      "target": "DLIT81650",
+      "via": "Ashley Goldstein (Computer Vision / Video Analytics ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81905",
+      "target": "CWES81910",
+      "via": "Makan Taghavi Dilamani (Agentic AI / Generative AI ↔ Data Center / Cloud)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81906",
+      "target": "S82010",
+      "via": "Sree Sankar (Data Center / Cloud ↔ Networking / Communications)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81906",
+      "target": "S82011",
+      "via": "Sree Sankar (Data Center / Cloud ↔ Networking / Communications)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81906",
+      "target": "S82019",
+      "via": "Joao Kluck Gomes (Data Center / Cloud ↔ Networking / Communications)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81912",
+      "target": "DLIT81550",
+      "via": "Shashank Verma (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81997",
+      "target": "S81737",
+      "via": "Ameya Sunil Mahabaleshwarkar (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81997",
+      "target": "S81737",
+      "via": "Jani Joki (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES81997",
+      "target": "S81737",
+      "via": "Vinay Raman (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES82063",
+      "target": "DLIT81592",
+      "via": "Karin Sevegnani (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES82063",
+      "target": "S81547",
+      "via": "Leo Du (Computer Vision / Video Analytics ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES82142",
+      "target": "DLIT81800",
+      "via": "Jay Axe (Data Center / Cloud ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES82142",
+      "target": "DLIT81801",
+      "via": "Robert Cervellione (Data Center / Cloud ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES82212",
+      "target": "S82370",
+      "via": "Vyas Ramasubramani (Data Science ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES82261",
+      "target": "CWES82338",
+      "via": "John Fragalla (Agentic AI / Generative AI ↔ Data Center / Cloud)",
+      "weight": 2
+    },
+    {
+      "source": "CWES82261",
+      "target": "S82241",
+      "via": "Jacob Liberman (Agentic AI / Generative AI ↔ Data Center / Cloud)",
+      "weight": 2
+    },
+    {
+      "source": "CWES82298",
+      "target": "DLIT82311",
+      "via": "Itai Zadok (Edge Computing ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES82298",
+      "target": "S82462",
+      "via": "Riccardo Mariani (Edge Computing ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "CWES82338",
+      "target": "S81851",
+      "via": "Peter Lillian (Data Center / Cloud ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "CWES82408",
+      "target": "S82228",
+      "via": "Steve Stein (Agentic AI / Generative AI ↔ Data Center / Cloud)",
+      "weight": 2
+    },
+    {
+      "source": "CWES82483",
+      "target": "P81176",
+      "via": "Alex Yang (AR / VR ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "DLIT81546",
+      "target": "DLIT81565",
+      "via": "Chris Deotte (Data Science ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "DLIT81567",
+      "target": "S81547",
+      "via": "Leo Du (Computer Vision / Video Analytics ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "DLIT81592",
+      "target": "DLIT81945",
+      "via": "Mireille Fares (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "DLIT81644",
+      "target": "DLIT82311",
+      "via": "Stefanie Manzinger (Edge Computing ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "DLIT81700",
+      "target": "DLIT81837",
+      "via": "Mohammad Mohajerani (Robotics ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "DLIT81774",
+      "target": "DLIT81776",
+      "via": "Sammy Ochoa (Computer Vision / Video Analytics ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "DLIT81814",
+      "target": "DLIT81818",
+      "via": "Benjamin Wu (Agentic AI / Generative AI ↔ Data Science)",
+      "weight": 2
+    },
+    {
+      "source": "DLIT81814",
+      "target": "DLIT81818",
+      "via": "Flora Huang (Agentic AI / Generative AI ↔ Data Science)",
+      "weight": 2
+    },
+    {
+      "source": "DLIT81816",
+      "target": "S81823",
+      "via": "Frank Chen (Computer Vision / Video Analytics ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "DLIT81818",
+      "target": "S81826",
+      "via": "Roman Yokunda Enzmann (Data Science ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "DLIT82002",
+      "target": "DLIT82008",
+      "via": "Max Steele (Data Center / Cloud ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "DLIT82002",
+      "target": "DLIT82008",
+      "via": "Terrell Bennett (Data Center / Cloud ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "DLIT82259",
+      "target": "DLIW82274",
+      "via": "Mohak Chadha (Developer Tools & Techniques ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "DLIT82259",
+      "target": "S82306",
+      "via": "Oleg Sudakov (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "DLIT82292",
+      "target": "S81994",
+      "via": "Meriem Bendris (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "EX82094",
+      "target": "S81640",
+      "via": "Alex Saroyan (Data Center / Cloud ↔ Networking / Communications)",
+      "weight": 2
+    },
+    {
+      "source": "P81043",
+      "target": "P81231",
+      "via": "Shuang Yu (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "P81066",
+      "target": "P81070",
+      "via": "Chi-Cheng Fu (Computer Vision / Video Analytics ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "P81098",
+      "target": "S81689",
+      "via": "Yongxiong Ren (Data Center / Cloud ↔ Data Science)",
+      "weight": 2
+    },
+    {
+      "source": "P81103",
+      "target": "S82233",
+      "via": "Steve Xie (MLOps ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "P81131",
+      "target": "P81195",
+      "via": "Hsiang Wei Hu (Edge Computing ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "P81131",
+      "target": "P81195",
+      "via": "Hsing-hsien Wu (Edge Computing ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "P81131",
+      "target": "P81195",
+      "via": "Joyce Chen (Edge Computing ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "P81131",
+      "target": "P81321",
+      "via": "Hsiang Wei Hu (Data Science ↔ Edge Computing)",
+      "weight": 2
+    },
+    {
+      "source": "P81131",
+      "target": "P81321",
+      "via": "Joyce Chen (Data Science ↔ Edge Computing)",
+      "weight": 2
+    },
+    {
+      "source": "P81131",
+      "target": "P81328",
+      "via": "Hsiang Wei Hu (Data Science ↔ Edge Computing)",
+      "weight": 2
+    },
+    {
+      "source": "P81131",
+      "target": "P81328",
+      "via": "Joyce Chen (Data Science ↔ Edge Computing)",
+      "weight": 2
+    },
+    {
+      "source": "P81187",
+      "target": "S82034",
+      "via": "Ted Pang (Data Center / Cloud ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "P81195",
+      "target": "P81321",
+      "via": "Hsiang Wei Hu (Data Science ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "P81195",
+      "target": "P81321",
+      "via": "Joyce Chen (Data Science ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "P81195",
+      "target": "P81328",
+      "via": "Hsiang Wei Hu (Data Science ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "P81195",
+      "target": "P81328",
+      "via": "Joyce Chen (Data Science ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "P81200",
+      "target": "P81294",
+      "via": "Dhabaleswar Panda (Developer Tools & Techniques ↔ Networking / Communications)",
+      "weight": 2
+    },
+    {
+      "source": "P81208",
+      "target": "S81942",
+      "via": "Tomasz Bednarz (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "P81254",
+      "target": "P81294",
+      "via": "Dhabaleswar Panda (Developer Tools & Techniques ↔ Networking / Communications)",
+      "weight": 2
+    },
+    {
+      "source": "P81254",
+      "target": "P81294",
+      "via": "Nawras Alnaasan (Developer Tools & Techniques ↔ Networking / Communications)",
+      "weight": 2
+    },
+    {
+      "source": "P81268",
+      "target": "P81285",
+      "via": "Eunseob Choi (Agentic AI / Generative AI ↔ Computer Vision / Video Analytics)",
+      "weight": 2
+    },
+    {
+      "source": "P81268",
+      "target": "P81285",
+      "via": "Junsu Lim (Agentic AI / Generative AI ↔ Computer Vision / Video Analytics)",
+      "weight": 2
+    },
+    {
+      "source": "P81334",
+      "target": "P81337",
+      "via": "Dayang Wang (Computer Vision / Video Analytics ↔ Data Science)",
+      "weight": 2
+    },
+    {
+      "source": "P81353",
+      "target": "P81357",
+      "via": "Jiaxiang Ren (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "P81532",
+      "target": "S82452",
+      "via": "Nic Borensztein (Agentic AI / Generative AI ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "QA81741",
+      "target": "S81766",
+      "via": "Quynh Nguyen (Developer Tools & Techniques ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "QA82372",
+      "target": "S81831",
+      "via": "Matt Frazier (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "S81467",
+      "target": "S82167",
+      "via": "Bill Dally (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "S81489",
+      "target": "S81625",
+      "via": "Ofir Arkin (Networking / Communications ↔ Trustworthy AI / Cybersecurity)",
+      "weight": 2
+    },
+    {
+      "source": "S81490",
+      "target": "S82233",
+      "via": "Steve Xie (MLOps ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "S81509",
+      "target": "S82233",
+      "via": "Evan Helda (MLOps ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "S81523",
+      "target": "S81525",
+      "via": "Adam Thompson (Edge Computing ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "S81547",
+      "target": "S81894",
+      "via": "Pradeep Ramachandran (Computer Vision / Video Analytics ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "S81556",
+      "target": "S81671",
+      "via": "Natasha Nelson (Agentic AI / Generative AI ↔ Data Center / Cloud)",
+      "weight": 2
+    },
+    {
+      "source": "S81569",
+      "target": "S81765",
+      "via": "Bartley Richardson (Agentic AI / Generative AI ↔ Trustworthy AI / Cybersecurity)",
+      "weight": 2
+    },
+    {
+      "source": "S81570",
+      "target": "S81836",
+      "via": "Roopa Prabhu (Agentic AI / Generative AI ↔ Computer Vision / Video Analytics)",
+      "weight": 2
+    },
+    {
+      "source": "S81570",
+      "target": "WP81836",
+      "via": "Roopa Prabhu (Agentic AI / Generative AI ↔ Computer Vision / Video Analytics)",
+      "weight": 2
+    },
+    {
+      "source": "S81570",
+      "target": "WP81836a",
+      "via": "Roopa Prabhu (Agentic AI / Generative AI ↔ Computer Vision / Video Analytics)",
+      "weight": 2
+    },
+    {
+      "source": "S81573",
+      "target": "S81899",
+      "via": "Zhaopeng Chen (Data Center / Cloud ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "S81595",
+      "target": "S82480",
+      "via": "Jensen Huang (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "S81625",
+      "target": "S81691",
+      "via": "Ofir Arkin (Networking / Communications ↔ Trustworthy AI / Cybersecurity)",
+      "weight": 2
+    },
+    {
+      "source": "S81645",
+      "target": "S81786",
+      "via": "Ashok Elluswamy (Edge Computing ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "S81667",
+      "target": "WP81479",
+      "via": "Ming-Yu Liu (Agentic AI / Generative AI ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "S81684",
+      "target": "WP81479",
+      "via": "Ming-Yu Liu (Agentic AI / Generative AI ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "S81690",
+      "target": "S81794",
+      "via": "Kevin Deierling (Data Center / Cloud ↔ Networking / Communications)",
+      "weight": 2
+    },
+    {
+      "source": "S81744",
+      "target": "S82356",
+      "via": "James Maki (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "S81762",
+      "target": "S82237",
+      "via": "Kyle Kranen (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "S81791",
+      "target": "S81902",
+      "via": "Jeff Boudier (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "S81791",
+      "target": "S82074",
+      "via": "Jonathan Cohen (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "S81794",
+      "target": "S81841",
+      "via": "Kunal Anand (Data Center / Cloud ↔ Trustworthy AI / Cybersecurity)",
+      "weight": 2
+    },
+    {
+      "source": "S81806",
+      "target": "WP81806",
+      "via": "Kimberly Powell (Agentic AI / Generative AI ↔ Computer Vision / Video Analytics)",
+      "weight": 2
+    },
+    {
+      "source": "S81810",
+      "target": "S82446",
+      "via": "Sanja Fidler (Robotics ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "S81821",
+      "target": "WP81433",
+      "via": "Axel Krieger (Developer Tools & Techniques ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "S81821",
+      "target": "WP81433",
+      "via": "David Noonan (Developer Tools & Techniques ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "S81821",
+      "target": "WP81433",
+      "via": "Filippo Filicori (Developer Tools & Techniques ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "S81821",
+      "target": "WP81433",
+      "via": "Yossi Bar (Developer Tools & Techniques ↔ Robotics)",
+      "weight": 2
+    },
+    {
+      "source": "S81835",
+      "target": "S82480",
+      "via": "Hanna Hajishirzi (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "S81840",
+      "target": "S82390",
+      "via": "Corey Nolet (Data Center / Cloud ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "S81849",
+      "target": "S82391",
+      "via": "Rama Akkiraju (Agentic AI / Generative AI ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "S81899",
+      "target": "WP81573",
+      "via": "Zhaopeng Chen (Data Center / Cloud ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "S81970",
+      "target": "S82281",
+      "via": "康 何 (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "S81994",
+      "target": "S82306",
+      "via": "Meriem Bendris (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "S82023",
+      "target": "S82233",
+      "via": "Bill Vass (MLOps ↔ Networking / Communications)",
+      "weight": 2
+    },
+    {
+      "source": "S82146",
+      "target": "S82449",
+      "via": "Richard Kerris (Agentic AI / Generative AI ↔ Content Creation / Rendering)",
+      "weight": 2
+    },
+    {
+      "source": "S82146",
+      "target": "S82491",
+      "via": "Richard Kerris (Agentic AI / Generative AI ↔ Content Creation / Rendering)",
+      "weight": 2
+    },
+    {
+      "source": "S82167",
+      "target": "S82168",
+      "via": "Bill Dally (Agentic AI / Generative AI ↔ Developer Tools & Techniques)",
+      "weight": 2
+    },
+    {
+      "source": "S82217",
+      "target": "S82218",
+      "via": "Pei-Wen Wang (Data Center / Cloud ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "S82241",
+      "target": "S82264",
+      "via": "Jacob Liberman (Agentic AI / Generative AI ↔ Data Center / Cloud)",
+      "weight": 2
+    },
+    {
+      "source": "S82329",
+      "target": "S82335",
+      "via": "Azita Martin (Agentic AI / Generative AI ↔ Edge Computing)",
+      "weight": 2
+    },
+    {
+      "source": "S82391",
+      "target": "S82452",
+      "via": "Rama Akkiraju (Agentic AI / Generative AI ↔ MLOps)",
+      "weight": 2
+    },
+    {
+      "source": "WP81479",
+      "target": "WP81667",
+      "via": "Ming-Yu Liu (Agentic AI / Generative AI ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "WP81479",
+      "target": "WP81667a",
+      "via": "Ming-Yu Liu (Agentic AI / Generative AI ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    },
+    {
+      "source": "WP81479",
+      "target": "WP81667b",
+      "via": "Ming-Yu Liu (Agentic AI / Generative AI ↔ Simulation / Modeling / Design)",
+      "weight": 2
+    }
+  ]
+}
