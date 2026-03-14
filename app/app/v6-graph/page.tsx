@@ -55,10 +55,13 @@ interface GraphNode {
   y: number;
   vx: number;
   vy: number;
+  fx: number | null;
+  fy: number | null;
   radius: number;
   color: string;
   topicName: string;
   connections: number;
+  degree: number;
 }
 
 interface GraphEdge {
@@ -199,6 +202,420 @@ class SpatialGrid {
 }
 
 /* ------------------------------------------------------------------ */
+/*  Barnes-Hut Quadtree (d3-force style)                              */
+/* ------------------------------------------------------------------ */
+
+interface QuadNode {
+  // Internal node: has children, no body
+  // Leaf node: has body, no children
+  x: number; // center of mass x (for internal), or body x (for leaf)
+  y: number; // center of mass y
+  strength: number; // accumulated strength (for many-body)
+  children: (QuadNode | null)[]; // [NW, NE, SW, SE]
+  body: GraphNode | null; // leaf body (null for internal nodes)
+  isInternal: boolean;
+}
+
+class Quadtree {
+  root: QuadNode | null = null;
+  x0 = 0;
+  y0 = 0;
+  x1 = 0;
+  y1 = 0;
+
+  constructor(nodes: GraphNode[]) {
+    if (nodes.length === 0) return;
+
+    // Find bounding box
+    let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    for (const n of nodes) {
+      if (n.x < minX) minX = n.x;
+      if (n.y < minY) minY = n.y;
+      if (n.x > maxX) maxX = n.x;
+      if (n.y > maxY) maxY = n.y;
+    }
+
+    // Make it square with some padding
+    const dx = maxX - minX;
+    const dy = maxY - minY;
+    const size = Math.max(dx, dy, 1) + 2;
+    const cx = (minX + maxX) / 2;
+    const cy = (minY + maxY) / 2;
+    this.x0 = cx - size / 2;
+    this.y0 = cy - size / 2;
+    this.x1 = cx + size / 2;
+    this.y1 = cy + size / 2;
+
+    // Insert all nodes
+    for (const n of nodes) {
+      this.insert(n);
+    }
+  }
+
+  private insert(node: GraphNode) {
+    if (!this.root) {
+      this.root = this.makeLeaf(node);
+      return;
+    }
+    this._insert(this.root, node, this.x0, this.y0, this.x1, this.y1);
+  }
+
+  private makeLeaf(node: GraphNode): QuadNode {
+    return {
+      x: node.x,
+      y: node.y,
+      strength: 0,
+      children: [null, null, null, null],
+      body: node,
+      isInternal: false,
+    };
+  }
+
+  private makeInternal(): QuadNode {
+    return {
+      x: 0,
+      y: 0,
+      strength: 0,
+      children: [null, null, null, null],
+      body: null,
+      isInternal: true,
+    };
+  }
+
+  private quadrant(px: number, py: number, mx: number, my: number): number {
+    // NW=0, NE=1, SW=2, SE=3
+    if (py < my) {
+      return px < mx ? 0 : 1;
+    } else {
+      return px < mx ? 2 : 3;
+    }
+  }
+
+  private _insert(
+    qnode: QuadNode,
+    node: GraphNode,
+    x0: number,
+    y0: number,
+    x1: number,
+    y1: number,
+  ): QuadNode {
+    const mx = (x0 + x1) / 2;
+    const my = (y0 + y1) / 2;
+
+    if (!qnode.isInternal && qnode.body === null) {
+      // Empty leaf, just put the node here
+      qnode.body = node;
+      qnode.x = node.x;
+      qnode.y = node.y;
+      return qnode;
+    }
+
+    if (!qnode.isInternal && qnode.body !== null) {
+      // This is a leaf with an existing body. Split into internal node.
+      const existingBody = qnode.body;
+      qnode.body = null;
+      qnode.isInternal = true;
+      qnode.children = [null, null, null, null];
+
+      // Re-insert existing body
+      this._insertBody(qnode, existingBody, x0, y0, x1, y1, mx, my);
+      // Insert new body
+      this._insertBody(qnode, node, x0, y0, x1, y1, mx, my);
+      return qnode;
+    }
+
+    // Internal node: route to correct child
+    this._insertBody(qnode, node, x0, y0, x1, y1, mx, my);
+    return qnode;
+  }
+
+  private _insertBody(
+    qnode: QuadNode,
+    node: GraphNode,
+    x0: number,
+    y0: number,
+    x1: number,
+    y1: number,
+    mx: number,
+    my: number,
+  ) {
+    const q = this.quadrant(node.x, node.y, mx, my);
+    let cx0: number, cy0: number, cx1: number, cy1: number;
+    switch (q) {
+      case 0: cx0 = x0; cy0 = y0; cx1 = mx; cy1 = my; break; // NW
+      case 1: cx0 = mx; cy0 = y0; cx1 = x1; cy1 = my; break; // NE
+      case 2: cx0 = x0; cy0 = my; cx1 = mx; cy1 = y1; break; // SW
+      default: cx0 = mx; cy0 = my; cx1 = x1; cy1 = y1; break; // SE
+    }
+    if (!qnode.children[q]) {
+      qnode.children[q] = this.makeLeaf(node);
+    } else {
+      this._insert(qnode.children[q]!, node, cx0, cy0, cx1, cy1);
+    }
+  }
+
+  /**
+   * Accumulate center of mass and total strength for Barnes-Hut.
+   * Must be called once per tick before force application.
+   */
+  accumulate(strengthFn: (node: GraphNode) => number) {
+    if (this.root) {
+      this._accumulate(this.root, strengthFn);
+    }
+  }
+
+  private _accumulate(
+    qnode: QuadNode,
+    strengthFn: (node: GraphNode) => number,
+  ) {
+    if (!qnode.isInternal && qnode.body !== null) {
+      // Leaf node
+      qnode.strength = strengthFn(qnode.body);
+      qnode.x = qnode.body.x;
+      qnode.y = qnode.body.y;
+      return;
+    }
+
+    // Internal node: accumulate from children
+    let totalStrength = 0;
+    let weightedX = 0;
+    let weightedY = 0;
+
+    for (let i = 0; i < 4; i++) {
+      const child = qnode.children[i];
+      if (!child) continue;
+      this._accumulate(child, strengthFn);
+      totalStrength += child.strength;
+      weightedX += child.x * child.strength;
+      weightedY += child.y * child.strength;
+    }
+
+    qnode.strength = totalStrength;
+    if (totalStrength !== 0) {
+      qnode.x = weightedX / totalStrength;
+      qnode.y = weightedY / totalStrength;
+    }
+  }
+
+  /**
+   * Visit the quadtree for a given node (Barnes-Hut traversal).
+   * callback returns true to recurse into children, false to skip.
+   */
+  visit(
+    callback: (
+      qnode: QuadNode,
+      x0: number,
+      y0: number,
+      x1: number,
+      y1: number,
+    ) => boolean,
+  ) {
+    if (this.root) {
+      this._visit(this.root, this.x0, this.y0, this.x1, this.y1, callback);
+    }
+  }
+
+  private _visit(
+    qnode: QuadNode,
+    x0: number,
+    y0: number,
+    x1: number,
+    y1: number,
+    callback: (
+      qnode: QuadNode,
+      x0: number,
+      y0: number,
+      x1: number,
+      y1: number,
+    ) => boolean,
+  ) {
+    const shouldRecurse = callback(qnode, x0, y0, x1, y1);
+    if (shouldRecurse && qnode.isInternal) {
+      const mx = (x0 + x1) / 2;
+      const my = (y0 + y1) / 2;
+      if (qnode.children[0]) this._visit(qnode.children[0], x0, y0, mx, my, callback);
+      if (qnode.children[1]) this._visit(qnode.children[1], mx, y0, x1, my, callback);
+      if (qnode.children[2]) this._visit(qnode.children[2], x0, my, mx, y1, callback);
+      if (qnode.children[3]) this._visit(qnode.children[3], mx, my, x1, y1, callback);
+    }
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/*  Quadtree for forceCollide (uses predicted positions)              */
+/* ------------------------------------------------------------------ */
+
+class CollisionQuadtree {
+  root: QuadNode | null = null;
+  x0 = 0;
+  y0 = 0;
+  x1 = 0;
+  y1 = 0;
+
+  constructor(nodes: GraphNode[]) {
+    if (nodes.length === 0) return;
+
+    let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    for (const n of nodes) {
+      const px = n.x + n.vx;
+      const py = n.y + n.vy;
+      if (px < minX) minX = px;
+      if (py < minY) minY = py;
+      if (px > maxX) maxX = px;
+      if (py > maxY) maxY = py;
+    }
+
+    const dx = maxX - minX;
+    const dy = maxY - minY;
+    const size = Math.max(dx, dy, 1) + 2;
+    const cx = (minX + maxX) / 2;
+    const cy = (minY + maxY) / 2;
+    this.x0 = cx - size / 2;
+    this.y0 = cy - size / 2;
+    this.x1 = cx + size / 2;
+    this.y1 = cy + size / 2;
+
+    for (const n of nodes) {
+      this.insert(n);
+    }
+  }
+
+  private insert(node: GraphNode) {
+    const px = node.x + node.vx;
+    const py = node.y + node.vy;
+    if (!this.root) {
+      this.root = {
+        x: px, y: py, strength: 0,
+        children: [null, null, null, null],
+        body: node, isInternal: false,
+      };
+      return;
+    }
+    this._insert(this.root, node, px, py, this.x0, this.y0, this.x1, this.y1);
+  }
+
+  private _insert(
+    qnode: QuadNode, node: GraphNode,
+    px: number, py: number,
+    x0: number, y0: number, x1: number, y1: number,
+  ) {
+    const mx = (x0 + x1) / 2;
+    const my = (y0 + y1) / 2;
+
+    if (!qnode.isInternal && qnode.body === null) {
+      qnode.body = node;
+      qnode.x = px;
+      qnode.y = py;
+      return;
+    }
+
+    if (!qnode.isInternal && qnode.body !== null) {
+      const existingBody = qnode.body;
+      const epx = existingBody.x + existingBody.vx;
+      const epy = existingBody.y + existingBody.vy;
+      qnode.body = null;
+      qnode.isInternal = true;
+      qnode.children = [null, null, null, null];
+      this._insertAt(qnode, existingBody, epx, epy, x0, y0, x1, y1, mx, my);
+      this._insertAt(qnode, node, px, py, x0, y0, x1, y1, mx, my);
+      return;
+    }
+
+    this._insertAt(qnode, node, px, py, x0, y0, x1, y1, mx, my);
+  }
+
+  private _insertAt(
+    qnode: QuadNode, node: GraphNode,
+    px: number, py: number,
+    x0: number, y0: number, x1: number, y1: number,
+    mx: number, my: number,
+  ) {
+    const q = py < my ? (px < mx ? 0 : 1) : (px < mx ? 2 : 3);
+    let cx0: number, cy0: number, cx1: number, cy1: number;
+    switch (q) {
+      case 0: cx0 = x0; cy0 = y0; cx1 = mx; cy1 = my; break;
+      case 1: cx0 = mx; cy0 = y0; cx1 = x1; cy1 = my; break;
+      case 2: cx0 = x0; cy0 = my; cx1 = mx; cy1 = y1; break;
+      default: cx0 = mx; cy0 = my; cx1 = x1; cy1 = y1; break;
+    }
+    if (!qnode.children[q]) {
+      qnode.children[q] = {
+        x: px, y: py, strength: 0,
+        children: [null, null, null, null],
+        body: node, isInternal: false,
+      };
+    } else {
+      this._insert(qnode.children[q]!, node, px, py, cx0, cy0, cx1, cy1);
+    }
+  }
+
+  visit(
+    callback: (
+      qnode: QuadNode,
+      x0: number, y0: number, x1: number, y1: number,
+    ) => boolean,
+  ) {
+    if (this.root) {
+      this._visit(this.root, this.x0, this.y0, this.x1, this.y1, callback);
+    }
+  }
+
+  private _visit(
+    qnode: QuadNode,
+    x0: number, y0: number, x1: number, y1: number,
+    callback: (q: QuadNode, x0: number, y0: number, x1: number, y1: number) => boolean,
+  ) {
+    const shouldRecurse = callback(qnode, x0, y0, x1, y1);
+    if (shouldRecurse && qnode.isInternal) {
+      const mx = (x0 + x1) / 2;
+      const my = (y0 + y1) / 2;
+      if (qnode.children[0]) this._visit(qnode.children[0], x0, y0, mx, my, callback);
+      if (qnode.children[1]) this._visit(qnode.children[1], mx, y0, x1, my, callback);
+      if (qnode.children[2]) this._visit(qnode.children[2], x0, my, mx, y1, callback);
+      if (qnode.children[3]) this._visit(qnode.children[3], mx, my, x1, y1, callback);
+    }
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/*  d3-force Simulation Parameters (Obsidian/Juggl ecosystem)         */
+/* ------------------------------------------------------------------ */
+
+const SIM_ALPHA_MIN = 0.001;
+const SIM_ALPHA_DECAY = 1 - Math.pow(SIM_ALPHA_MIN, 1 / 300); // ~0.02276
+const SIM_VELOCITY_DECAY = 0.4;
+
+// forceManyBody
+const MANY_BODY_STRENGTH = -30;
+const MANY_BODY_THETA = 0.9;
+const MANY_BODY_DISTANCE_MIN = 3;
+
+// forceLink
+const LINK_DISTANCE = 25;
+const LINK_STRENGTH = 0.15;
+const LINK_ITERATIONS = 1;
+
+// forceCollide
+const COLLIDE_RADIUS = 6;
+const COLLIDE_STRENGTH = 0.7;
+const COLLIDE_ITERATIONS = 1;
+
+// forceX + forceY
+const POSITION_STRENGTH_X = 0.15;
+const POSITION_STRENGTH_Y = 0.15;
+
+/* ------------------------------------------------------------------ */
+/*  Jiggle helper                                                      */
+/* ------------------------------------------------------------------ */
+
+let _jiggleSeed = 1;
+function jiggle(): number {
+  // Small deterministic-ish random nudge when nodes coincide
+  _jiggleSeed = (_jiggleSeed * 16807) % 2147483647;
+  return ((_jiggleSeed / 2147483647) - 0.5) * 1e-6;
+}
+
+/* ------------------------------------------------------------------ */
 /*  Main Component                                                     */
 /* ------------------------------------------------------------------ */
 
@@ -244,8 +661,15 @@ export default function V6Graph() {
     camStartY: number;
   }>({ type: null, node: null, startX: 0, startY: 0, camStartX: 0, camStartY: 0 });
 
-  // Simulation state
-  const simRef = useRef({ iteration: 0, maxIterations: 300, running: true, needsSimulate: false });
+  // Simulation state (d3-force style)
+  const simRef = useRef({
+    alpha: 1,
+    alphaMin: SIM_ALPHA_MIN,
+    alphaDecay: SIM_ALPHA_DECAY,
+    alphaTarget: 0,
+    velocityDecay: SIM_VELOCITY_DECAY,
+    running: true,
+  });
   const animFrameRef = useRef<number>(0);
 
   // Topic cluster label positions
@@ -268,26 +692,37 @@ export default function V6Graph() {
         const adjacency = new Map<string, Set<string>>();
         const edgesByNode = new Map<string, GraphEdge[]>();
 
-        // Initialize nodes in a circle
-        const n = sessionsData.length;
-        sessionsData.forEach((s, i) => {
-          const angle = (2 * Math.PI * i) / n;
-          const r = Math.min(800, n * 1.2);
+        // Load precomputed positions from graph.json
+        const graphRes = await fetch("/graph.json");
+        const graphData = await graphRes.json();
+        const precomputedPos = new Map<string, {x: number; y: number}>();
+        for (const gn of graphData.nodes) {
+          if (gn.x !== undefined && gn.y !== undefined) {
+            precomputedPos.set(gn.id, { x: gn.x, y: gn.y });
+          }
+        }
+
+        // Create graph nodes using precomputed positions
+        for (const s of sessionsData) {
+          const pos = precomputedPos.get(s.sessionCode);
           nodeMap.set(s.sessionCode, {
             id: s.sessionCode,
             session: s,
-            x: Math.cos(angle) * r + (Math.random() - 0.5) * 50,
-            y: Math.sin(angle) * r + (Math.random() - 0.5) * 50,
+            x: pos?.x ?? (Math.random() - 0.5) * 500,
+            y: pos?.y ?? (Math.random() - 0.5) * 500,
             vx: 0,
             vy: 0,
+            fx: null,
+            fy: null,
             radius: 4,
             color: getTopicColor(s.topic),
             topicName: getTopicName(s.topic),
             connections: 0,
+            degree: 0,
           });
           adjacency.set(s.sessionCode, new Set());
           edgesByNode.set(s.sessionCode, []);
-        });
+        }
 
         // Load relationship files
         const allEdges: GraphEdge[] = [];
@@ -306,7 +741,6 @@ export default function V6Graph() {
           if (result.status !== "fulfilled") continue;
           const rel = result.value;
 
-          // For same_subtopic, limit edges to keep performance manageable
           // Only keep edges where both nodes exist
           let edges = rel.edges.filter(
             (e) => nodeMap.has(e.source) && nodeMap.has(e.target)
@@ -314,7 +748,6 @@ export default function V6Graph() {
 
           // For very large relationship types, sample to keep total manageable
           if (edges.length > 3000) {
-            // Keep edges with higher weight first, then random sample
             edges.sort((a, b) => b.weight - a.weight);
             edges = edges.slice(0, 3000);
           }
@@ -354,15 +787,30 @@ export default function V6Graph() {
           }
         }
 
+        // Compute degree (number of edges connected, for link bias calculation)
+        // We count across ALL edges, not just enabled ones, for stable bias
+        const degreeMap = new Map<string, number>();
+        for (const e of allEdges) {
+          degreeMap.set(e.source, (degreeMap.get(e.source) || 0) + 1);
+          degreeMap.set(e.target, (degreeMap.get(e.target) || 0) + 1);
+        }
+        for (const [id, deg] of degreeMap) {
+          const node = nodeMap.get(id);
+          if (node) node.degree = deg;
+        }
+
         // Set node radii based on connection count
         const maxConn = Math.max(1, ...Array.from(nodeMap.values()).map((n) => n.connections));
         for (const node of nodeMap.values()) {
           node.radius = 3 + (node.connections / maxConn) * 9;
-          // Keynote gets minimum larger size
           if (node.session.type === "Keynote") node.radius = Math.max(node.radius, 10);
         }
 
         const nodes = Array.from(nodeMap.values());
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        (window as any).__graphNodes = nodes;
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        (window as any).__graphEdges = allEdges;
         nodesRef.current = nodes;
         edgesRef.current = allEdges;
         nodeMapRef.current = nodeMap;
@@ -373,8 +821,15 @@ export default function V6Graph() {
         setRelTypes(relTypesList);
         setLoading(false);
 
-        // Start simulation
-        simRef.current = { iteration: 0, maxIterations: 300, running: true, needsSimulate: false };
+        // Positions are precomputed — start simulation stopped
+        simRef.current = {
+          alpha: 0,
+          alphaMin: SIM_ALPHA_MIN,
+          alphaDecay: SIM_ALPHA_DECAY,
+          alphaTarget: 0,
+          velocityDecay: SIM_VELOCITY_DECAY,
+          running: false,
+        };
       } catch (err) {
         console.error("Failed to load data:", err);
         setLoading(false);
@@ -417,7 +872,7 @@ export default function V6Graph() {
   }, [minConnections]);
 
   /* ---------------------------------------------------------------- */
-  /*  Force Simulation                                                 */
+  /*  d3-force Simulation Tick                                        */
   /* ---------------------------------------------------------------- */
 
   const simulate = useCallback(() => {
@@ -426,67 +881,201 @@ export default function V6Graph() {
     const relTypeMap = new Map(relTypesRef.current.map((r) => [r.type, r]));
     if (nodes.length === 0) return;
 
-    const alpha = Math.max(0.01, 1 - simRef.current.iteration / simRef.current.maxIterations);
-    const repulsionStrength = 800;
-    const attractionStrength = 0.005;
-    const centerStrength = 0.002;
-    const damping = 0.85;
+    const sim = simRef.current;
 
-    // Repulsion - use Barnes-Hut approximation for performance
-    // Simple version: only check nearby nodes using grid
-    const repGrid = new SpatialGrid(150);
-    for (const n of nodes) repGrid.insert(n);
+    // 1. Update alpha (velocity Verlet step 1)
+    sim.alpha += (sim.alphaTarget - sim.alpha) * sim.alphaDecay;
 
+    const alpha = sim.alpha;
+
+    // Clamp any NaN positions from previous tick
     for (const n of nodes) {
-      // Center gravity
-      n.vx -= n.x * centerStrength * alpha;
-      n.vy -= n.y * centerStrength * alpha;
+      if (isNaN(n.x) || !isFinite(n.x)) n.x = Math.random() * 100;
+      if (isNaN(n.y) || !isFinite(n.y)) n.y = Math.random() * 100;
+      if (isNaN(n.vx) || !isFinite(n.vx)) n.vx = 0;
+      if (isNaN(n.vy) || !isFinite(n.vy)) n.vy = 0;
+    }
 
-      // Repulsion from nearby nodes
-      const nearby = repGrid.query(n.x, n.y, 300);
-      for (const m of nearby) {
-        if (m.id === n.id) continue;
-        let dx = n.x - m.x;
-        let dy = n.y - m.y;
-        let dist = Math.sqrt(dx * dx + dy * dy) || 1;
-        if (dist > 300) continue;
-        const force = (repulsionStrength * alpha) / (dist * dist);
-        n.vx += (dx / dist) * force;
-        n.vy += (dy / dist) * force;
+    // ---- FORCE: forceManyBody (Barnes-Hut quadtree repulsion) ----
+    {
+      const tree = new Quadtree(nodes);
+      const strength = MANY_BODY_STRENGTH;
+      const theta2 = MANY_BODY_THETA * MANY_BODY_THETA;
+      const distanceMin2 = MANY_BODY_DISTANCE_MIN * MANY_BODY_DISTANCE_MIN;
+
+      // Accumulate center of mass and total strength
+      tree.accumulate(() => strength);
+
+      for (const node of nodes) {
+        tree.visit((qnode, x0, y0, x1, y1) => {
+          if (qnode.strength === 0) return false; // skip empty
+
+          let dx = qnode.x - node.x;
+          let dy = qnode.y - node.y;
+          const w = x1 - x0;
+
+          // If this is a leaf node with the same body, skip
+          if (!qnode.isInternal && qnode.body === node) return false;
+
+          let dist2 = dx * dx + dy * dy;
+
+          // Barnes-Hut: if w/sqrt(dist2) < theta (i.e., w^2/dist2 < theta^2), treat as single body
+          if (!qnode.isInternal || (w * w / dist2) < theta2) {
+            // Apply force if not too close
+            if (dist2 < distanceMin2) {
+              // Jiggle coincident nodes
+              dx = jiggle();
+              dy = jiggle();
+              dist2 = dx * dx + dy * dy;
+            }
+
+            // F = strength * alpha / dist2, applied along (dx, dy)/dist
+            const dist = Math.sqrt(dist2);
+            const force = qnode.strength * alpha / dist2;
+            node.vx += dx / dist * force;
+            node.vy += dy / dist * force;
+            return false; // don't recurse
+          }
+
+          return true; // recurse into children
+        });
       }
     }
 
-    // Attraction along edges (only enabled relationship types)
-    for (const e of edges) {
-      const rt = relTypeMap.get(e.relType);
-      if (!rt?.enabled) continue;
-      const s = nodeMapRef.current.get(e.source);
-      const t = nodeMapRef.current.get(e.target);
-      if (!s || !t) continue;
-      const dx = t.x - s.x;
-      const dy = t.y - s.y;
-      const dist = Math.sqrt(dx * dx + dy * dy) || 1;
-      const force = dist * attractionStrength * alpha * e.weight;
-      const fx = (dx / dist) * force;
-      const fy = (dy / dist) * force;
-      s.vx += fx;
-      s.vy += fy;
-      t.vx -= fx;
-      t.vy -= fy;
+    // ---- FORCE: forceLink (spring attraction along edges) ----
+    // Cap active edges per tick to prevent overload
+    let linkCount = 0;
+    const MAX_LINKS_PER_TICK = 4000;
+    for (let iter = 0; iter < LINK_ITERATIONS; iter++) {
+      linkCount = 0;
+      for (const e of edges) {
+        if (linkCount >= MAX_LINKS_PER_TICK) break;
+        const rt = relTypeMap.get(e.relType);
+        if (!rt?.enabled) continue;
+        linkCount++;
+
+        const sourceNode = nodeMapRef.current.get(e.source);
+        const targetNode = nodeMapRef.current.get(e.target);
+        if (!sourceNode || !targetNode) continue;
+
+        let dx = targetNode.x + targetNode.vx - (sourceNode.x + sourceNode.vx);
+        let dy = targetNode.y + targetNode.vy - (sourceNode.y + sourceNode.vy);
+
+        // Jiggle if coincident
+        if (dx === 0 && dy === 0) {
+          dx = jiggle();
+          dy = jiggle();
+        }
+
+        const d = Math.sqrt(dx * dx + dy * dy);
+        const l = (d - LINK_DISTANCE) / d * alpha * LINK_STRENGTH;
+
+        // Bias: nodes with fewer connections move more
+        const sourceDeg = sourceNode.degree || 1;
+        const targetDeg = targetNode.degree || 1;
+        const bias = sourceDeg / (sourceDeg + targetDeg);
+
+        targetNode.vx -= dx * l * bias;
+        targetNode.vy -= dy * l * bias;
+        sourceNode.vx += dx * l * (1 - bias);
+        sourceNode.vy += dy * l * (1 - bias);
+      }
     }
 
-    // Apply velocity with damping
-    for (const n of nodes) {
-      n.vx *= damping;
-      n.vy *= damping;
-      // Clamp velocity
-      const speed = Math.sqrt(n.vx * n.vx + n.vy * n.vy);
-      if (speed > 20) {
-        n.vx = (n.vx / speed) * 20;
-        n.vy = (n.vy / speed) * 20;
+    // ---- FORCE: forceCollide (overlap prevention via quadtree) ----
+    for (let iter = 0; iter < COLLIDE_ITERATIONS; iter++) {
+      const collisionTree = new CollisionQuadtree(nodes);
+
+      for (const node of nodes) {
+        const ri = COLLIDE_RADIUS;
+        const xi = node.x + node.vx;
+        const yi = node.y + node.vy;
+
+        collisionTree.visit((qnode, x0, y0, x1, y1) => {
+          if (qnode.body && qnode.body !== node) {
+            const rj = COLLIDE_RADIUS;
+            const rSum = ri + rj;
+            let dx = xi - (qnode.body.x + qnode.body.vx);
+            let dy = yi - (qnode.body.y + qnode.body.vy);
+            let dist2 = dx * dx + dy * dy;
+
+            if (dist2 < rSum * rSum) {
+              if (dx === 0 && dy === 0) {
+                dx = jiggle();
+                dy = jiggle();
+                dist2 = dx * dx + dy * dy;
+              }
+              const dist = Math.sqrt(dist2);
+              const overlap = (rSum - dist) / dist * COLLIDE_STRENGTH;
+              const totalR = ri + rj;
+              const ratioI = ri / totalR;
+              const ratioJ = rj / totalR;
+              node.vx += dx * overlap * ratioJ;
+              node.vy += dy * overlap * ratioJ;
+              qnode.body.vx -= dx * overlap * ratioI;
+              qnode.body.vy -= dy * overlap * ratioI;
+            }
+          }
+
+          // Should we recurse? Only if the quadrant could contain overlapping nodes
+          if (qnode.isInternal) {
+            // Check if quadrant is close enough that it could overlap
+            const closest_x = Math.max(x0, Math.min(xi, x1));
+            const closest_y = Math.max(y0, Math.min(yi, y1));
+            const ddx = xi - closest_x;
+            const ddy = yi - closest_y;
+            return ddx * ddx + ddy * ddy < (ri + COLLIDE_RADIUS) * (ri + COLLIDE_RADIUS);
+          }
+
+          return false;
+        });
       }
-      n.x += n.vx;
-      n.y += n.vy;
+    }
+
+    // ---- FORCE: forceCenter (centering) ----
+    {
+      let sumX = 0, sumY = 0;
+      const n = nodes.length;
+      for (const node of nodes) {
+        sumX += node.x;
+        sumY += node.y;
+      }
+      const avgX = sumX / n;
+      const avgY = sumY / n;
+      // Center target = (0, 0) - translate all nodes
+      for (const node of nodes) {
+        node.x -= avgX;
+        node.y -= avgY;
+      }
+    }
+
+    // ---- FORCE: forceX + forceY (gentle position attraction toward center) ----
+    {
+      const targetX = 0;
+      const targetY = 0;
+      for (const node of nodes) {
+        node.vx += (targetX - node.x) * POSITION_STRENGTH_X * alpha;
+        node.vy += (targetY - node.y) * POSITION_STRENGTH_Y * alpha;
+      }
+    }
+
+    // 2. Apply velocity decay and update positions (Velocity Verlet step 2)
+    for (const node of nodes) {
+      // Respect fixed positions (used during dragging)
+      if (node.fx !== null) {
+        node.x = node.fx;
+        node.vx = 0;
+      } else {
+        node.vx *= sim.velocityDecay;
+        node.x += node.vx;
+      }
+      if (node.fy !== null) {
+        node.y = node.fy;
+        node.vy = 0;
+      } else {
+        node.vy *= sim.velocityDecay;
+        node.y += node.vy;
+      }
     }
   }, []);
 
@@ -565,6 +1154,8 @@ export default function V6Graph() {
       }
     }
 
+    let tickCount = 0;
+
     function render() {
       if (!ctx || !canvas || !mounted) return;
 
@@ -573,17 +1164,39 @@ export default function V6Graph() {
       const w = canvas.width;
       const h = canvas.height;
 
-      // Run simulation
-      if (sim.running && sim.iteration < sim.maxIterations) {
+      // Run simulation tick if active (d3-force style, only during drag)
+      if (sim.running && sim.alpha >= sim.alphaMin) {
         simulate();
-        sim.iteration++;
-        if (sim.iteration >= sim.maxIterations) {
+        tickCount++;
+        rebuildGrid();
+        if (tickCount % 20 === 0) updateClusterLabels();
+        if (sim.alpha < sim.alphaMin) {
           sim.running = false;
         }
-        rebuildGrid();
-        if (sim.iteration % 20 === 0) updateClusterLabels();
-      } else if (sim.needsSimulate) {
-        simulate();
+      }
+
+      // Auto-fit camera on first frame
+      if (tickCount === 0) {
+        tickCount = 1;
+        const nodes = nodesRef.current;
+        if (nodes.length > 0) {
+          let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+          for (const n of nodes) {
+            if (isNaN(n.x) || isNaN(n.y)) continue;
+            if (n.x < minX) minX = n.x;
+            if (n.x > maxX) maxX = n.x;
+            if (n.y < minY) minY = n.y;
+            if (n.y > maxY) maxY = n.y;
+          }
+          if (isFinite(minX) && isFinite(maxX)) {
+            const rangeX = maxX - minX || 1;
+            const rangeY = maxY - minY || 1;
+            const fitZoom = Math.min(w * 0.8 / rangeX, h * 0.8 / rangeY, 2);
+            cameraRef.current.x = (minX + maxX) / 2;
+            cameraRef.current.y = (minY + maxY) / 2;
+            cameraRef.current.zoom = fitZoom;
+          }
+        }
         rebuildGrid();
         updateClusterLabels();
       }
@@ -812,11 +1425,9 @@ export default function V6Graph() {
       }
 
       if (dragRef.current.type === "node" && dragRef.current.node) {
-        dragRef.current.node.x = wx;
-        dragRef.current.node.y = wy;
-        dragRef.current.node.vx = 0;
-        dragRef.current.node.vy = 0;
-        simRef.current.needsSimulate = true;
+        // d3-force drag: set fx/fy to mouse position
+        dragRef.current.node.fx = wx;
+        dragRef.current.node.fy = wy;
         return;
       }
 
@@ -850,6 +1461,14 @@ export default function V6Graph() {
       const hovered = hoveredNodeRef.current;
       if (hovered) {
         dragRef.current = { type: "node", node: hovered, startX: ev.clientX, startY: ev.clientY, camStartX: 0, camStartY: 0 };
+        // d3-force drag start: fix node position and reheat
+        const [wx, wy] = screenToWorld(ev.clientX, ev.clientY);
+        hovered.fx = wx;
+        hovered.fy = wy;
+        // Reheat simulation to alpha 0.3 for interactive dragging
+        simRef.current.alpha = Math.max(simRef.current.alpha, 0.3);
+        simRef.current.alphaTarget = 0;
+        simRef.current.running = true;
       } else {
         const cam = cameraRef.current;
         dragRef.current = { type: "pan", node: null, startX: ev.clientX, startY: ev.clientY, camStartX: cam.x, camStartY: cam.y };
@@ -868,7 +1487,9 @@ export default function V6Graph() {
             prev?.id === drag.node!.id ? null : drag.node
           );
         }
-        simRef.current.needsSimulate = false;
+        // d3-force drag end: clear fx/fy
+        drag.node.fx = null;
+        drag.node.fy = null;
       } else if (drag.type === "pan") {
         const dx = ev.clientX - drag.startX;
         const dy = ev.clientY - drag.startY;
@@ -921,8 +1542,10 @@ export default function V6Graph() {
         r.type === type ? { ...r, enabled: !r.enabled } : r
       );
       relTypesRef.current = next;
-      // Re-trigger simulation briefly for layout adjustment
-      simRef.current = { ...simRef.current, iteration: Math.max(0, simRef.current.iteration - 30), running: true };
+      // Reheat to alpha 0.3 for a gentle re-settle (not 1.0)
+      simRef.current.alpha = 0.3;
+      simRef.current.alphaTarget = 0;
+      simRef.current.running = true;
       return next;
     });
   }, []);
@@ -931,7 +1554,9 @@ export default function V6Graph() {
     setRelTypes((prev) => {
       const next = prev.map((r) => ({ ...r, enabled: true }));
       relTypesRef.current = next;
-      simRef.current = { ...simRef.current, iteration: Math.max(0, simRef.current.iteration - 30), running: true };
+      simRef.current.alpha = 0.3;
+      simRef.current.alphaTarget = 0;
+      simRef.current.running = true;
       return next;
     });
   }, []);
@@ -940,6 +1565,9 @@ export default function V6Graph() {
     setRelTypes((prev) => {
       const next = prev.map((r) => ({ ...r, enabled: false }));
       relTypesRef.current = next;
+      simRef.current.alpha = 0.3;
+      simRef.current.alphaTarget = 0;
+      simRef.current.running = true;
       return next;
     });
   }, []);
